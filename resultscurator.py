@@ -1,9 +1,12 @@
 import csv
+import os
 from utilities.csvhandling import save_to_csv
 
 keywords = ["Technology", "technology", "Future Of Work", "AI", "ai", "Artificial Intelligence", "artificial intelligence", "Artificial intelligence", "artificial intelligence", "Artificial intelligence", "artificial intelligence", "Engineering", "engineering"]
 curated_categories = []
-curated_categories_csvpath = "/Users/goobinu/Documents/CSE573/curatedcategories.csv"
+# Get the directory of the current script
+script_dir = os.path.dirname(os.path.abspath(__file__))
+curated_categories_csvpath = os.path.join(script_dir, "curatedcategories.csv")
 
 # results.csv is expected to be present from topcategoriesscraper run
 # It has headers "Category", "Link"

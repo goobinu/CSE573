@@ -4,7 +4,9 @@ import os
 from utilities.csvhandling import read_column_from_csv, save_to_csv
 from utilities.browser import AsyncBrowserManager
 
-curated_categories = "/Users/goobinu/Documents/CSE573/curatedcategories.csv"
+# Get the directory of the current script
+script_dir = os.path.dirname(os.path.abspath(__file__))
+curated_categories = os.path.join(script_dir, "curatedcategories.csv")
 start_time = time.time()
 # content_list = [] # No longer needed as we save per file
 
