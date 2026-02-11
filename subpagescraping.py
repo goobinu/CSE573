@@ -1,7 +1,8 @@
 import asyncio
 import time
 import os
-from utilities.csvhandling import read_column_from_csv, save_to_csv
+import re
+from utilities.csvhandling import read_from_csv, save_to_csv
 from utilities.browser import AsyncBrowserManager
 
 # Get the directory of the current script
@@ -10,17 +11,15 @@ curated_categories = os.path.join(script_dir, "curatedcategories.csv")
 start_time = time.time()
 # content_list = [] # No longer needed as we save per file
 
-def save_subpage_results(url, results):
-    # Create a filename from the URL or category name
-    # We can try to extract a meaningful name from the URL
+def save_subpage_results(category, results):
+    # Create a filename from the category name
     if not results:
         return
 
-    # Extract the last part of the URL path for filename, ignoring query params
-    clean_url = url.split('?')[0].rstrip('/')
-    filename = clean_url.split('/')[-1]
-    if not filename:
-        filename = "unknown_subpage"
+    # Sanitize the category name for use as a filename
+    filename = re.sub(r'[\\/*?:"<>|]', "", category) # Remove invalid characters
+    filename = filename.replace("\n", "_").replace("\r", "") # Replace newlines
+    filename = filename.replace(" ", "_") # Replace spaces with underscores
     
     filepath = os.path.join("subpage_results", f"{filename}.csv")
     print(f"  > Saving results to {filepath}", flush=True)
@@ -100,25 +99,29 @@ async def collect_post_data(page, url):
     print(f"  > [{time.strftime('%X')}] Finished matching for {url}. Found {len(results)} items.", flush=True)
     return results
 
-async def process_subpage(browser_manager, url, semaphore):
+async def process_subpage(browser_manager, category, url, semaphore):
     async with semaphore:
         # browser_manager is now the manager instance, so we access .browser
         page = await browser_manager.browser.new_page()
         try:
             results = await collect_post_data(page, url)
-            save_subpage_results(url, results)
+            save_subpage_results(category, results)
         finally:
             await page.close()
 
 async def run():
-    # Read links from CSV (assuming link is in the second column)
-    # We skip the header row to avoid reading the column title as a link
-    subpage_list = read_column_from_csv(curated_categories, 1, skip_header=True)
-    print(f"ALL LINKS ({len(subpage_list)}):", subpage_list)
+    # Read links from CSV (assuming category is in first column, link in second)
+    csv_data = read_from_csv(curated_categories)
     
-    if not subpage_list:
+    # Check if we have data and skip header
+    if not csv_data or len(csv_data) < 2:
         print("No links found in CSV.")
         return
+        
+    # Skip header
+    subpage_rows = csv_data[1:]
+    
+    print(f"ALL LINKS ({len(subpage_rows)}):", [row[1] for row in subpage_rows if len(row) > 1])
 
     # Create a semaphore to limit concurrency
     semaphore = asyncio.Semaphore(5)
@@ -127,11 +130,17 @@ async def run():
         print(f"[{time.time()-start_time:.2f}s] Starting concurrent scraping...", flush=True)
         
         tasks = []
-        for url in subpage_list:
-            if url and url.startswith("http"):
-                 tasks.append(process_subpage(manager, url, semaphore))
+        for row in subpage_rows:
+            if len(row) >= 2:
+                category = row[0]
+                url = row[1]
+                
+                if url and url.startswith("http"):
+                     tasks.append(process_subpage(manager, category, url, semaphore))
+                else:
+                    print(f"Skipping invalid URL: {url}")
             else:
-                print(f"Skipping invalid URL: {url}")
+                 print(f"Skipping invalid row: {row}")
 
         await asyncio.gather(*tasks)
         print(f"[{time.time()-start_time:.2f}s] Done.", flush=True)
