@@ -1,2 +1,3 @@
 testscraper/lib/
 testscraper_broken/lib/
+.env
