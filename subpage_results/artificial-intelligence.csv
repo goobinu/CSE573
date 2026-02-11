@@ -1,0 +1,289 @@
+Name,Link to profile,Post content,Link to post
+Ethan Mollick,https://www.linkedin.com/in/emollick?trk=keyword-landing-page_feed-actor-name,"In our new paper we ran an experiment at Procter and Gamble with 776 experienced professionals solving real business problems.
+
+We found that individuals randomly assiged to use AI did as well as a team of two without AI. And AI-augmented teams produced more exceptional solutions. The teams using AI were happier as well.
+
+Even more interesting: AI broke down professional silos. R&D people with AI produced more commercial work and commercial people with AI had more technical solutions.
+
+The standard model of ""AI as productivity tool"" may be too limiting. Today’s AI can function as a kind of teammate, offering better performance, expertise sharing, and even positive emotional experiences.
+
+This was a massive team effort with work led by Fabrizio Dell'Acqua, Charles Ayoubi, and Karim Lakhani along with Hila Lifshitz, Raffaella Sadun, Lilach M., me and our partners at P&G: Yi Han, Jeff Goldman, Hari Nair and Stewart Taub 
+
+Subatack about the work here: https://lnkd.in/ehJr8CxM
+
+Paper: https://lnkd.in/e-ZGZmW9",https://www.linkedin.com/posts/emollick_in-our-new-paper-we-ran-an-experiment-at-activity-7309212044812038144-d6ii?utm_source=share&utm_medium=guest_desktop&utm_content=keyword-landing-page
+Panagiotis Kriaris,https://at.linkedin.com/in/pkriaris?trk=keyword-landing-page_feed-actor-name,"GenAI is easy to start but hard to scale. Too many companies are stuck in endless pilots. Here’s what it takes to build GenAI capability.
+
+McKinsey has recently published their findings from working with 150+ companies on their GenAI programs over two years.
+
+Two hurdles stand out:
+
+𝟭. 𝗙𝗮𝗶𝗹𝘂𝗿𝗲 𝘁𝗼 𝗶𝗻𝗻𝗼𝘃𝗮𝘁𝗲: Teams waste time on duplicate experiments, wait on compliance processes, and solve problems that don’t matter. 30% - 50% of innovation time is spent trying to meet compliance - not building.
+
+𝟮. 𝗙𝗮𝗶𝗹𝘂𝗿𝗲 𝘁𝗼 𝘀𝗰𝗮𝗹𝗲: Even when a prototype works, most companies can’t get it into production. Risk, security, and cost barriers overwhelm teams, leading to stalled or cancelled deployments.
+
+According to McKinsey the most successful GenAI platforms contains three core components:
+
+𝟭. 𝗔 𝘀𝗲𝗹𝗳-𝘀𝗲𝗿𝘃𝗶𝗰𝗲 𝗽𝗼𝗿𝘁𝗮𝗹:
+To support both innovation and scale, companies need a secure, centralized portal that gives teams easy access to pre-approved gen AI tools, services, and documentation. It should enable developers to quickly build with reusable patterns, while also offering governance features like observability, cost controls, and access management. The best portals promote contribution and reuse across the organization, reducing friction and accelerating development at scale.
+
+𝟮.𝗔𝗻 𝗼𝗽𝗲𝗻 𝗮𝗿𝗰𝗵𝗶𝘁𝗲𝗰𝘁𝘂𝗿𝗲 𝘁𝗼 𝗿𝗲𝘂𝘀𝗲 𝗚𝗲𝗻𝗔𝗜 𝘀𝗲𝗿𝘃𝗶𝗰𝗲𝘀:
+Scaling GenAI requires modular, open architecture that enables teams to reuse services, application patterns, and data products across use cases. Leading companies build libraries of common components (like RAG, embeddings, or chat workflows) and focus on integration via APIs - not vendor lock-in. Infrastructure and policy as code ensure changes can propagate quickly and securely across the platform, reducing cost and accelerating deployment.
+
+𝟯. 𝗔𝘂𝘁𝗼𝗺𝗮𝘁𝗲𝗱, 𝗿𝗲𝘀𝗽𝗼𝗻𝘀𝗶𝗯𝗹𝗲 𝗔𝗜 𝗴𝘂𝗮𝗿𝗱𝗿𝗮𝗶𝗹𝘀:
+To scale safely, GenAI platforms must embed automated governance that enforces compliance, manages risk, and tracks costs. This includes microservices that audit prompts, detect policy violations (like sharing sensitive personal data or generating inaccurate responses), and attribute usage to specific teams. A centralized AI gateway enforces access controls, logs interactions, and routes traffic through security filters - allowing flexibility where needed. These guardrails accelerate approval processes, reduce setup time, and let teams focus on building value - not managing risk manually.
+
+𝗪𝗵𝗮𝘁’𝘀 𝘆𝗼𝘂𝗿 𝗲𝘅𝗽𝗲𝗿𝗶𝗲𝗻𝗰𝗲?
+
+Source: McKinsey & Company 
+
+𝐒𝐮𝐛𝐬𝐜𝐫𝐢𝐛𝐞 𝐭𝐨 𝐦𝐲 𝐧𝐞𝐰𝐬𝐥𝐞𝐭𝐭𝐞𝐫: https://lnkd.in/dkqhnxdg",https://www.linkedin.com/posts/pkriaris_genai-is-easy-to-start-but-hard-to-scale-activity-7345359983976284161-h3WY?utm_source=share&utm_medium=guest_desktop&utm_content=keyword-landing-page
+Usman Sheikh,https://ae.linkedin.com/in/usmans?trk=keyword-landing-page_feed-actor-name,"The Enterprise AI war is not about intelligence.
+
+It's about integration.
+
+""First agent to connect to all of your work apps—so it can access information and complete tasks across all of them—will probably win."" David Sack
+
+Many are underestimating how quickly we get there.
+
+Today's landscape is fragmented:
+→ 400+ hours/year lost to context switching
+→ Knowledge trapped in dozens of siloed systems
+→ Data ""hot"" for days, rarely accessed again
+→ Valuable insights buried in unused documents
+
+The agent that solves integration unlocks:
+→ Information flowing effortlessly across systems
+→ Automated workflows (legal, marketing, procurement)
+→ Persistent context, independent of apps
+→ A single, seamless interface replacing dozens of UIs
+
+Current roadblocks for agents:
+→ Messy data, not integration-ready
+→ Cross-system authentication hurdles
+→ Security policies blocking access
+→ Difficulty maintaining cross-app context
+
+What we can possibly do in the near future:
+→ Inbox managed entirely by personalized AI assistant
+→ Proactive alerts predicting issues before they arise
+→ Proposals instantly tailored from previous interactions
+→ Self-updating documentation as processes evolve
+
+AI capabilities are exponentially growing:
+→ AI model capabilities double every 7 months
+→ 2019: seconds of task-handling capacity
+→ Today: hour-long tasks handled in minutes
+→ 2026: day-long tasks executed in hours
+→ 2030: month-long projects completed in days
+
+This isn't just about connecting apps.
+
+Just like cloud transformed digital infrastructure, AI agents will redefine organizational intelligence.
+
+Companies that master integration won't just become more efficient, they'll set a completely new baseline.
+
+This will make traditional workflows look as obsolete as fax machines and filing cabinets.",https://www.linkedin.com/posts/usmans_the-enterprise-ai-war-is-not-about-intelligence-activity-7310948883726032896-az84?utm_source=share&utm_medium=guest_desktop&utm_content=keyword-landing-page
+Henry Shi,https://www.linkedin.com/in/henrythe9th?trk=keyword-landing-page_feed-actor-name,"We Tried Replacing 1000 Human Jobs with AI
+
+The results were shocking—and not for the reasons you’d think. Here's what happened when we tried replacing 1000 freelancers with AI... 🧵
+
+How close are we to Economic AGI? Despite all the recent talk and hype around AGI, nobody has a clue or benchmark.
+
+I previously built a $1B+/yr marketplace, and so I wanted to know: What % of human jobs on UpWork & Freelancer .com could be solved using AI today? That’s our proxy for an Economic AGI benchmark.
+
+Ryan Brandt and I scraped over 1,000 latest job postings and used the latest AI models (o1, Claude, Gemini) and agents/tools (Windsurf, Axiom, etc.) to apply for jobs and attempt to complete tasks.
+
+The results? AI could solve ~15% of tasks…but we made exactly $0. Here’s what we learned—and what this means for the future of work:👇
+
+1️⃣ ~5% of jobs: AI could solve these in 1 shot (e.g., logo design, content writing, simple scripts) by simply pasting the request into ChatGPT
+Example: Someone offered $750 to update a simple logo. Another paid $20/hr to convert text PDFs to Word. Many clients were simply unaware of any AI tools 🤯
+
+2️⃣ ~10% of jobs: AI could solve these with agents/tools (e.g., storefronts, web scraping, browser automation).
+🛠️ But the agent/tooling space is messy & unreliable. People just wanted to pay for working solutions.
+
+3️⃣ ~5% of jobs were ironically about clients delegating AI tasks to humans. (eg, use AI voice generation tools to make a voiceover)
+Clients want humans to ""deal with it"" rather than wrestling with agents themselves.
+
+4️⃣ Most job descriptions themselves were detailed and well-written prompts, which we could directly just paste into ChatGPT!
+
+So Why Did We Earn $0?
+Even with AI’s power:
+- Pay-to-play: Workers must pay to apply to jobs. Each bid alone cost $1+ just to apply
+- Crowded market: Jobs attract 20+ bids, often from workers with thousands of 5 star reviews and decades of project experience
+- Broken UX: Platforms aren’t built for AI-driven work
+
+We applied to ~30 jobs (max limit on our plan), priced in the bottom 10th percentile, and shared full AI solutions upfront in 50% of bids.
+Results:
+- Less than 1/2 of bids were even opened
+- Only 6 clients replied
+- After multiple of back-and-forth clarifications and rework, we never got paid
+- Net loss: $100 in credits + API fees
+
+Lessons Learned
+1️⃣ AI is here—but adoption is slow. People are stuck in old ways.
+2️⃣ The AI tools/agents market is a mess. People want solutions, not more tools.
+3️⃣ Traditional marketplaces aren't built for the AI economy. UpWork/Freelancer have absolute terrible UX for both sides:
+
+I’ve built a $1B+ marketplace at Super.com and am deeply passionate about this space.
+If you’re building in AI, Agents, or thinking about the future economic engine and AGI, I’d love to chat, help ideate and angel invest.
+
+If this resonated: like, share, follow or tag someone building in this space.
+
+What do you think the future of AI Agents and Work looks like? 👇",https://www.linkedin.com/posts/henrythe9th_we-tried-replacing-1000-human-jobs-with-ai-activity-7288235299191603201-mH4H?utm_source=share&utm_medium=guest_desktop&utm_content=keyword-landing-page
+Greg Meyers,https://www.linkedin.com/in/greg-meyers-cio?trk=keyword-landing-page_feed-actor-name,"40% more drugs at 60% of the cost - that's what serious investors in pharmaceutical companies believe AI can deliver for our industry. But how do we get there? 
+
+This week, at our Business Insights & Technology (BI&T) Quarterly Town Hall, we explored three critical questions: What's driving the AI frenzy in life sciences? What have we learned from our own three-year journey? And how must our profession evolve to stay relevant?
+
+We broke the conversation into three parts:
+
+1. Why so much energy around AI in life sciences? 
+
+The transformation is already underway: faster discovery of targets, more efficient clinical trials, higher reliability in manufacturing, and better patient engagement. Analysts forecast that AI could enable 40% more drugs at 60% of the cost - and so while pilots and proof of concepts are useful, they are singles and doubles in a game where home runs are expected
+
+2. What actually moves the needle - lessons from three years in. Our AI journey has taught us what works:
+
+- Layer AI onto reimagined processes, not old ones
+- Lead with product to build ""AI-powered race cars,"" not faster horses
+- Connect top-down vision with bottom-up needs - workforce productivity and enterprise transformation will not align spontaneously; we must be a cause in the matter of aligning it
+- Keep decision-making teams small and focused (see: the Ringelmann effect - too many cooks spoil the broth)
+
+3. Reinventing IT in the age of AI. Every decade, enterprise technology must reinvent itself. This is one of those moments. The shifts ahead include:
+
+- From translators → product leaders (as business users gain AI tools to build directly)
+- From consumers → creators of advantage (extending technology uniquely rather than just buying what's off the shelf)
+- From fragmented processes run by people → enablers of self-improving processes (AI-native by default)
+- From change as a project → change as a daily capability
+
+For decades, IT organizations had two things: scale and skill. We were an internal monopoly. In the era of vibe coding, this monopoly is coming to an end. We have to lead, not gatekeep.
+
+The future won't wait. As AI democratizes technology, IT functions must choose: be reactive and widen the gap, or be proactive and narrow the gap. 
+
+At BMS, we're committed to the latter by: 
+1) Equipping our workforce with state-of-the-art AI tools to allow them to self-explore,
+2) Empowering and upskilling our workforce through AI literacy programs which tens of thousands of employees have already completed, and 
+3) Concentrating efforts on functional applications of AI that can make a material difference to the company.
+
+We stand at a unique intersection: the opportunity to do the most meaningful work of our careers while defining what the future of our profession will be.",https://www.linkedin.com/posts/greg-meyers-cio_40-more-drugs-at-60-of-the-cost-thats-activity-7376980272568823808-_AAi?utm_source=share&utm_medium=guest_desktop&utm_content=keyword-landing-page
+"Sol Rashidi, MBA",https://www.linkedin.com/in/sol-rashidi-mba-a672291?trk=keyword-landing-page_feed-actor-name,"The AI gave a clear diagnosis. The doctor trusted it. 
+The only problem? The AI was wrong.
+
+A year ago, I was called in to consult for a global healthcare company.
+
+They had implemented an AI diagnostic system to help doctors analyze thousands of patient records rapidly. The promise? Faster disease detection, better healthcare.
+
+Then came the wake-up call.
+
+The AI flagged a case with a high probability of a rare autoimmune disorder. The doctor, trusting the system, recommended an aggressive treatment plan.
+
+But something felt off.
+
+When I was brought in to review, we discovered the AI had misinterpreted an MRI anomaly. The patient had an entirely different condition—one that didn’t require aggressive treatment. A near-miss that could have had serious consequences.
+
+As AI becomes more integrated into decision-making, here are three critical principles for responsible implementation:
+
+- Set Clear Boundaries
+
+Define where AI assistance ends and human decision-making begins. Establish accountability protocols to avoid blind trust.
+
+
+- Build Trust Gradually
+
+Start with low-risk implementations. Validate critical AI outputs with human intervention. Track and learn from every near-miss.
+
+
+- Keep Human Oversight
+
+AI should support experts, not replace them. Regular audits and feedback loops strengthen both efficiency and safety.
+
+At the end of the day, it’s not about choosing AI 𝘰𝘳 human expertise.
+It’s about building systems where both work together—responsibly.
+
+💬 What’s your take on AI accountability? How are you building trust in it?",https://www.linkedin.com/posts/sol-rashidi-mba-a672291_the-ai-gave-a-clear-diagnosis-the-doctor-activity-7294717026827132929-1k0s?utm_source=share&utm_medium=guest_desktop&utm_content=keyword-landing-page
+Aishwarya Srinivasan,https://www.linkedin.com/in/aishwarya-srinivasan?trk=keyword-landing-page_feed-actor-name,"A lot of folks have been asking me: “How do I upskill into AI if I’m coming from a data analyst background?”
+
+To make it easier, I’ve put together a 6-month roadmap that walks you through the skills, projects, and milestones you can follow to make that transition.
+
+It covers:
+→ Foundation building with Python + stats
+→ Machine learning fundamentals (supervised + unsupervised)
+→ Evaluation mastery
+→ LLM workflows for analysts
+→ MLOps awareness
+→ And finally, polishing a portfolio that will actually get you noticed
+
+Now, here’s my two cents on how to use this roadmap:
+→ Don’t rush it. Take each month as a sprint, and focus on building portfolio artifacts along the way.
+→ Share your progress online. The projects you showcase will open doors faster than just listing skills.
+→ Use this as a guideline, not gospel. Everyone learns differently, adapt it to your pace and interests.
+
+Hope this helps you structure your upskilling journey. Happy learning ❤️ 
+
+〰️〰️〰️
+Follow me (Aishwarya Srinivasan) for more AI insight and subscribe to my Substack to find more in-depth blogs and weekly updates in AI: https://lnkd.in/dpBNr6Jg",https://www.linkedin.com/posts/aishwarya-srinivasan_a-lot-of-folks-have-been-asking-me-how-activity-7378102019665944576-08yI?utm_source=share&utm_medium=guest_desktop&utm_content=keyword-landing-page
+"Peter Slattery, PhD",https://www.linkedin.com/in/peterslattery1?trk=keyword-landing-page_feed-actor-name,"""As agents become more capable and widespread, so do their risks. They can amplify threats that cross national borders, such as interference in elections or disruptions to critical infrastructure, and exacerbate human rights concerns, from privacy violations to limits on free expression. Addressing these challenges requires more than national regulation. It requires global governance.
+
+This paper examines how these potential risks can be managed through foundational global governance tools that are non-AI-specific in nature and universal in scope: international law, non-binding global norms, and global accountability mechanisms. We explore how these can be used, where they fall short, and what must change to strengthen them.
+
+Key Takeaways
+
+▪️Existing international obligations matter. Governments must respect sovereignty, prevent cross-border harms, and protect human rights when using or regulating AI agents.
+
+▪️Companies are part of the equation. While not directly bound by international law, firms benefit from aligning with global standards and calling out unlawful state behavior.
+
+▪️Global accountability channels exist. International institutions, particularly the UN system, provide avenues for oversight and redress, alongside other legal and normative mechanisms
+Important gaps remain. Weak enforcement, unclear liability, and conflicting domestic frameworks risk undermining global governance.
+
+Why It Matters
+
+▪️For governments: Upholding international law will be central to stability and cooperation as AI agents spread.
+
+▪️For companies: Respecting global rules strengthens trust with users, investors, and regulators.
+
+▪️For civil society and individuals: Demanding accountability ensures AI development serves the public interest.""
+
+Partnership on AI Talita Dias Jacob Pratt",https://www.linkedin.com/posts/peterslattery1_ai-agents-global-governance-activity-7377372375425748992-1DQk?utm_source=share&utm_medium=guest_desktop&utm_content=keyword-landing-page
+Santosh Kamane,https://in.linkedin.com/in/santoshkamane?trk=keyword-landing-page_feed-actor-name,"We recently assisted a mid-sized enterprise implement their AI governance framework. It was advisory engagement and gap assessment revealed the key AI risks missing. In addition to poor managed risk register, also noticed absence of defined AI risk categories.
+
+The company’s chatbot was live, their recommendation engine was in production, and even an AI model was also being tested — but till that point no one had mapped the risks. There was no awareness of responsible AI, no controls for bias, and no visibility into vendor AI dependencies.
+It was like building a skyscraper with no structural blueprint for earthquakes or fire safety.
+
+Once we introduced a categorized risk lens — covering bias, explainability, adversarial threats, regulatory exposure, model abuse, data privacy, security, and operational dependency etc — things began to click.
+
+This infographic by Rivedix covers AI risk categories with brief description and risk scenarios for ready reference.
+
+#ai #governance #ISO42001 #ethicalai #responsibleai #privacy #databreach #cyberattack CYTAD AI GRC Community",https://www.linkedin.com/posts/santoshkamane_we-recently-assisted-a-mid-sized-enterprise-activity-7340581472900108289-Dn6L?utm_source=share&utm_medium=guest_desktop&utm_content=keyword-landing-page
+Eugina Jordan,https://www.linkedin.com/in/euginajordan?trk=keyword-landing-page_feed-actor-name,"The G7 Toolkit for Artificial Intelligence in the Public Sector, prepared by the OECD.AI and UNESCO, provides a structured framework for guiding governments in the responsible use of AI and aims to balance the opportunities & risks of AI across public services.
+
+✅ a resource for public officials seeking to leverage AI while balancing risks. It emphasizes ethical, human-centric development w/appropriate governance frameworks, transparency,& public trust. 
+✅ promotes collaborative/flexible strategies to ensure AI's positive societal impact.
+✅will influence policy decisions as governments aim to make public sectors more efficient, responsive, & accountable through AI.
+
+Key Insights/Recommendations:
+
+𝐆𝐨𝐯𝐞𝐫𝐧𝐚𝐧𝐜𝐞 & 𝐍𝐚𝐭𝐢𝐨𝐧𝐚𝐥 𝐒𝐭𝐫𝐚𝐭𝐞𝐠𝐢𝐞𝐬:
+➡️importance of national AI strategies that integrate infrastructure, data governance, & ethical guidelines.
+➡️ different G7 countries adopt diverse governance structures—some opt for decentralized governance; others have a single leading institution coordinating AI efforts.
+
+𝐁𝐞𝐧𝐞𝐟𝐢𝐭𝐬 & 𝐂𝐡𝐚𝐥𝐥𝐞𝐧𝐠𝐞𝐬
+➡️ AI can enhance public services, policymaking efficiency, & transparency, but governments to address concerns around security, privacy, bias, & misuse.
+➡️ AI usage in areas like healthcare, welfare, & administrative efficiency demonstrates its potential; ethical risks like discrimination or lack of transparency are a challenge.
+
+𝐄𝐭𝐡𝐢𝐜𝐚𝐥 𝐆𝐮𝐢𝐝𝐞𝐥𝐢𝐧𝐞𝐬 & 𝐅𝐫𝐚𝐦𝐞𝐰𝐨𝐫𝐤𝐬
+➡️ focus on human-centric AI development while ensuring fairness, transparency, & privacy.
+➡️Some members have adopted additional frameworks like algorithmic transparency standards & impact assessments to govern AI's role in decision-making.
+
+𝐏𝐮𝐛𝐥𝐢𝐜 𝐒𝐞𝐜𝐭𝐨𝐫 𝐈𝐦𝐩𝐥𝐞𝐦𝐞𝐧𝐭𝐚𝐭𝐢𝐨𝐧
+➡️provides a phased roadmap for developing AI solutions—from framing the problem, prototyping, & piloting solutions to scaling up and monitoring their outcomes.
+➡️ engagement + stakeholder input is critical throughout this journey to ensure user needs are met & trust is built.
+
+𝐄𝐱𝐚𝐦𝐩𝐥𝐞𝐬 𝐨𝐟 𝐀𝐈 𝐢𝐧 𝐔𝐬𝐞
+➡️Use cases include AI tools in policy drafting, public service automation, & fraud prevention. The UK’s Algorithmic Transparency Recording Standard (ATRS) and Canada's AI impact assessments serve as examples of operational frameworks.
+
+𝐃𝐚𝐭𝐚 & 𝐈𝐧𝐟𝐫𝐚𝐬𝐭𝐫𝐮𝐜𝐭𝐮𝐫𝐞:
+➡️G7 members to open up government datasets & ensure interoperability.
+➡️Countries are investing in technical infrastructure to support digital transformation, such as shared data centers and cloud platforms.
+
+𝐅𝐮𝐭𝐮𝐫𝐞 𝐎𝐮𝐭𝐥𝐨𝐨𝐤 & 𝐈𝐧𝐭𝐞𝐫𝐧𝐚𝐭𝐢𝐨𝐧𝐚𝐥 𝐂𝐨𝐥𝐥𝐚𝐛𝐨𝐫𝐚𝐭𝐢𝐨𝐧:
+➡️ importance of collaboration across G7 members & international bodies like the EU and Global Partnership on Artificial Intelligence (GPAI) to advance responsible AI.
+➡️Governments are encouraged to adopt incremental approaches, using pilot projects & regulatory sandboxes to mitigate risks & scale successful initiatives gradually.",https://www.linkedin.com/posts/euginajordan_g7-toolkit-for-ai-n-the-public-sector-activity-7254816339079446528-rfBh?utm_source=share&utm_medium=guest_desktop&utm_content=keyword-landing-page

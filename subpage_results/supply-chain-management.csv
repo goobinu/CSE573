@@ -1,0 +1,272 @@
+Name,Link to profile,Post content,Link to post
+Andreas Horn,https://de.linkedin.com/in/andreashorn1?trk=keyword-landing-page_feed-actor-name,"McKinsey & Company 𝗮𝗻𝗮𝗹𝘆𝘇𝗲𝗱 𝟭𝟱𝟬+ 𝗲𝗻𝘁𝗲𝗿𝗽𝗿𝗶𝘀𝗲 𝗚𝗲𝗻𝗔𝗜 𝗱𝗲𝗽𝗹𝗼𝘆𝗺𝗲𝗻𝘁𝘀 — 𝗮𝗻𝗱 𝗳𝗼𝘂𝗻𝗱 𝗼𝗻𝗲 𝗰𝗼𝗺𝗺𝗼𝗻 𝘁𝗵𝗿𝗲𝗮𝗱: ⬇️
+
+One-off solutions don’t scale. The most successful projects take a different path: They use open, modular architectures that enable speed, reuse, and control.
+
+→ Designed for reuse
+→ Able to plug in best-in-class capabilities
+→ Free from vendor lock-in
+
+This is the reference architecture McKinsey now recommends — optimized to scale what works while staying compliant. 
+
+It consists of five core components: ⬇️
+
+𝟭. 𝗦𝗲𝗹𝗳-𝘀𝗲𝗿𝘃𝗶𝗰𝗲 𝗽𝗼𝗿𝘁𝗮𝗹:
+→ A secure, compliant “pane of glass” where teams can launch, monitor, and manage GenAI apps.
+→ Preapproved patterns, validated capabilities, shared libraries.
+→ Observability and cost controls built-in.
+
+𝟮. 𝗢𝗽𝗲𝗻 𝗮𝗿𝗰𝗵𝗶𝘁𝗲𝗰𝘁𝘂𝗿𝗲
+→ Services are modular, reusable, and provider-agnostic.
+→ Core functions like RAG, chunking, or prompt routing are shared across apps.
+→ Infra and policy as code, built to evolve fast.
+
+𝟯. 𝗔𝘂𝘁𝗼𝗺𝗮𝘁𝗲𝗱 𝗴𝗼𝘃𝗲𝗿𝗻𝗮𝗻𝗰𝗲 𝗴𝘂𝗮𝗿𝗱𝗿𝗮𝗶𝗹𝘀
+→ Every prompt and response is logged, audited, and cost-attributed.
+→ Hallucination detection, PII filters, bias audits — enforced by default.
+→ LLMs accessed only through a centralized AI gateway.
+
+4. 𝗙𝘂𝗹𝗹-𝘀𝘁𝗮𝗰𝗸 𝗼𝗯𝘀𝗲𝗿𝘃𝗮𝗯𝗶𝗹𝗶𝘁𝘆
+→ Centralized logging, analytics, and monitoring across all solutions
+→ Built-in lifecycle governance, FinOps, and Responsible AI enforcement
+→ Secure onboarding of use cases and private data controls
+→ Enables policy adherence across infrastructure, models, and apps
+
+5. 𝗣𝗿𝗼𝗱𝘂𝗰𝘁𝗶𝗼𝗻-𝗴𝗿𝗮𝗱𝗲 𝗨𝘀𝗲 𝗖𝗮𝘀𝗲𝘀
+→ Modular setup for user interface, business logic, and orchestration
+→ Integrated agents, prompt engineering, and model APIs
+→ Guardrails, feedback systems, and observability built into the solution
+→ Delivered through the AI Gateway for consistent compliance and scale
+
+The message is clear: If your GenAI program is stuck, don’t look at the LLM. Look at your platform.
+
+𝗜 𝗲𝘅𝗽𝗹𝗼𝗿𝗲 𝘁𝗵𝗲𝘀𝗲 𝗱𝗲𝘃𝗲𝗹𝗼𝗽𝗺𝗲𝗻𝘁𝘀 — 𝗮𝗻𝗱 𝘄𝗵𝗮𝘁 𝘁𝗵𝗲𝘆 𝗺𝗲𝗮𝗻 𝗳𝗼𝗿 𝗿𝗲𝗮𝗹-𝘄𝗼𝗿𝗹𝗱 𝘂𝘀𝗲 𝗰𝗮𝘀𝗲𝘀 — 𝗶𝗻 𝗺𝘆 𝘄𝗲𝗲𝗸𝗹𝘆 𝗻𝗲𝘄𝘀𝗹𝗲𝘁𝘁𝗲𝗿. 𝗬𝗼𝘂 𝗰𝗮𝗻 𝘀𝘂𝗯𝘀𝗰𝗿𝗶𝗯𝗲 𝗵𝗲𝗿𝗲 𝗳𝗼𝗿 𝗳𝗿𝗲𝗲: https://lnkd.in/dbf74Y9E",https://www.linkedin.com/posts/andreashorn1_mckinsey-company-%F0%9D%97%AE%F0%9D%97%BB%F0%9D%97%AE%F0%9D%97%B9%F0%9D%98%86%F0%9D%98%87%F0%9D%97%B2%F0%9D%97%B1-%F0%9D%9F%AD%F0%9D%9F%B1%F0%9D%9F%AC-activity-7344971610757464064-B6Xl?utm_source=share&utm_medium=guest_desktop&utm_content=keyword-landing-page
+Andrew Ng,https://www.linkedin.com/in/andrewyng?trk=keyword-landing-page_feed-actor-name,"Last week, I described four design patterns for AI agentic workflows that I believe will drive significant progress: Reflection, Tool use, Planning and Multi-agent collaboration. Instead of having an LLM generate its final output directly, an agentic workflow prompts the LLM multiple times, giving it opportunities to build step by step to higher-quality output. Here, I'd like to discuss Reflection. It's relatively quick to implement, and I've seen it lead to surprising performance gains. 
+
+You may have had the experience of prompting ChatGPT/Claude/Gemini, receiving unsatisfactory output, delivering critical feedback to help the LLM improve its response, and then getting a better response. What if you automate the step of delivering critical feedback, so the model automatically criticizes its own output and improves its response? This is the crux of Reflection. 
+
+Take the task of asking an LLM to write code. We can prompt it to generate the desired code directly to carry out some task X. Then, we can prompt it to reflect on its own output, perhaps as follows:
+
+Here’s code intended for task X:
+[previously generated code]
+Check the code carefully for correctness, style, and efficiency, and give constructive criticism for how to improve it.
+
+Sometimes this causes the LLM to spot problems and come up with constructive suggestions. Next, we can prompt the LLM with context including (i) the previously generated code and (ii) the constructive feedback, and ask it to use the feedback to rewrite the code. This can lead to a better response. Repeating the criticism/rewrite process might yield further improvements. This self-reflection process allows the LLM to spot gaps and improve its output on a variety of tasks including producing code, writing text, and answering questions.
+
+And we can go beyond self-reflection by giving the LLM tools that help evaluate its output; for example, running its code through a few unit tests to check whether it generates correct results on test cases or searching the web to double-check text output. Then it can reflect on any errors it found and come up with ideas for improvement.
+
+Further, we can implement Reflection using a multi-agent framework. I've found it convenient to create two agents, one prompted to generate good outputs and the other prompted to give constructive criticism of the first agent's output. The resulting discussion between the two agents leads to improved responses.
+
+Reflection is a relatively basic type of agentic workflow, but I've been delighted by how much it improved my applications’ results. If you’re interested in learning more about reflection, I recommend:
+- Self-Refine: Iterative Refinement with Self-Feedback, by Madaan et al. (2023)
+- Reflexion: Language Agents with Verbal Reinforcement Learning, by Shinn et al. (2023)
+- CRITIC: Large Language Models Can Self-Correct with Tool-Interactive Critiquing, by Gou et al. (2024)
+
+[Original text: https://lnkd.in/g4bTuWtU ]",https://www.linkedin.com/posts/andrewyng_one-agent-for-many-worlds-cross-species-activity-7179159130325078016-_oXr?utm_source=share&utm_medium=guest_desktop&utm_content=keyword-landing-page
+Aaron Levie,https://www.linkedin.com/in/boxaaron?trk=keyword-landing-page_feed-actor-name,"A big question in software is what happens to the systems of record in a world of AI Agents. Do they go away? Do they just become databases? Or do they become more powerful?
+
+I’d argue that they’re just as powerful as ever, if not more powerful, in a world of 100X more interactions with software. 
+
+The purpose of your system of record (whether it’s ERP, CRM, ITSM, or a document management system) is to hold the data and manage the workflows around the most important areas of your business: your customer commitments, leads, revenue figures, inventory, IP, product research, supply chain, and more.
+
+Importantly, you want the data and workflows in these systems operate in deterministic ways. When you ask a question like “what is my revenue,” you need the precise answer. When you move a lead from one stage to another, you can’t afford for it to get dropped. When you update your inventory, you can’t have it change inadvertently. Getting the data, permissions, access controls, business logic, and workflows right, every single time, is critical.
+
+On the other hand, AI Agents operate in a world of non-deterministic actions. What makes them so powerful is they can adapt to entirely new instructions on the fly, use judgment to perform actions, and operate on troves of unstructured information and decisions. When you ask an AI Agent to research and summarize a set of documents, it will produce a slightly different answer every single time - and in most use-cases for AI Agents, this is a feature, not a bug.
+
+Just as you wouldn’t ask the world’s smartest human to memorize every piece of inventory you have, or all of the permissions of every information that employees should have access (with their specific access controls) to, you similarly won’t ask AI Agents to do that in the future.
+
+This is where the separation of duties comes into play. AI Agents will be doing non-deterministic actions (like generating a sales plan, responding to a customer, or writing code), and deterministic systems will be for remembering those actions and incorporating them across a variety of workflows. 
+
+In fact, in a world of AI Agents running around doing autonomous tasks 24/7, in parallel, and at unlimited scale, the role that these systems of record play will likely be even more important. Getting this relationship down is going to be key to the future of the enterprise IT stack.",https://www.linkedin.com/posts/boxaaron_a-big-question-in-software-is-what-happens-activity-7346561261414846464-KTgt?utm_source=share&utm_medium=guest_desktop&utm_content=keyword-landing-page
+Børge Brende,https://ch.linkedin.com/in/b%C3%B8rge-brende?trk=keyword-landing-page_feed-actor-name,"The World Economic Forum Global Risks Report 2025, launched today, offers critical insights into the most consequential risks facing the world over the next two years and beyond. #wef25
+
+In the short term, challenges such as misinformation, extreme weather events, societal polarization, and cyber threats dominate the risk landscape. These issues are reshaping economies, governance, and communities worldwide, demanding immediate, coordinated action.
+
+Over the next decade, #environmental risks are projected to intensify, with extreme weather, biodiversity loss, and disruptions to Earth's systems emerging as the most severe challenges. These risks underline the urgent need for long-term strategies to safeguard ecosystems, secure resources, and mitigate climate-related impacts. Addressing these challenges requires a global commitment to sustainability and innovative approaches.
+
+This report serves as a vital resource for understanding the interconnected nature of global risks and the need for collaboration to build resilience in a rapidly changing world. It also provides timely context as we prepare for discussions at #Davos, where global leaders will convene to address these pressing challenges.
+
+Read the full report here: https://lnkd.in/e7cReNiH #risks25",https://www.linkedin.com/posts/b%C3%B8rge-brende_the-world-economic-forum-global-risks-report-activity-7285225413985853440-Pnbi?utm_source=share&utm_medium=guest_desktop&utm_content=keyword-landing-page
+Lior Alexander,https://www.linkedin.com/in/lioralex?trk=keyword-landing-page_feed-actor-name,"Karpathy is back. His new LLM-Council might be the future of how LLMs actually get used.
+
+Here’s how it works:
+1. Your prompt fans out to multiple models
+▸ GPT, Claude, Gemini, Grok, whatever you add.
+▸ Each model answers the same query independently. No shared context. No coordination. Pure first-pass reasoning.
+
+2. Then the models see each other’s answers
+▸ All responses are revealed to every model, anonymized.
+▸ No one knows who wrote what.
+▸ This removes brand bias and forces actual evaluation.
+
+3. Every model becomes a critic
+Each model:
+ → ranks the answers
+ → flags mistakes
+ → explains weaknesses
+ → highlights better reasoning
+
+This gives you per-query evaluation instead of a static benchmark.
+
+4. A Chairman model makes the final call
+It gets:
+▸ all answers
+▸ all rankings
+▸ all critiques
+
+Then it produces one final response by merging the strongest reasoning and correcting the errors exposed by the council.
+
+This is routing based on evidence, not vibes.
+
+5. You see one clean output
+▸ The UI looks like ChatGPT.
+▸ Under the hood: workers → critics → synthesis.
+
+A simple, transparent LLM router that judges models on each task, instead of asking you to trust a single guess.",https://www.linkedin.com/posts/lioralex_karpathy-is-back-his-new-llm-council-might-activity-7399172974597218304-RRmY?utm_source=share&utm_medium=guest_desktop&utm_content=keyword-landing-page
+"Frederick Magana, FCIPS Chartered",https://sa.linkedin.com/in/fredmagana?trk=keyword-landing-page_feed-actor-name,"Procurement: Treat suppliers as extensions of your enterprise, not transactions. 
+
+Procurement Excellence | 23 NOV 2025 - In complex global markets, resilient supply chains demand partnerships built on shared destiny, not just contracts.
+
+Here are 9 Steps to Create Long-Term Supplier Partnerships:
+
+#1. Transparent Communication
+ ↳ Co-develop comms protocols e.g. QBR
+ ↳ Clearly share expectations, goals & challenges
+
+#2. Long-Term Contracts
+ ↳ Replace short-term with multi year agreements.
+ ↳ Share long-term roadmaps & cost-savings initiatives.
+
+#3. Shared Performance Metrics
+ ↳ Jointly agree and track SMART KPIs.
+ ↳ Define escalation paths & RCA templates
+
+#4. Early Supplier Involvement
+↳ Involve and recognize vendor’s contributions.
+↳ Include key suppliers in product development cycles.
+
+#5. Guarantee Timely Payments
+↳ Automate payment & consider early payment discounts.
+↳ Audit internal processes for bottlenecks. 
+
+#6. Co-Create Innovation
+↳ Create supplier ideation portals & protect IP collaboratively.
+↳ Fund joint proof-of-concept projects.
+
+#7. Recognize & Reward Excellence
+↳Formally acknowledge & reward outstanding suppliers.
+↳Bronze (Operational Excellence), Silver (Innovation), Gold (Strategic Impact). 
+
+#8. Uphold Fairness & Ethics
+↳ Interactions & contractual terms are mutually beneficial.
+↳ Ensure cost pressures don't force unethical labor.
+
+#9. Jointly Manage Risks
+↳ Jointly identify risks & develop contingency plans.
+↳ Map tier-2/3 suppliers collaboratively.  
+
+In today's volatile market, 
+
+Resilient supply chains are built on deep, strategic supplier partnerships.
+
+Achieving lasting, mutually beneficial supplier partnerships requires:
+✅️ Deliberate strategy
+✅️ Centered on trust
+✅️ Shared objectives
+✅️ Continuous collaboration
+
+♻️ Repost if you find this helpful.
+➕️ Follow Frederick for Procurement insights.
+
+#ProcurementExcellence #SupplierCollaboration",https://www.linkedin.com/posts/fredmagana_procurement-treat-suppliers-as-extensions-activity-7398314179041931265-OA18?utm_source=share&utm_medium=guest_desktop&utm_content=keyword-landing-page
+Jyoti Bansal,https://www.linkedin.com/in/jyotibansal?trk=keyword-landing-page_feed-actor-name,"It's astonishing that $180 billion of the nearly $600 billion on cloud spend globally is entirely unnecessary. For companies to save millions, they need to focus on these 3 principles — visibility, accountability, and automation.
+
+1) Visibility  
+
+The very characteristics that make the cloud so convenient also make it difficult to track and control how much teams and individuals spend on cloud resources.
+
+Most companies still struggle to keep budgets aligned. The good news is that a new generation of tools can provide transparency. For example: resource tagging to automatically track which teams use cloud resources to measure costs and identify excess capacity accurately.
+
+2) Accountability
+
+Companies wouldn't dare deploy a payroll budget without an administrator to optimize spend carefully. Yet, when it comes to cloud costs, there's often no one at the helm.
+
+Enter the emerging disciplines of FinOps or cloud operations. These dedicated teams can take responsibility of everything from setting cloud budgets and negotiating favorable controls to putting engineering discipline in place to control costs.
+
+3) Automation 
+
+Even with a dedicated team monitoring cloud use and need, automation is the only way to keep up with the complex and evolving scenarios.
+
+Much of today's cloud cost management remains bespoke and manual, In many cases, a monthly report or round-up of cloud waste is the only maintenance done — and highly paid engineers are expected to manually remove abandoned projects and initiatives to free up space. 
+
+It’s the equivalent of asking someone to delete extra photos from their iPhone each month to free up extra storage. 
+
+That’s why AI and automation are critical to identify cloud waste and eliminate it.
+
+For example: tools like ""intelligent auto-stopping"" allow users to stop their cloud instances when not in use, much like motion sensors can turn off a light switch at the end of the workday.
+
+As cloud management evolves, companies are discovering ways to save millions, if not hundreds of millions — and these 3 principles are key to getting cloud costs under control.",https://www.linkedin.com/posts/jyotibansal_its-astonishing-that-180-billion-of-the-activity-7234193647183761408-JzKV?utm_source=share&utm_medium=guest_desktop&utm_content=keyword-landing-page
+Pascal BORNET,https://www.linkedin.com/in/pascalbornet/en?trk=keyword-landing-page_feed-actor-name,"♻️ Recycling, reimagined.
+
+I came across Ameru’s AI Smart Bin — and it made me realize something we rarely talk about in sustainability:
+We don’t fail to recycle because we don’t care. We fail because the friction is too high.
+
+This bin doesn’t just collect waste.
+It sees what you throw, sorts it automatically, and even gives you real-time feedback.
+The results?
+✅ 95%+ sorting accuracy
+✅ Analytics that show you how to reduce waste
+✅ ROI in under 2 years
+
+👉 Here’s the hidden insight:
+Let’s be honest: recycling is broken.
+Most of us want to recycle, but the system is designed for failure — too much friction, too many rules. The real innovation isn’t in AI or edge computing. It’s in making sustainability invisible. No guilt, no extra steps — just default behavior upgraded. 
+
+💡 Actionable thought: Whether you’re building tech, a product, or even a habit, ask yourself — how can I make the right choice feel effortless?
+Because effort scales linearly. But effortlessness? That scales exponentially.
+
+PS: Imagine when every trash bin becomes a data point in the circular economy. 
+
+👉 Do you think this kind of “invisible innovation” could transform how we recycle at home and at work?
+
+#GreenTech #AI #Innovation #Sustainability #CircularEconomy",https://www.linkedin.com/posts/pascalbornet_recycling-reimagined-i-came-across-activity-7371090269804441601-MqqW?utm_source=share&utm_medium=guest_desktop&utm_content=keyword-landing-page
+Marcus Chan,https://www.linkedin.com/in/marcuschanmba?trk=keyword-landing-page_feed-actor-name,"Your deals are stalling because you're tracking the wrong things.
+
+I just watched another rep lose a ""sure thing"" deal. Had budget, authority, need, timeline... all the BANT boxes checked. Still lost.
+
+Here's the problem: BANT tells you if someone CAN buy. It doesn't tell you if they WILL buy.
+
+Same with MEDDIC. Better than BANT, but it's still focused on what WE need to qualify them, not how THEY actually make buying decisions.
+
+So I created something different. The ADVANCED method that was inspired by Nate Nasralla.
+
+A - Acknowledged Problem 
+D - Documented Issue
+V - Validated by Team 
+A - Authorized by Executive 
+N - Narrowed to External 
+C - Chosen as Vendor 
+E - Established Timeline 
+D - Deal Terms Finalized
+
+This isn't another qualification framework. This is how complex B2B buyers actually progress through their decision making process.
+
+I break down all 8 stages in the carousel below, but here's why this works:
+Each stage has predictable win rates.
+
+Stage 0-1 deals close at 10-20%. Stage 6-7 deals close at 80-90%.
+Unlike other frameworks, ADVANCED tracks buyer behavior, not seller activities. It shows you exactly how deep you are in THEIR process.
+
+I even updated my entire pipeline to match this framework. Now I know the real probability of every deal closing... not just my gut feeling.
+
+Most importantly? It tells you what needs to happen next. No more guessing.
+
+If you're tired of ""sure thing"" deals that never close, maybe it's time to track what actually matters.
+
+Stop measuring what's convenient for you. Start measuring how your buyers actually buy.
+
+BTW. Can you honestly say where each of your deals stands using these 8 stages? If not, you're flying blind.
+
+The best reps know exactly where they stand. Now you can too.
+—
+Want to progress through these stages faster? Master multithreading with this free 100-min masterclass: https://lnkd.in/gYbk_Y2v",https://www.linkedin.com/posts/marcuschanmba_why-bant-meddic-are-killing-your-win-rates-activity-7348682353692639233-zg--?utm_source=share&utm_medium=guest_desktop&utm_content=keyword-landing-page

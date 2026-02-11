@@ -1,48 +1,43 @@
-import csv
+import asyncio
 import time
-from playwright.sync_api import sync_playwright, Playwright, Page
-# from utilities.csvhandling import read_from_csv
+import os
+from utilities.csvhandling import read_column_from_csv, save_to_csv
+from utilities.browser import AsyncBrowserManager
 
 curated_categories = "/Users/goobinu/Documents/CSE573/curatedcategories.csv"
 start_time = time.time()
-subpage_list = []
-content_list = []
+# content_list = [] # No longer needed as we save per file
 
-def read_from_csv(file):
-    result = []
-    with open(file, mode ='r')as file:
-        csvFile = csv.reader(file)
-        for lines in csvFile:
-            print("NEXT LINE:", lines)
-            print("LINK:", lines[1])
-            result.append(lines[1])
-    return result
+def save_subpage_results(url, results):
+    # Create a filename from the URL or category name
+    # We can try to extract a meaningful name from the URL
+    if not results:
+        return
 
-def save_subpage_data():
-    with open("subpage.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["Name", "Link to profile", "Post content"])
-        for name, link, content in content_list:
-            writer.writerow([name, link, content])
-
-def print_subpage_data():
-    for name, link, content in content_list:
-        print(name, ":", link, "\n")
-        print("CONTENT:", content)
-
-def collect_post_data(page: Page):
-    print(f"  > [{time.strftime('%X')}] Starting evaluate_all...", flush=True)
+    # Extract the last part of the URL path for filename, ignoring query params
+    clean_url = url.split('?')[0].rstrip('/')
+    filename = clean_url.split('/')[-1]
+    if not filename:
+        filename = "unknown_subpage"
     
-    # Wait for articles to be present to ensure dynamic content is loaded
+    filepath = os.path.join("subpage_results", f"{filename}.csv")
+    print(f"  > Saving results to {filepath}", flush=True)
+    save_to_csv(filepath, ["Name", "Link to profile", "Post content", "Link to post"], results)
+
+async def collect_post_data(page, url):
+    print(f"  > [{time.strftime('%X')}] Processing {url}...", flush=True)
+    
     try:
-        page.wait_for_selector("article", timeout=5000)
-    except:
-        print("  > No articles found or timeout waiting for articles.")
+        await page.goto(url)
+        # Wait for articles to be present to ensure dynamic content is loaded
+        await page.wait_for_selector("article", timeout=5000)
+    except Exception as e:
+        print(f"  > Error loading {url}: {e}")
         return []
 
     # Get all article elements
-    articles = page.locator("article").all()
-    print(f"  > Found {len(articles)} articles.", flush=True)
+    articles = await page.locator("article").all()
+    print(f"  > Found {len(articles)} articles on {url}.", flush=True)
     
     results = []
     
@@ -52,63 +47,92 @@ def collect_post_data(page: Page):
             name_locator = article.locator('[data-tracking-control-name="keyword-landing-page_feed-actor-name"]')
             # Use the data-test-id for the content as it is a unique and stable identifier
             content_locator = article.locator('[data-test-id="main-feed-activity-card__commentary"]')
+            # grab the post link from share button
+            # Updated selector based on user feedback
+            share_button_locator = article.locator('.share-button') 
             
             # Extract data safely
-            if name_locator.count() > 0:
-                name = name_locator.first.inner_text().strip()
-                link = name_locator.first.get_attribute("href")
+            if await name_locator.count() > 0:
+                name = await name_locator.first.inner_text()
+                name = name.strip()
+                link_to_profile = await name_locator.first.get_attribute("href")
             else:
                 name = "Unknown"
-                link = "No Link"
+                link_to_profile = "No Link"
                 
-            if content_locator.count() > 0:
-                content = content_locator.first.inner_text().strip()
+            if await content_locator.count() > 0:
+                content = await content_locator.first.inner_text()
+                content = content.strip()
             else:
                 content = "No Content"
+
+            link_to_post = "No Post Link"
+            # Try to get the share URL
+            try:
+                # The share button itself might have the data-share-url attribute or a child might.
+                # User pointed to: <div class="... share-button ..." ... data-share-url="...">
+                # So we target the element with class share-button and get attribute data-share-url
+                # We need to be careful because there might be multiple share buttons (like 'Share' text vs icon), 
+                # but the user provided HTML shows a div wrapper with the class and attribute.
+                
+                # Check for the specific structure the user showed
+                # The div has class "collapsible-dropdown ... share-button ..."
+                # We can try to locate that div specifically.
+                share_div = article.locator('div.share-button[data-share-url]')
+                if await share_div.count() > 0:
+                    link_to_post = await share_div.first.get_attribute("data-share-url")
+                else:
+                    # Fallback or alternative selector if the div isn't found exactly
+                    pass
+            except Exception as e:
+                # print(f"    > Error extraction post link: {e}")
+                pass
             
-            print(f"    > Article {i}: Found {name}")
-            results.append((name, link, content))
+            # print(f"    > Article {i} on {url}: Found {name}")
+            results.append((name, link_to_profile, content, link_to_post))
             
         except Exception as e:
-            print(f"    > Error processing article {i}: {e}")
+            print(f"    > Error processing article {i} on {url}: {e}")
             continue
 
-    global content_list
-    content_list.extend(results)
-    print(f"  > [{time.strftime('%X')}] Collect finished. Total items: {len(content_list)}.", flush=True)
-    return content_list
+    print(f"  > [{time.strftime('%X')}] Finished matching for {url}. Found {len(results)} items.", flush=True)
+    return results
 
-subpage_list = read_from_csv(curated_categories)
-print("ALL LINKS:", subpage_list)
-proof_of_concept_page = subpage_list[1]
-print("FIRST PAGE:", proof_of_concept_page)
+async def process_subpage(browser_manager, url, semaphore):
+    async with semaphore:
+        # browser_manager is now the manager instance, so we access .browser
+        page = await browser_manager.browser.new_page()
+        try:
+            results = await collect_post_data(page, url)
+            save_subpage_results(url, results)
+        finally:
+            await page.close()
 
-def run(playwright: Playwright):
-    chrome = playwright.chromium
-    browser = chrome.launch(headless=False)
-    page = browser.new_page()
-    print(f"[{time.time()-start_time:.2f}s] Page created: {page}", flush=True)
+async def run():
+    # Read links from CSV (assuming link is in the second column)
+    # We skip the header row to avoid reading the column title as a link
+    subpage_list = read_column_from_csv(curated_categories, 1, skip_header=True)
+    print(f"ALL LINKS ({len(subpage_list)}):", subpage_list)
     
-    print(f"[{time.time()-start_time:.2f}s] Navigating...", flush=True)
+    if not subpage_list:
+        print("No links found in CSV.")
+        return
 
-    # Grab the subpage link
-    print("first page:", proof_of_concept_page)
-    page.goto(proof_of_concept_page)
-    
-    print(f"[{time.time()-start_time:.2f}s] Page loaded. Collecting...", flush=True)
-    collect_post_data(page)
-    
-    print(f"[{time.time()-start_time:.2f}s] Printing results...", flush=True)
-    print_subpage_data()
-    save_subpage_data()
-    print(f"[{time.time()-start_time:.2f}s] Done. Closing browser.", flush=True)
-    browser.close()
-    # return page, browser
+    # Create a semaphore to limit concurrency
+    semaphore = asyncio.Semaphore(5)
 
-def finish(browser):
-    browser.close()
+    async with AsyncBrowserManager(headless=False) as manager:
+        print(f"[{time.time()-start_time:.2f}s] Starting concurrent scraping...", flush=True)
+        
+        tasks = []
+        for url in subpage_list:
+            if url and url.startswith("http"):
+                 tasks.append(process_subpage(manager, url, semaphore))
+            else:
+                print(f"Skipping invalid URL: {url}")
 
-print(f"[{time.time()-start_time:.2f}s] Initializing Playwright...", flush=True)
-with sync_playwright() as playwright:
-    print(f"[{time.time()-start_time:.2f}s] Playwright initialized. Starting run()", flush=True)
-    run(playwright)
+        await asyncio.gather(*tasks)
+        print(f"[{time.time()-start_time:.2f}s] Done.", flush=True)
+
+if __name__ == "__main__":
+    asyncio.run(run())
