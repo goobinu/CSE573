@@ -21,7 +21,7 @@ def save_subpage_results(category, results):
     filename = filename.replace("\n", "_").replace("\r", "") # Replace newlines
     filename = filename.replace(" ", "_") # Replace spaces with underscores
     
-    filepath = os.path.join("subpage_results", f"{filename}.csv")
+    filepath = os.path.join("CSE573/data/subpage_results", f"{filename}.csv")
     print(f"  > Saving results to {filepath}", flush=True)
     save_to_csv(filepath, ["Name", "Link to profile", "Post content", "Link to post"], results)
 
