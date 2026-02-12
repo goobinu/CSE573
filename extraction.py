@@ -10,6 +10,9 @@ from langchain_openai import ChatOpenAI
 # --- CONFIGURATION ---
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 
+# How often to save to disk? (e.g., save every 5 posts)
+SAVE_BATCH_SIZE = 5
+
 # 1. LOAD ENVIRONMENT VARIABLES
 dotenv_file = find_dotenv()
 if dotenv_file:
@@ -132,6 +135,7 @@ def extract_knowledge():
     results = []
     # We append to the existing list
     results = existing_results
+    processed_in_this_run = 0
     
     # Process all available rows/posts
     for index, row in df_to_process.iterrows():
@@ -146,11 +150,14 @@ def extract_knowledge():
                 "topic": row.get('source_topic', 'AI')
             }
             results.append(extraction)
+            processed_in_this_run += 1
 
-            # --- CHECKPOINT: SAVE AFTER EVERY POST ---
-            # This ensures if the script dies right now, this post is saved.
-            with open(OUTPUT_FILE, 'w') as f:
-                json.dump(results, f, indent=2)
+            # --- CHECKPOINT: BATCH SAVE ---
+            # Only save to disk if we've hit our batch size limit
+            if processed_in_this_run % SAVE_BATCH_SIZE == 0:
+                print(f"💾 Checkpointing... Saved {len(results)} total posts to disk.")
+                with open(OUTPUT_FILE, 'w') as f:
+                    json.dump(results, f, indent=2)
                 
             # Optional: Be nice to the API
             # time.sleep(0.5)
@@ -158,10 +165,13 @@ def extract_knowledge():
         except Exception as e:
             print(f"⚠️ Error on post {index}: {e}")
 
-    with open(OUTPUT_FILE, 'w') as f:
-        json.dump(results, f, indent=2)
+    # --- FINAL SAVE ---
+    # Catch any remaining posts that didn't trigger the batch save (e.g. if we processed 12 posts, we need to save the last 2)
+    if processed_in_this_run % SAVE_BATCH_SIZE != 0:
+        with open(OUTPUT_FILE, 'w') as f:
+            json.dump(results, f, indent=2)
     
-    print(f"\n✅ Success! Semantic Extraction saved to: {OUTPUT_FILE}")
+    print(f"\n✅ Success! Semantic Extraction fully saved to: {OUTPUT_FILE}")
 
 if __name__ == "__main__":
     extract_knowledge()
