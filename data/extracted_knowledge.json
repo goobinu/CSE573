@@ -11561,5 +11561,868 @@
       "author": "Drishti Sharma",
       "topic": "Training_&_Development"
     }
+  },
+  {
+    "entities": [
+      {
+        "name": "Eric Partaker",
+        "type": "Person",
+        "sentiment": "positive"
+      },
+      {
+        "name": "The CEO Accelerator",
+        "type": "Organization",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Sales Growth",
+        "type": "Trend",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Revenue Growth",
+        "type": "Trend",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Sales Systems",
+        "type": "Trend",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Follow-up Strategy",
+        "type": "Trend",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Cost of Inaction",
+        "type": "Trend",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Lead Qualification",
+        "type": "Trend",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Conversion Rate Optimization",
+        "type": "Trend",
+        "sentiment": "positive"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Eric Partaker",
+        "relation": "DISCUSSES",
+        "target": "Sales Growth"
+      },
+      {
+        "source": "Eric Partaker",
+        "relation": "DISCUSSES",
+        "target": "Revenue Growth"
+      },
+      {
+        "source": "Eric Partaker",
+        "relation": "DISCUSSES",
+        "target": "Sales Systems"
+      },
+      {
+        "source": "Eric Partaker",
+        "relation": "DISCUSSES",
+        "target": "Follow-up Strategy"
+      },
+      {
+        "source": "Eric Partaker",
+        "relation": "DISCUSSES",
+        "target": "Cost of Inaction"
+      },
+      {
+        "source": "Eric Partaker",
+        "relation": "DISCUSSES",
+        "target": "Lead Qualification"
+      },
+      {
+        "source": "Eric Partaker",
+        "relation": "DISCUSSES",
+        "target": "Conversion Rate Optimization"
+      },
+      {
+        "source": "The CEO Accelerator",
+        "relation": "DISCUSSES",
+        "target": "Sales Growth"
+      },
+      {
+        "source": "The CEO Accelerator",
+        "relation": "DISCUSSES",
+        "target": "Revenue Growth"
+      },
+      {
+        "source": "The CEO Accelerator",
+        "relation": "DISCUSSES",
+        "target": "Sales Systems"
+      },
+      {
+        "source": "Eric Partaker",
+        "relation": "WORKS_FOR",
+        "target": "The CEO Accelerator"
+      }
+    ],
+    "metadata": {
+      "source_url": "https://www.linkedin.com/posts/ericpartaker_sales-isnt-magic-its-math-but-if-your-activity-7343246556705271808-Xntf?utm_source=share&utm_medium=guest_desktop&utm_content=keyword-landing-page",
+      "author": "Eric Partaker",
+      "topic": "Training_&_Development"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "Microsoft",
+        "type": "Organization",
+        "sentiment": "positive"
+      },
+      {
+        "name": "NSIT",
+        "type": "Organization",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "React",
+        "type": "Technology",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Node.js",
+        "type": "Technology",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "cloud technologies",
+        "type": "Technology",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Java",
+        "type": "Technology",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "C++",
+        "type": "Technology",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Communication Skills",
+        "type": "Trend",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Learning How to Learn",
+        "type": "Trend",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Real-World Problem Solving",
+        "type": "Trend",
+        "sentiment": "positive"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "NSIT",
+        "relation": "DISCUSSES",
+        "target": "Communication Skills"
+      },
+      {
+        "source": "NSIT",
+        "relation": "DISCUSSES",
+        "target": "Learning How to Learn"
+      },
+      {
+        "source": "NSIT",
+        "relation": "DISCUSSES",
+        "target": "Real-World Problem Solving"
+      },
+      {
+        "source": "Microsoft",
+        "relation": "DISCUSSES",
+        "target": "Communication Skills"
+      },
+      {
+        "source": "Microsoft",
+        "relation": "DISCUSSES",
+        "target": "Learning How to Learn"
+      },
+      {
+        "source": "Microsoft",
+        "relation": "DISCUSSES",
+        "target": "Real-World Problem Solving"
+      },
+      {
+        "source": "Java",
+        "relation": "IS_PART_OF",
+        "target": "Learning How to Learn"
+      },
+      {
+        "source": "C++",
+        "relation": "IS_PART_OF",
+        "target": "Learning How to Learn"
+      },
+      {
+        "source": "React",
+        "relation": "IS_PART_OF",
+        "target": "Learning How to Learn"
+      },
+      {
+        "source": "Node.js",
+        "relation": "IS_PART_OF",
+        "target": "Learning How to Learn"
+      },
+      {
+        "source": "cloud technologies",
+        "relation": "IS_PART_OF",
+        "target": "Learning How to Learn"
+      }
+    ],
+    "metadata": {
+      "source_url": "https://www.linkedin.com/posts/chaharnishant11_most-engineering-graduates-are-unemployable-activity-7355465183915335680-_JTO?utm_source=share&utm_medium=guest_desktop&utm_content=keyword-landing-page",
+      "author": "Nishant Chahar",
+      "topic": "Training_&_Development"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "Carole Robin",
+        "type": "Person",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Stanford University Graduate School of Business",
+        "type": "Organization",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Leaders In Tech",
+        "type": "Organization",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Connect",
+        "type": "Technology",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Interpersonal Dynamics",
+        "type": "Trend",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Touchy Feely",
+        "type": "Trend",
+        "sentiment": "positive"
+      },
+      {
+        "name": "vulnerability",
+        "type": "Trend",
+        "sentiment": "positive"
+      },
+      {
+        "name": "mental models",
+        "type": "Trend",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "15% rule of disclosure",
+        "type": "Trend",
+        "sentiment": "positive"
+      },
+      {
+        "name": "art of inquiry",
+        "type": "Trend",
+        "sentiment": "positive"
+      },
+      {
+        "name": "three realities",
+        "type": "Trend",
+        "sentiment": "positive"
+      },
+      {
+        "name": "feedback",
+        "type": "Trend",
+        "sentiment": "positive"
+      },
+      {
+        "name": "long Covid",
+        "type": "Trend",
+        "sentiment": "negative"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Carole Robin",
+        "relation": "WORKS_FOR",
+        "target": "Stanford University Graduate School of Business"
+      },
+      {
+        "source": "Carole Robin",
+        "relation": "WORKS_FOR",
+        "target": "Leaders In Tech"
+      },
+      {
+        "source": "Carole Robin",
+        "relation": "DISCUSSES",
+        "target": "Interpersonal Dynamics"
+      },
+      {
+        "source": "Carole Robin",
+        "relation": "DISCUSSES",
+        "target": "Touchy Feely"
+      },
+      {
+        "source": "Carole Robin",
+        "relation": "DISCUSSES",
+        "target": "vulnerability"
+      },
+      {
+        "source": "Carole Robin",
+        "relation": "DISCUSSES",
+        "target": "mental models"
+      },
+      {
+        "source": "Carole Robin",
+        "relation": "DISCUSSES",
+        "target": "15% rule of disclosure"
+      },
+      {
+        "source": "Carole Robin",
+        "relation": "DISCUSSES",
+        "target": "art of inquiry"
+      },
+      {
+        "source": "Carole Robin",
+        "relation": "DISCUSSES",
+        "target": "three realities"
+      },
+      {
+        "source": "Carole Robin",
+        "relation": "DISCUSSES",
+        "target": "feedback"
+      },
+      {
+        "source": "Carole Robin",
+        "relation": "DISCUSSES",
+        "target": "long Covid"
+      },
+      {
+        "source": "Leaders In Tech",
+        "relation": "DISCUSSES",
+        "target": "Touchy Feely"
+      },
+      {
+        "source": "Connect",
+        "relation": "IS_PART_OF",
+        "target": "Interpersonal Dynamics"
+      },
+      {
+        "source": "Touchy Feely",
+        "relation": "IS_PART_OF",
+        "target": "Interpersonal Dynamics"
+      }
+    ],
+    "metadata": {
+      "source_url": "https://www.linkedin.com/posts/lennyrachitsky_many-of-my-podcast-episodes-will-make-you-activity-7189292680634355713-wHNu?utm_source=share&utm_medium=guest_desktop&utm_content=keyword-landing-page",
+      "author": "Lenny Rachitsky",
+      "topic": "Training_&_Development"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "Hunter",
+        "type": "Trend",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Farmer",
+        "type": "Trend",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Sales Leadership",
+        "type": "Trend",
+        "sentiment": "positive"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Hunter",
+        "relation": "DISCUSSES",
+        "target": "Sales Leadership"
+      },
+      {
+        "source": "Farmer",
+        "relation": "DISCUSSES",
+        "target": "Sales Leadership"
+      }
+    ],
+    "metadata": {
+      "source_url": "https://www.linkedin.com/posts/johnrobertharvey_did-you-hire-a-hunter-only-to-train-them-activity-7296166966371799041-rk1y?utm_source=share&utm_medium=guest_desktop&utm_content=keyword-landing-page",
+      "author": "John Harvey",
+      "topic": "Training_&_Development"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "Integrated brain training",
+        "type": "Trend",
+        "sentiment": "positive"
+      },
+      {
+        "name": "ACL rehab",
+        "type": "Trend",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Grooms",
+        "type": "Person",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Tayfur",
+        "type": "Person",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Bodkin",
+        "type": "Person",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Criss",
+        "type": "Person",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Capin",
+        "type": "Person",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Kuenze",
+        "type": "Person",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Lepley",
+        "type": "Person",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Villa",
+        "type": "Person",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Chaaban",
+        "type": "Person",
+        "sentiment": "neutral"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Grooms",
+        "relation": "DISCUSSES",
+        "target": "ACL rehab"
+      },
+      {
+        "source": "Tayfur",
+        "relation": "DISCUSSES",
+        "target": "ACL rehab"
+      },
+      {
+        "source": "Bodkin",
+        "relation": "DISCUSSES",
+        "target": "ACL rehab"
+      },
+      {
+        "source": "Criss",
+        "relation": "DISCUSSES",
+        "target": "ACL rehab"
+      },
+      {
+        "source": "Capin",
+        "relation": "DISCUSSES",
+        "target": "ACL rehab"
+      },
+      {
+        "source": "Kuenze",
+        "relation": "DISCUSSES",
+        "target": "ACL rehab"
+      },
+      {
+        "source": "Lepley",
+        "relation": "DISCUSSES",
+        "target": "ACL rehab"
+      },
+      {
+        "source": "Villa",
+        "relation": "DISCUSSES",
+        "target": "ACL rehab"
+      },
+      {
+        "source": "Chaaban",
+        "relation": "DISCUSSES",
+        "target": "ACL rehab"
+      },
+      {
+        "source": "Integrated brain training",
+        "relation": "IS_PART_OF",
+        "target": "ACL rehab"
+      },
+      {
+        "source": "Grooms",
+        "relation": "DISCUSSES",
+        "target": "Integrated brain training"
+      }
+    ],
+    "metadata": {
+      "source_url": "https://www.linkedin.com/posts/bram-swinnen-685659229_integrated-brain-training-is-a-real-game-changer-activity-7148614843271450625-oVrK?utm_source=share&utm_medium=guest_desktop&utm_content=keyword-landing-page",
+      "author": "Bram Swinnen",
+      "topic": "Training_&_Development"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "B2B companies",
+        "type": "Organization",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Sales",
+        "type": "Organization",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Marketing",
+        "type": "Organization",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "SDRs",
+        "type": "Organization",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Customer Success",
+        "type": "Organization",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Revenue leaders",
+        "type": "Organization",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "All-Bound model",
+        "type": "Trend",
+        "sentiment": "positive"
+      },
+      {
+        "name": "buyer intent",
+        "type": "Trend",
+        "sentiment": "positive"
+      },
+      {
+        "name": "GTM motion",
+        "type": "Trend",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "pipeline sources",
+        "type": "Trend",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "revenue strategy",
+        "type": "Trend",
+        "sentiment": "positive"
+      },
+      {
+        "name": "sales funnel",
+        "type": "Trend",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "demand waterfall",
+        "type": "Trend",
+        "sentiment": "negative"
+      },
+      {
+        "name": "self-reported attribution",
+        "type": "Technology",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "revenue planning",
+        "type": "Trend",
+        "sentiment": "positive"
+      },
+      {
+        "name": "forecasting",
+        "type": "Trend",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "sales efficiency",
+        "type": "Trend",
+        "sentiment": "positive"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "B2B companies",
+        "relation": "DISCUSSES",
+        "target": "All-Bound model"
+      },
+      {
+        "source": "B2B companies",
+        "relation": "DISCUSSES",
+        "target": "buyer intent"
+      },
+      {
+        "source": "B2B companies",
+        "relation": "DISCUSSES",
+        "target": "revenue strategy"
+      },
+      {
+        "source": "B2B companies",
+        "relation": "DISCUSSES",
+        "target": "revenue planning"
+      },
+      {
+        "source": "B2B companies",
+        "relation": "DISCUSSES",
+        "target": "forecasting"
+      },
+      {
+        "source": "Sales",
+        "relation": "DISCUSSES",
+        "target": "sales funnel"
+      },
+      {
+        "source": "Marketing",
+        "relation": "DISCUSSES",
+        "target": "sales funnel"
+      },
+      {
+        "source": "SDRs",
+        "relation": "DISCUSSES",
+        "target": "sales funnel"
+      },
+      {
+        "source": "Customer Success",
+        "relation": "DISCUSSES",
+        "target": "sales funnel"
+      },
+      {
+        "source": "Revenue leaders",
+        "relation": "DISCUSSES",
+        "target": "revenue strategy"
+      },
+      {
+        "source": "Revenue leaders",
+        "relation": "DISCUSSES",
+        "target": "revenue planning"
+      },
+      {
+        "source": "Revenue leaders",
+        "relation": "DISCUSSES",
+        "target": "forecasting"
+      },
+      {
+        "source": "Marketing",
+        "relation": "USES",
+        "target": "self-reported attribution"
+      },
+      {
+        "source": "self-reported attribution",
+        "relation": "IS_PART_OF",
+        "target": "revenue strategy"
+      },
+      {
+        "source": "pipeline sources",
+        "relation": "IS_PART_OF",
+        "target": "buyer intent"
+      },
+      {
+        "source": "buyer intent",
+        "relation": "IS_PART_OF",
+        "target": "GTM motion"
+      },
+      {
+        "source": "sales funnel",
+        "relation": "IS_PART_OF",
+        "target": "All-Bound model"
+      },
+      {
+        "source": "All-Bound model",
+        "relation": "DISCUSSES",
+        "target": "sales efficiency"
+      },
+      {
+        "source": "demand waterfall",
+        "relation": "DISCUSSES",
+        "target": "sales funnel"
+      },
+      {
+        "source": "B2B companies",
+        "relation": "COMPETES_WITH",
+        "target": "demand waterfall"
+      }
+    ],
+    "metadata": {
+      "source_url": "https://www.linkedin.com/posts/chriswalker171_old-way-look-at-the-sales-funnel-by-department-activity-7092850512974249984-Ks22?utm_source=share&utm_medium=guest_desktop&utm_content=keyword-landing-page",
+      "author": "Chris Walker",
+      "topic": "Training_&_Development"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "ProfoliosAI",
+        "type": "Organization",
+        "sentiment": "positive"
+      },
+      {
+        "name": "leadership development",
+        "type": "Trend",
+        "sentiment": "positive"
+      },
+      {
+        "name": "team management",
+        "type": "Trend",
+        "sentiment": "positive"
+      },
+      {
+        "name": "job market 2025",
+        "type": "Trend",
+        "sentiment": "neutral"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "ProfoliosAI",
+        "relation": "DISCUSSES",
+        "target": "leadership development"
+      },
+      {
+        "source": "ProfoliosAI",
+        "relation": "DISCUSSES",
+        "target": "team management"
+      },
+      {
+        "source": "ProfoliosAI",
+        "relation": "DISCUSSES",
+        "target": "job market 2025"
+      }
+    ],
+    "metadata": {
+      "source_url": "https://www.linkedin.com/posts/deepalivyas_if-your-one-on-ones-are-primarily-status-activity-7312475590970757120-zMao?utm_source=share&utm_medium=guest_desktop&utm_content=keyword-landing-page",
+      "author": "Deepali Vyas",
+      "topic": "Training_&_Development"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "Coach",
+        "type": "Person",
+        "sentiment": "positive"
+      },
+      {
+        "name": "LinkedIn",
+        "type": "Organization",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Personal Brand",
+        "type": "Trend",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Referrals",
+        "type": "Trend",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Trust-Building Content",
+        "type": "Trend",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Value-First Content",
+        "type": "Trend",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Clear Offer",
+        "type": "Trend",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Generative AI",
+        "type": "Trend",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Agentic Workflows",
+        "type": "Trend",
+        "sentiment": "neutral"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Coach",
+        "relation": "DISCUSSES",
+        "target": "Personal Brand"
+      },
+      {
+        "source": "Coach",
+        "relation": "DISCUSSES",
+        "target": "Referrals"
+      },
+      {
+        "source": "Coach",
+        "relation": "DISCUSSES",
+        "target": "Trust-Building Content"
+      },
+      {
+        "source": "Coach",
+        "relation": "DISCUSSES",
+        "target": "Value-First Content"
+      },
+      {
+        "source": "Coach",
+        "relation": "DISCUSSES",
+        "target": "Clear Offer"
+      },
+      {
+        "source": "LinkedIn",
+        "relation": "DISCUSSES",
+        "target": "Personal Brand"
+      },
+      {
+        "source": "LinkedIn",
+        "relation": "DISCUSSES",
+        "target": "Referrals"
+      }
+    ],
+    "metadata": {
+      "source_url": "https://www.linkedin.com/posts/priyanka-rakshit-personalbrandingexpert_you-dont-need-100k-followers-to-build-a-activity-7336622975225425921-xgdK?utm_source=share&utm_medium=guest_desktop&utm_content=keyword-landing-page",
+      "author": "Priyanka Rakshit",
+      "topic": "Training_&_Development"
+    }
   }
 ]
