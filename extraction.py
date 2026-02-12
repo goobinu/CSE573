@@ -18,7 +18,7 @@ VOYAGER_MODEL_NAME = "qwen3-235b-a22b-instruct-2507"
 VOYAGER_BASE_URL = "https://openai.rc.asu.edu/v1"
 
 # Get key from environment variable: export VOYAGER_API_KEY="your_key"
-VOYAGER_API_KEY = os.environ.get("VOYAGER_API_KEY", "")
+VOYAGER_API_KEY = os.environ.get("llm_api_key", "")
 
 def get_llm():
     print(f"--- Connecting to ASU Voyager API: {VOYAGER_MODEL_NAME} ---")
