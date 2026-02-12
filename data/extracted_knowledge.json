@@ -1,0 +1,390 @@
+[
+  {
+    "entities": [
+      {
+        "name": "Mayfield Fund",
+        "type": "Organization",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Gen AI",
+        "type": "Trend",
+        "sentiment": "positive"
+      },
+      {
+        "name": "LLMs",
+        "type": "Technology",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Content Generation",
+        "type": "Trend",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Knowledge CoPilots",
+        "type": "Trend",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Coding CoPilots",
+        "type": "Trend",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Coaching CoPilots",
+        "type": "Trend",
+        "sentiment": "positive"
+      },
+      {
+        "name": "RPA Autopilots",
+        "type": "Trend",
+        "sentiment": "positive"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Mayfield Fund",
+        "relation": "DISCUSSES",
+        "target": "Gen AI"
+      },
+      {
+        "source": "LLMs",
+        "relation": "IS_PART_OF",
+        "target": "Gen AI"
+      },
+      {
+        "source": "LLMs",
+        "relation": "IS_PART_OF",
+        "target": "Content Generation"
+      },
+      {
+        "source": "LLMs",
+        "relation": "IS_PART_OF",
+        "target": "Knowledge CoPilots"
+      },
+      {
+        "source": "LLMs",
+        "relation": "IS_PART_OF",
+        "target": "Coding CoPilots"
+      },
+      {
+        "source": "LLMs",
+        "relation": "IS_PART_OF",
+        "target": "Coaching CoPilots"
+      },
+      {
+        "source": "LLMs",
+        "relation": "IS_PART_OF",
+        "target": "RPA Autopilots"
+      }
+    ],
+    "metadata": {
+      "source_url": "https://www.linkedin.com/posts/patricksalyer_not-surprisingly-at-mayfield-fund-we-are-activity-7107750534870175744-EQHf?utm_source=share&utm_medium=guest_desktop&utm_content=keyword-landing-page",
+      "author": "Patrick Salyer",
+      "topic": "\ud83d\udca1_Top_Emerging_AI_Use_Cases_and_Their_Capabilities"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "ServiceNow",
+        "type": "Organization",
+        "sentiment": "positive"
+      },
+      {
+        "name": "AI",
+        "type": "Trend",
+        "sentiment": "positive"
+      },
+      {
+        "name": "ChatGPT",
+        "type": "Technology",
+        "sentiment": "positive"
+      },
+      {
+        "name": "World\u2019s largest mining company",
+        "type": "Organization",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "IKEA",
+        "type": "Organization",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Klarna AI assistant",
+        "type": "Technology",
+        "sentiment": "positive"
+      },
+      {
+        "name": "NVIDIA",
+        "type": "Organization",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Simulation Solutions",
+        "type": "Organization",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "computer vision",
+        "type": "Technology",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Omniverse",
+        "type": "Technology",
+        "sentiment": "positive"
+      },
+      {
+        "name": "digital twins",
+        "type": "Technology",
+        "sentiment": "positive"
+      },
+      {
+        "name": "BioNeMo",
+        "type": "Technology",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Generative AI",
+        "type": "Trend",
+        "sentiment": "positive"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "ServiceNow",
+        "relation": "DISCUSSES",
+        "target": "AI"
+      },
+      {
+        "source": "World\u2019s largest mining company",
+        "relation": "USES",
+        "target": "ChatGPT"
+      },
+      {
+        "source": "IKEA",
+        "relation": "USES",
+        "target": "AI"
+      },
+      {
+        "source": "Klarna AI assistant",
+        "relation": "IS_PART_OF",
+        "target": "AI"
+      },
+      {
+        "source": "NVIDIA",
+        "relation": "PARTNERED_WITH",
+        "target": "Simulation Solutions"
+      },
+      {
+        "source": "NVIDIA",
+        "relation": "USES",
+        "target": "computer vision"
+      },
+      {
+        "source": "NVIDIA",
+        "relation": "USES",
+        "target": "Omniverse"
+      },
+      {
+        "source": "Omniverse",
+        "relation": "RELEASED",
+        "target": "digital twins"
+      },
+      {
+        "source": "digital twins",
+        "relation": "IS_PART_OF",
+        "target": "AI"
+      },
+      {
+        "source": "NVIDIA",
+        "relation": "RELEASED",
+        "target": "BioNeMo"
+      },
+      {
+        "source": "BioNeMo",
+        "relation": "IS_PART_OF",
+        "target": "Generative AI"
+      },
+      {
+        "source": "ChatGPT",
+        "relation": "IS_PART_OF",
+        "target": "Generative AI"
+      }
+    ],
+    "metadata": {
+      "source_url": "https://www.linkedin.com/posts/briansolis_in-my-work-at-servicenow-we-continuously-activity-7173006134914564096-Q5hY?utm_source=share&utm_medium=guest_desktop&utm_content=keyword-landing-page",
+      "author": "Brian Solis",
+      "topic": "\ud83d\udca1_Top_Emerging_AI_Use_Cases_and_Their_Capabilities"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "OpenAI",
+        "type": "Organization",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Google",
+        "type": "Organization",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Anthropic",
+        "type": "Organization",
+        "sentiment": "positive"
+      },
+      {
+        "name": "ChatGPT",
+        "type": "Technology",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Gemini",
+        "type": "Technology",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Claude",
+        "type": "Technology",
+        "sentiment": "positive"
+      },
+      {
+        "name": "GPT-4V",
+        "type": "Technology",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Large Language Models",
+        "type": "Trend",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Generative AI",
+        "type": "Trend",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Visual AI",
+        "type": "Trend",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Multimodal AI",
+        "type": "Trend",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Robots and Automation",
+        "type": "Trend",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Security and Identification",
+        "type": "Trend",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Healthcare Applications",
+        "type": "Trend",
+        "sentiment": "positive"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "OpenAI",
+        "relation": "RELEASED",
+        "target": "ChatGPT"
+      },
+      {
+        "source": "OpenAI",
+        "relation": "RELEASED",
+        "target": "GPT-4V"
+      },
+      {
+        "source": "Google",
+        "relation": "RELEASED",
+        "target": "Gemini"
+      },
+      {
+        "source": "Anthropic",
+        "relation": "RELEASED",
+        "target": "Claude"
+      },
+      {
+        "source": "ChatGPT",
+        "relation": "IS_PART_OF",
+        "target": "Visual AI"
+      },
+      {
+        "source": "Gemini",
+        "relation": "IS_PART_OF",
+        "target": "Visual AI"
+      },
+      {
+        "source": "Claude",
+        "relation": "IS_PART_OF",
+        "target": "Visual AI"
+      },
+      {
+        "source": "GPT-4V",
+        "relation": "IS_PART_OF",
+        "target": "Visual AI"
+      },
+      {
+        "source": "GPT-4V",
+        "relation": "IS_PART_OF",
+        "target": "Large Language Models"
+      },
+      {
+        "source": "Gemini",
+        "relation": "IS_PART_OF",
+        "target": "Multimodal AI"
+      },
+      {
+        "source": "Claude",
+        "relation": "IS_PART_OF",
+        "target": "Multimodal AI"
+      },
+      {
+        "source": "Visual AI",
+        "relation": "DISCUSSES",
+        "target": "Robots and Automation"
+      },
+      {
+        "source": "Visual AI",
+        "relation": "DISCUSSES",
+        "target": "Security and Identification"
+      },
+      {
+        "source": "Visual AI",
+        "relation": "DISCUSSES",
+        "target": "Healthcare Applications"
+      },
+      {
+        "source": "OpenAI",
+        "relation": "DISCUSSES",
+        "target": "Visual AI"
+      },
+      {
+        "source": "Google",
+        "relation": "DISCUSSES",
+        "target": "Visual AI"
+      },
+      {
+        "source": "Anthropic",
+        "relation": "DISCUSSES",
+        "target": "Visual AI"
+      }
+    ],
+    "metadata": {
+      "source_url": "https://www.linkedin.com/posts/harveycastromd_your-ai-will-see-you-now-unveiling-the-visual-activity-7190726555348656129-IBhK?utm_source=share&utm_medium=guest_desktop&utm_content=keyword-landing-page",
+      "author": "Harvey Castro, MD, MBA.",
+      "topic": "\ud83d\udca1_Top_Emerging_AI_Use_Cases_and_Their_Capabilities"
+    }
+  }
+]
