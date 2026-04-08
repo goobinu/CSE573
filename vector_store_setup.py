@@ -1,7 +1,7 @@
 import pandas as pd
 import chromadb
 import hashlib
-
+from config import MASTER_DATASET_PATH, CHROMA_DB_PATH
 def generate_id(url, index):
     if url:
         return hashlib.md5(str(url).encode('utf-8')).hexdigest() + f"_{index}"
@@ -10,12 +10,12 @@ def generate_id(url, index):
 def main():
     print("Loading data...")
     # Load dataset
-    df = pd.read_csv('data/master_dataset_cleaned.csv')
+    df = pd.read_csv(MASTER_DATASET_PATH)
     df.fillna('', inplace=True)
     
     print("Initializing ChromaDB...")
     # Init ChromaDB
-    chroma_client = chromadb.PersistentClient(path="data/chroma_db")
+    chroma_client = chromadb.PersistentClient(path=CHROMA_DB_PATH)
     collection = chroma_client.get_or_create_collection(name="linkedin_posts")
     
     docs = []

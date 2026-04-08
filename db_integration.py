@@ -1,24 +1,18 @@
 import os
 import json
-from dotenv import load_dotenv
 from neo4j import GraphDatabase
 
-# Load environment variables
-load_dotenv()
-
-NEO4J_URI = os.getenv("NEO4J_URI")
-NEO4J_USERNAME = os.getenv("NEO4J_USERNAME")
-NEO4J_PASSWORD = os.getenv("NEO4J_PASSWORD")
+from config import NEO4J_URI, NEO4J_USERNAME, NEO4J_PASSWORD, FINAL_KNOWLEDGE_PATH, SCHEMA_CONFIG
 
 def ingest_data():
     if not all([NEO4J_URI, NEO4J_USERNAME, NEO4J_PASSWORD]):
-        print("Missing Neo4j credentials in environment variables.")
+        print("Missing Neo4j credentials in config/environment variables.")
         return
 
     # Initialize Neo4j driver connection
     driver = GraphDatabase.driver(NEO4J_URI, auth=(NEO4J_USERNAME, NEO4J_PASSWORD))
     
-    file_path = "data/final_knowledge_graph.json"
+    file_path = FINAL_KNOWLEDGE_PATH
     try:
         with open(file_path, "r", encoding="utf-8") as f:
             data = json.load(f)
@@ -47,6 +41,10 @@ def ingest_data():
                     if not name:
                         continue
                         
+                    if label not in SCHEMA_CONFIG["NODE_LABELS"]:
+                        print(f"Skipping node '{name}': Label '{label}' not in allowed schema.")
+                        continue
+                        
                     query = f"""
                     MERGE (n:`{label}` {{name: $name}})
                     SET n.sentiment = $sentiment
@@ -64,6 +62,10 @@ def ingest_data():
                         relation_type = "RELATED_TO"
                         
                     if not source or not target:
+                        continue
+                        
+                    if relation_type not in SCHEMA_CONFIG["RELATIONSHIP_TYPES"]:
+                        print(f"Skipping relation {source}-[{relation_type}]->{target}: Type not in allowed schema.")
                         continue
                         
                     query = f"""

@@ -4,14 +4,12 @@ import jellyfish
 from openai import OpenAI
 from dotenv import load_dotenv
 
-load_dotenv()
+from config import EXTRACTED_KNOWLEDGE_PATH, FINAL_KNOWLEDGE_PATH, VOYAGER_API_KEY, VOYAGER_BASE_URL
 
-SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-INPUT_FILE = os.path.join(SCRIPT_DIR, "data", "extracted_knowledge.json")
-OUTPUT_FILE = os.path.join(SCRIPT_DIR, "data", "normalized_knowledge.json")
+INPUT_FILE = EXTRACTED_KNOWLEDGE_PATH
+OUTPUT_FILE = FINAL_KNOWLEDGE_PATH
 
-api_key = os.environ.get("VOYAGER_API_KEY") or os.environ.get("llm_api_key", "")
-api_key = api_key.strip().strip('"').strip("'")  # Strip spaces/quotes just in case
+api_key = VOYAGER_API_KEY.strip().strip('"').strip("'")  # Strip spaces/quotes just in case
 
 if not api_key.startswith("sk-"):
     raise ValueError(f"CRITICAL: API Key must start with 'sk-'. Currently it is: '{api_key[:4]}...'")
@@ -19,7 +17,7 @@ if not api_key.startswith("sk-"):
 # Configure OpenAI client for ASU Voyager
 client = OpenAI(
     api_key=api_key,
-    base_url="https://openai.rc.asu.edu/v1"
+    base_url=VOYAGER_BASE_URL
 )
 
 def resolve_batches(uncertain_pairs):

@@ -55,12 +55,18 @@ def get_rag_response(user_query):
         # Construct context string
         context_parts = []
         for doc, meta in zip(all_documents, all_metadatas):
-            context_parts.append(
+            context_str = (
                 f"---\nPlatform: {meta.get('source', 'Unknown')}\n"
                 f"Author/Entity: {meta.get('author_name', 'Unknown')}\n"
                 f"URL: {meta.get('post_url', 'Unknown')}\n"
-                f"Content: {doc}\n"
             )
+            # Add granular metadata
+            for key, value in meta.items():
+                if key not in ['source', 'author_name', 'post_url', 'source_topic'] and value:
+                    context_str += f"{key.replace('_', ' ').title()}: {value}\n"
+            
+            context_str += f"Content: {doc}\n"
+            context_parts.append(context_str)
         
         context_string = "\n".join(context_parts)
         

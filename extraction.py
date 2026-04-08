@@ -2,45 +2,18 @@ import pandas as pd
 import json
 import os
 import time
-from dotenv import load_dotenv, find_dotenv
+
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import JsonOutputParser
-from langchain_openai import ChatOpenAI
 
-# --- CONFIGURATION ---
-SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+from config import MASTER_DATASET_PATH, EXTRACTED_KNOWLEDGE_PATH
+from utils.llm_client import get_llm
 
 # How often to save to disk? (e.g., save every 5 posts)
 SAVE_BATCH_SIZE = 5
 
-# 1. LOAD ENVIRONMENT VARIABLES
-dotenv_file = find_dotenv()
-if dotenv_file:
-    print(f"✅ Found .env file at: {dotenv_file}")
-    load_dotenv(dotenv_file)
-else:
-    print("❌ WARNING: No .env file found! Trying to proceed with system variables...")
-
-DATA_FILE = os.path.join(SCRIPT_DIR, "data", "master_dataset_cleaned.csv")
-OUTPUT_FILE = os.path.join(SCRIPT_DIR, "data", "extracted_knowledge.json")
-
-# --- ASU VOYAGER CONFIG ---
-VOYAGER_MODEL_NAME = "qwen3-235b-a22b-instruct-2507" 
-VOYAGER_BASE_URL = "https://openai.rc.asu.edu/v1"
-VOYAGER_API_KEY = os.environ.get("VOYAGER_API_KEY", "")
-
-def get_llm():
-    print(f"--- Connecting to ASU Voyager API: {VOYAGER_MODEL_NAME} ---")
-    if not VOYAGER_API_KEY:
-        raise ValueError("CRITICAL: VOYAGER_API_KEY not found. Please check your .env file.")
-    
-    return ChatOpenAI(
-        model=VOYAGER_MODEL_NAME,
-        openai_api_key=VOYAGER_API_KEY,
-        openai_api_base=VOYAGER_BASE_URL,
-        temperature=0.1, 
-        max_retries=3
-    )
+DATA_FILE = MASTER_DATASET_PATH
+OUTPUT_FILE = EXTRACTED_KNOWLEDGE_PATH
 
 # --- THE IMPROVED PROMPT ---
 # We now enforce specific VERBS for relationships.
