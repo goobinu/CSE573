@@ -8,18 +8,19 @@ SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 # Define the script sequences for each pipeline stage
 PIPELINE_MAP = {
     "scrape": [
-        "topcategoriesscraper.py",
-        "resultscurator.py",
-        "subpagescraping.py"
+        "CODE/scraping/topcategoriesscraper.py",
+        "CODE/scraping/resultscurator.py",
+        "CODE/scraping/subpagescraping.py"
     ],
     "process": [
-        "ingestion.py",
-        "extraction.py",
-        "entity_resolution.py"
+        "CODE/processing/ingestion.py",
+        "CODE/processing/reddit_ingestion.py",
+        "CODE/processing/extraction.py",
+        "CODE/processing/entity_resolution.py"
     ],
     "upload": [
-        "db_integration.py",
-        "vector_store_setup.py"
+        "CODE/database/db_integration.py",
+        "CODE/database/vector_store_setup.py"
     ]
 }
 
@@ -32,8 +33,12 @@ def run_script(script_name):
         
     print(f"\n{'='*50}\n🚀 RUNNING: {script_name}\n{'='*50}")
     try:
+        env = os.environ.copy()
+        # Ensure scripts can import both from the root and from inside CODE/
+        code_dir = os.path.join(SCRIPT_DIR, "CODE")
+        env["PYTHONPATH"] = f"{SCRIPT_DIR}{os.pathsep}{code_dir}"
         # We use sys.executable to ensure the same Python environment is used
-        result = subprocess.run([sys.executable, script_path], check=True)
+        result = subprocess.run([sys.executable, script_path], check=True, env=env)
         print(f"✅ COMPLETED: {script_name}\n{'='*50}\n")
     except subprocess.CalledProcessError as e:
         print(f"❌ FAILED: {script_name} with exit code {e.returncode}\n{'='*50}\n")
@@ -59,6 +64,10 @@ def main():
     if not any(vars(args).values()):
         parser.print_help()
         sys.exit(1)
+
+    if args.all or args.process or args.upload:
+        print("\n[Orchestrator] 🛡️ Initiating automated pre-run data backup...")
+        run_script("CODE/utilities/backup_manager.py")
 
     if args.all or args.scrape:
         print("\n=== STARTING SCRAPE PIPELINE ===")

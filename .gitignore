@@ -2,3 +2,4 @@ testscraper/lib/
 testscraper_broken/lib/
 .env
 data/chroma_db/
+DATA/db_backups/
