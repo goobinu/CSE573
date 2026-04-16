@@ -4,10 +4,11 @@ import os
 from config import DATA_DIR_RAW, REDDIT_CLEANED_CSV_PATH
 
 def process_reddit_data():
-    files = ["Entrepreneur_tagged.jsonl", "startups_tagged.jsonl"]
     reddit_dir = os.path.join(DATA_DIR_RAW, "reddit")
     
     all_data = []
+    
+    files = [f for f in os.listdir(reddit_dir) if f.endswith('.jsonl')]
     
     for file in files:
         filepath = os.path.join(reddit_dir, file)
@@ -29,7 +30,7 @@ def process_reddit_data():
                         "Name": "Reddit User",
                         "Link to profile": "",
                         "Post content": data.get('text', ''),
-                        "Link to post": data.get('post_id', ''),
+                        "Link to post": data.get('url', ''),
                         "source_topic": topic,
                         "clean_content": data.get('text', ''),
                         "source": "Reddit",

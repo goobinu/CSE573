@@ -82,6 +82,7 @@ def process_data():
                 record = {
                     "id": post_id,
                     "type": "post",
+                    "url": post.get("url"),
                     "text": text,
                     "score": score,
                     "importance": importance
@@ -101,6 +102,7 @@ def process_data():
                     record = {
                         "id": comment.get("id"),
                         "type": "comment",
+                        "url": comment.get("url"),
                         "post_id": post_id,
                         "text": c_text,
                         "score": c_score,

@@ -65,7 +65,8 @@ def extract_comments(children):
                 "author": data.get("author"),
                 "body": data.get("body"),
                 "score": data.get("score"),
-                "created_utc": data.get("created_utc")
+                "created_utc": data.get("created_utc"),
+                "url": f"https://www.reddit.com{data.get('permalink')}" if data.get("permalink") else None
             })
 
             if data.get("replies") and isinstance(data["replies"], dict):
@@ -104,6 +105,7 @@ def run_scraper():
             "num_comments": post.get("num_comments"),
             "created_utc": post.get("created_utc"),
             "permalink": post.get("permalink"),
+            "url": f"https://www.reddit.com{post.get('permalink')}", 
             "fetched_at": int(time.time())
         }
 

@@ -57,6 +57,7 @@ def create_chunks():
                 chunk_record = {
                     "chunk_id": f"{record['id']}_{idx}",
                     "post_id": record.get("post_id", record["id"]),
+                    "url": record.get("url"),
                     "type": record["type"],
                     "text": chunk_text,
                     "importance": record["importance"]

@@ -289,7 +289,7 @@
         "sentiment": "positive"
       },
       {
-        "name": "Healthcare Providers",
+        "name": "Healthcare Applications",
         "type": "Trend",
         "sentiment": "positive"
       }
@@ -363,7 +363,7 @@
       {
         "source": "Visual AI",
         "relation": "DISCUSSES",
-        "target": "Healthcare Providers"
+        "target": "Healthcare Applications"
       },
       {
         "source": "OpenAI",
@@ -531,7 +531,7 @@
         "sentiment": "positive"
       },
       {
-        "name": "Agentic AI",
+        "name": "Agentive AI",
         "type": "Trend",
         "sentiment": "positive"
       },
@@ -546,7 +546,7 @@
         "sentiment": "neutral"
       },
       {
-        "name": "Healthcare Providers",
+        "name": "Healthcare Organizations",
         "type": "Organization",
         "sentiment": "neutral"
       },
@@ -580,7 +580,7 @@
       {
         "source": "Explainable AI",
         "relation": "IS_PART_OF",
-        "target": "Agentic AI"
+        "target": "Agentive AI"
       },
       {
         "source": "Explainable AI",
@@ -593,7 +593,7 @@
         "target": "Explainable AI"
       },
       {
-        "source": "Healthcare Providers",
+        "source": "Healthcare Organizations",
         "relation": "DISCUSSES",
         "target": "AI In Hyper-Personalized Marketing"
       },
@@ -605,7 +605,7 @@
       {
         "source": "Manufacturing Plants",
         "relation": "DISCUSSES",
-        "target": "Agentic AI"
+        "target": "Agentive AI"
       },
       {
         "source": "Media Companies",
@@ -1314,7 +1314,7 @@
         "sentiment": "positive"
       },
       {
-        "name": "Agentic AI",
+        "name": "Agentive AI",
         "type": "Trend",
         "sentiment": "positive"
       },
@@ -1329,7 +1329,7 @@
         "sentiment": "positive"
       },
       {
-        "name": "Graphs",
+        "name": "Graph DB",
         "type": "Technology",
         "sentiment": "positive"
       },
@@ -1438,10 +1438,10 @@
       {
         "source": "Retrieval-Augmented Generation",
         "relation": "IS_PART_OF",
-        "target": "Agentic AI"
+        "target": "Agentive AI"
       },
       {
-        "source": "Graphs",
+        "source": "Graph DB",
         "relation": "IS_PART_OF",
         "target": "LLMs With Graphs"
       },
@@ -1495,7 +1495,7 @@
         "sentiment": "positive"
       },
       {
-        "name": "Agentic AI",
+        "name": "Agentive AI",
         "type": "Trend",
         "sentiment": "positive"
       },
@@ -1540,7 +1540,7 @@
         "sentiment": "positive"
       },
       {
-        "name": "Responsible AI Implementation",
+        "name": "Responsible AI",
         "type": "Trend",
         "sentiment": "positive"
       },
@@ -1574,7 +1574,7 @@
       {
         "source": "Mckinsey & Company",
         "relation": "DISCUSSES",
-        "target": "Agentic AI"
+        "target": "Agentive AI"
       },
       {
         "source": "Mckinsey & Company",
@@ -1619,7 +1619,7 @@
       {
         "source": "Mckinsey & Company",
         "relation": "DISCUSSES",
-        "target": "Responsible AI Implementation"
+        "target": "Responsible AI"
       },
       {
         "source": "Mckinsey & Company",
@@ -1647,7 +1647,7 @@
         "target": "Generative AI"
       },
       {
-        "source": "Agentic AI",
+        "source": "Agentive AI",
         "relation": "IS_PART_OF",
         "target": "Generative AI"
       },
@@ -1699,7 +1699,7 @@
       {
         "source": "Trust Architecture",
         "relation": "IS_PART_OF",
-        "target": "Responsible AI Implementation"
+        "target": "Responsible AI"
       }
     ],
     "metadata": {
@@ -3182,7 +3182,7 @@
         "sentiment": "positive"
       },
       {
-        "name": "Agentic AI",
+        "name": "Agentive AI",
         "type": "Trend",
         "sentiment": "neutral"
       }
@@ -3251,7 +3251,7 @@
       {
         "source": "Procter And Gamble",
         "relation": "DISCUSSES",
-        "target": "Agentic AI"
+        "target": "Agentive AI"
       },
       {
         "source": "Artificial Intelligence",
@@ -3278,7 +3278,7 @@
         "sentiment": "positive"
       },
       {
-        "name": "Agentic AI",
+        "name": "Agentive AI",
         "type": "Technology",
         "sentiment": "positive"
       },
@@ -3310,12 +3310,12 @@
         "target": "Integration Testing"
       },
       {
-        "source": "Agentic AI",
+        "source": "Agentive AI",
         "relation": "IS_PART_OF",
         "target": "Enterprise AI"
       },
       {
-        "source": "Agentic AI",
+        "source": "Agentive AI",
         "relation": "IS_PART_OF",
         "target": "Integration Testing"
       },
@@ -3325,7 +3325,7 @@
         "target": "Integration Testing"
       },
       {
-        "source": "Agentic AI",
+        "source": "Agentive AI",
         "relation": "DISCUSSES",
         "target": "Organizational Intelligence"
       },
@@ -3399,7 +3399,7 @@
         "sentiment": "positive"
       },
       {
-        "name": "Agentic AI",
+        "name": "Agentive AI",
         "type": "Trend",
         "sentiment": "neutral"
       },
@@ -3423,7 +3423,7 @@
       {
         "source": "Super.Com",
         "relation": "DISCUSSES",
-        "target": "Agentic AI"
+        "target": "Agentive AI"
       },
       {
         "source": "Super.Com",
@@ -3448,12 +3448,12 @@
       {
         "source": "Windsurf",
         "relation": "IS_PART_OF",
-        "target": "Agentic AI"
+        "target": "Agentive AI"
       },
       {
         "source": "Axiom",
         "relation": "IS_PART_OF",
-        "target": "Agentic AI"
+        "target": "Agentive AI"
       },
       {
         "source": "O1",
@@ -3646,7 +3646,7 @@
         "sentiment": "neutral"
       },
       {
-        "name": "Responsible AI Implementation",
+        "name": "Responsible AI",
         "type": "Trend",
         "sentiment": "positive"
       },
@@ -3685,12 +3685,12 @@
       {
         "source": "AI Diagnostic System",
         "relation": "IS_PART_OF",
-        "target": "Responsible AI Implementation"
+        "target": "Responsible AI"
       },
       {
         "source": "Global Healthcare Company",
         "relation": "DISCUSSES",
-        "target": "Responsible AI Implementation"
+        "target": "Responsible AI"
       },
       {
         "source": "Doctor",
@@ -3698,12 +3698,12 @@
         "target": "Global Healthcare Company"
       },
       {
-        "source": "Responsible AI Implementation",
+        "source": "Responsible AI",
         "relation": "DISCUSSES",
         "target": "Human Oversight"
       },
       {
-        "source": "Responsible AI Implementation",
+        "source": "Responsible AI",
         "relation": "DISCUSSES",
         "target": "AI Accountability"
       },
@@ -3848,7 +3848,7 @@
         "sentiment": "neutral"
       },
       {
-        "name": "Agentic AI",
+        "name": "Agentive AI",
         "type": "Trend",
         "sentiment": "neutral"
       },
@@ -3877,7 +3877,7 @@
       {
         "source": "Partnership On AI",
         "relation": "DISCUSSES",
-        "target": "Agentic AI"
+        "target": "Agentive AI"
       },
       {
         "source": "Partnership On AI",
@@ -3905,7 +3905,7 @@
         "target": "Partnership On AI"
       },
       {
-        "source": "Agentic AI",
+        "source": "Agentive AI",
         "relation": "IS_PART_OF",
         "target": "International Law"
       },
@@ -3939,7 +3939,7 @@
         "sentiment": "positive"
       },
       {
-        "name": "Responsible AI Implementation",
+        "name": "Responsible AI",
         "type": "Trend",
         "sentiment": "positive"
       },
@@ -4083,7 +4083,7 @@
       {
         "source": "Mid-Sized Enterprise",
         "relation": "DISCUSSES",
-        "target": "Responsible AI Implementation"
+        "target": "Responsible AI"
       },
       {
         "source": "Mid-Sized Enterprise",
@@ -4311,7 +4311,7 @@
         "sentiment": "negative"
       },
       {
-        "name": "Resumes",
+        "name": "Resume",
         "type": "Technology",
         "sentiment": "neutral"
       },
@@ -4340,7 +4340,7 @@
       {
         "source": "Hr",
         "relation": "DISCUSSES",
-        "target": "Resumes"
+        "target": "Resume"
       },
       {
         "source": "Decision-Makers",
@@ -4353,7 +4353,7 @@
         "target": "Industry Circles"
       },
       {
-        "source": "Resumes",
+        "source": "Resume",
         "relation": "IS_PART_OF",
         "target": "Professional Shelf-Life"
       },
@@ -4402,7 +4402,7 @@
         "sentiment": "neutral"
       },
       {
-        "name": "Agentic AI",
+        "name": "Agentive AI",
         "type": "Trend",
         "sentiment": "neutral"
       },
@@ -4436,7 +4436,7 @@
       {
         "source": "Udemy",
         "relation": "DISCUSSES",
-        "target": "Agentic AI"
+        "target": "Agentive AI"
       },
       {
         "source": "Focus Hacks",
@@ -4680,7 +4680,7 @@
   {
     "entities": [
       {
-        "name": "Salesforce",
+        "name": "Salesforce Research",
         "type": "Organization",
         "sentiment": "positive"
       },
@@ -4700,14 +4700,14 @@
         "sentiment": "neutral"
       },
       {
-        "name": "Agentic AI",
+        "name": "Agentive AI",
         "type": "Trend",
         "sentiment": "neutral"
       }
     ],
     "relationships": [
       {
-        "source": "Salesforce",
+        "source": "Salesforce Research",
         "relation": "RELEASED",
         "target": "Winter '26"
       },
@@ -4717,19 +4717,19 @@
         "target": "Salesforce Flow"
       },
       {
-        "source": "Salesforce",
+        "source": "Salesforce Research",
         "relation": "DISCUSSES",
         "target": "Salesforce Flow"
       },
       {
-        "source": "Salesforce",
+        "source": "Salesforce Research",
         "relation": "DISCUSSES",
         "target": "Generative AI"
       },
       {
-        "source": "Salesforce",
+        "source": "Salesforce Research",
         "relation": "DISCUSSES",
-        "target": "Agentic AI"
+        "target": "Agentive AI"
       }
     ],
     "metadata": {
@@ -4796,7 +4796,7 @@
         "sentiment": "positive"
       },
       {
-        "name": "Autonomous Navigation Systems",
+        "name": "Autonomous Navigation",
         "type": "Technology",
         "sentiment": "positive"
       },
@@ -4845,20 +4845,20 @@
       {
         "source": "Gps",
         "relation": "IS_PART_OF",
-        "target": "Autonomous Navigation Systems"
+        "target": "Autonomous Navigation"
       },
       {
         "source": "Gnss",
         "relation": "IS_PART_OF",
-        "target": "Autonomous Navigation Systems"
+        "target": "Autonomous Navigation"
       },
       {
         "source": "Slam",
         "relation": "IS_PART_OF",
-        "target": "Autonomous Navigation Systems"
+        "target": "Autonomous Navigation"
       },
       {
-        "source": "Autonomous Navigation Systems",
+        "source": "Autonomous Navigation",
         "relation": "IS_PART_OF",
         "target": "AI And Machine Learning"
       },
@@ -5294,7 +5294,7 @@
         "sentiment": "neutral"
       },
       {
-        "name": "Agentic AI",
+        "name": "Agentive AI",
         "type": "Trend",
         "sentiment": "neutral"
       },
@@ -5522,7 +5522,7 @@
         "sentiment": "neutral"
       },
       {
-        "name": "Fundraisers",
+        "name": "Fundraising",
         "type": "Organization",
         "sentiment": "neutral"
       },
@@ -5559,7 +5559,7 @@
         "target": "80/20 Rule"
       },
       {
-        "source": "Fundraisers",
+        "source": "Fundraising",
         "relation": "DISCUSSES",
         "target": "Buyer'S Pyramid"
       }
@@ -5800,12 +5800,12 @@
         "sentiment": "positive"
       },
       {
-        "name": "Healthcare Providers",
+        "name": "Healthcare Organizations",
         "type": "Trend",
         "sentiment": "positive"
       },
       {
-        "name": "Corporations",
+        "name": "Corporate",
         "type": "Organization",
         "sentiment": "neutral"
       },
@@ -5844,7 +5844,7 @@
       {
         "source": "Nonprofit",
         "relation": "PARTNERED_WITH",
-        "target": "Corporations"
+        "target": "Corporate"
       },
       {
         "source": "Nonprofit",
@@ -5854,7 +5854,7 @@
       {
         "source": "Nonprofit",
         "relation": "PARTNERED_WITH",
-        "target": "Healthcare Providers"
+        "target": "Healthcare Organizations"
       },
       {
         "source": "Nonprofit",
@@ -5884,12 +5884,12 @@
       {
         "source": "Nonprofit",
         "relation": "DISCUSSES",
-        "target": "Healthcare Providers"
+        "target": "Healthcare Organizations"
       },
       {
         "source": "Health Tech Startups",
         "relation": "IS_PART_OF",
-        "target": "Healthcare Providers"
+        "target": "Healthcare Organizations"
       }
     ],
     "metadata": {
@@ -5937,7 +5937,7 @@
         "sentiment": "positive"
       },
       {
-        "name": "Content Marketing",
+        "name": "Content Strategy",
         "type": "Trend",
         "sentiment": "neutral"
       },
@@ -5961,7 +5961,7 @@
       {
         "source": "The Growth Cradle",
         "relation": "DISCUSSES",
-        "target": "Content Marketing"
+        "target": "Content Strategy"
       },
       {
         "source": "The Growth Cradle",
@@ -6109,7 +6109,7 @@
         "sentiment": "positive"
       },
       {
-        "name": "Autonomous Navigation Systems",
+        "name": "Autonomous Navigation",
         "type": "Technology",
         "sentiment": "positive"
       },
@@ -6184,7 +6184,7 @@
         "sentiment": "neutral"
       },
       {
-        "name": "Startups",
+        "name": "My Startup",
         "type": "Organization",
         "sentiment": "positive"
       }
@@ -6236,7 +6236,7 @@
         "target": "Agriculture"
       },
       {
-        "source": "Autonomous Navigation Systems",
+        "source": "Autonomous Navigation",
         "relation": "IS_PART_OF",
         "target": "Drone Manufacturing"
       },
@@ -6311,7 +6311,7 @@
         "target": "Drones"
       },
       {
-        "source": "Startups",
+        "source": "My Startup",
         "relation": "USES",
         "target": "Drones"
       },
@@ -6461,7 +6461,7 @@
         "sentiment": "neutral"
       },
       {
-        "name": "Agentic AI",
+        "name": "Agentive AI",
         "type": "Trend",
         "sentiment": "neutral"
       },
@@ -6632,7 +6632,7 @@
         "sentiment": "neutral"
       },
       {
-        "name": "Marketing Strategy",
+        "name": "Marketing And Distribution Channels",
         "type": "Trend",
         "sentiment": "positive"
       },
@@ -6734,7 +6734,7 @@
         "target": "Artificial Intelligence"
       },
       {
-        "source": "Marketing Strategy",
+        "source": "Marketing And Distribution Channels",
         "relation": "DISCUSSES",
         "target": "Artificial Intelligence"
       },
@@ -6854,7 +6854,7 @@
         "sentiment": "positive"
       },
       {
-        "name": "Responsible AI Implementation",
+        "name": "Responsible Data Management",
         "type": "Trend",
         "sentiment": "positive"
       },
@@ -6883,7 +6883,7 @@
       {
         "source": "Federated Learning",
         "relation": "IS_PART_OF",
-        "target": "Responsible AI Implementation"
+        "target": "Responsible Data Management"
       },
       {
         "source": "Zero-Knowledge Proofs",
@@ -6918,7 +6918,7 @@
       {
         "source": "Privacy",
         "relation": "DISCUSSES",
-        "target": "Responsible AI Implementation"
+        "target": "Responsible Data Management"
       },
       {
         "source": "Data Protection",
@@ -6995,7 +6995,7 @@
         "sentiment": "negative"
       },
       {
-        "name": "Customer 360",
+        "name": "Customer 60",
         "type": "Trend",
         "sentiment": "negative"
       },
@@ -7024,12 +7024,12 @@
       {
         "source": "Zomato",
         "relation": "DISCUSSES",
-        "target": "Customer 360"
+        "target": "Customer 60"
       },
       {
         "source": "Swiggy",
         "relation": "DISCUSSES",
-        "target": "Customer 360"
+        "target": "Customer 60"
       },
       {
         "source": "Zomato",
@@ -7069,7 +7069,7 @@
       {
         "source": "DPDPA",
         "relation": "DISCUSSES",
-        "target": "Customer 360"
+        "target": "Customer 60"
       },
       {
         "source": "Gdpr",
@@ -7565,7 +7565,7 @@
   {
     "entities": [
       {
-        "name": "Salesforce",
+        "name": "Salesforce Research",
         "type": "Organization",
         "sentiment": "positive"
       },
@@ -7575,7 +7575,7 @@
         "sentiment": "positive"
       },
       {
-        "name": "Agentic AI",
+        "name": "Agentive AI",
         "type": "Trend",
         "sentiment": "positive"
       },
@@ -7595,12 +7595,12 @@
         "sentiment": "neutral"
       },
       {
-        "name": "Customer 360",
+        "name": "Customer 60",
         "type": "Technology",
         "sentiment": "neutral"
       },
       {
-        "name": "Marketing Strategy",
+        "name": "Marketing Cloud",
         "type": "Technology",
         "sentiment": "neutral"
       },
@@ -7637,14 +7637,14 @@
     ],
     "relationships": [
       {
-        "source": "Salesforce",
+        "source": "Salesforce Research",
         "relation": "RELEASED",
         "target": "Atlas"
       },
       {
         "source": "Atlas",
         "relation": "IS_PART_OF",
-        "target": "Agentic AI"
+        "target": "Agentive AI"
       },
       {
         "source": "Atlas",
@@ -7664,12 +7664,12 @@
       {
         "source": "Atlas",
         "relation": "USES",
-        "target": "Customer 360"
+        "target": "Customer 60"
       },
       {
         "source": "Atlas",
         "relation": "USES",
-        "target": "Marketing Strategy"
+        "target": "Marketing Cloud"
       },
       {
         "source": "Atlas",
@@ -7677,12 +7677,12 @@
         "target": "Service Cloud"
       },
       {
-        "source": "Salesforce",
+        "source": "Salesforce Research",
         "relation": "DISCUSSES",
-        "target": "Agentic AI"
+        "target": "Agentive AI"
       },
       {
-        "source": "Salesforce",
+        "source": "Salesforce Research",
         "relation": "DISCUSSES",
         "target": "Enterprise AI"
       },
@@ -7697,14 +7697,14 @@
         "target": "Reinforcement Learning Based On Customer Outcomes"
       },
       {
-        "source": "Agentic AI",
+        "source": "Agentive AI",
         "relation": "DISCUSSES",
         "target": "Generative AI"
       },
       {
         "source": "Opentable",
         "relation": "PARTNERED_WITH",
-        "target": "Salesforce"
+        "target": "Salesforce Research"
       }
     ],
     "metadata": {
@@ -7942,6 +7942,11 @@
         "sentiment": "positive"
       },
       {
+        "name": "Micro1",
+        "type": "Organization",
+        "sentiment": "positive"
+      },
+      {
         "name": "Groq",
         "type": "Organization",
         "sentiment": "positive"
@@ -8077,7 +8082,7 @@
         "sentiment": "positive"
       },
       {
-        "name": "Agentic AI",
+        "name": "Agentive AI",
         "type": "Trend",
         "sentiment": "positive"
       },
@@ -8151,7 +8156,7 @@
       {
         "source": "Google",
         "relation": "DISCUSSES",
-        "target": "Agentic AI"
+        "target": "Agentive AI"
       },
       {
         "source": "OpenAI",
@@ -8264,14 +8269,14 @@
         "target": "End-To-End Video Production"
       },
       {
-        "source": "Microfactory",
+        "source": "Micro1",
         "relation": "INVESTED_IN",
         "target": "Human-In-The-Loop AI Data Labeling"
       },
       {
         "source": "Groq",
         "relation": "INVESTED_IN",
-        "target": "Microfactory"
+        "target": "Micro1"
       },
       {
         "source": "Orchids",
@@ -8291,12 +8296,12 @@
       {
         "source": "Notion",
         "relation": "RELEASED",
-        "target": "Agentic AI"
+        "target": "Agentive AI"
       },
       {
         "source": "Notion",
         "relation": "DISCUSSES",
-        "target": "Agentic AI"
+        "target": "Agentive AI"
       },
       {
         "source": "Gaurav (Rav) Mendiratta",
@@ -8311,7 +8316,7 @@
       {
         "source": "Gemini",
         "relation": "IS_PART_OF",
-        "target": "Agentic AI"
+        "target": "Agentive AI"
       },
       {
         "source": "Agent Payments Protocol",
@@ -8651,7 +8656,7 @@
       },
       {
         "name": "Google",
-        "type": "Technology",
+        "type": "Organization",
         "sentiment": "positive"
       },
       {
@@ -8675,6 +8680,11 @@
         "sentiment": "positive"
       },
       {
+        "name": "Google Xr",
+        "type": "Technology",
+        "sentiment": "positive"
+      },
+      {
         "name": "On-Device AI",
         "type": "Trend",
         "sentiment": "positive"
@@ -8690,7 +8700,7 @@
         "sentiment": "positive"
       },
       {
-        "name": "Agentic AI",
+        "name": "Agentive AI",
         "type": "Trend",
         "sentiment": "positive"
       },
@@ -8728,6 +8738,11 @@
       },
       {
         "source": "Google",
+        "relation": "RELEASED",
+        "target": "Google Xr"
+      },
+      {
+        "source": "Google Xr",
         "relation": "IS_PART_OF",
         "target": "Spatial Computing"
       },
@@ -8782,7 +8797,7 @@
         "target": "Physical AI"
       },
       {
-        "source": "Agentic AI",
+        "source": "Agentive AI",
         "relation": "IS_PART_OF",
         "target": "Physical AI"
       }
@@ -9764,12 +9779,12 @@
         "sentiment": "positive"
       },
       {
-        "name": "Customer Success",
+        "name": "Customer Obsession",
         "type": "Trend",
         "sentiment": "positive"
       },
       {
-        "name": "Startups",
+        "name": "My Startup",
         "type": "Trend",
         "sentiment": "positive"
       }
@@ -9788,17 +9803,17 @@
       {
         "source": "Takeuforward",
         "relation": "DISCUSSES",
-        "target": "Customer Success"
+        "target": "Customer Obsession"
       },
       {
         "source": "Internal Bug Management Portal",
         "relation": "IS_PART_OF",
-        "target": "Startups"
+        "target": "My Startup"
       },
       {
         "source": "Takeuforward",
         "relation": "DISCUSSES",
-        "target": "Startups"
+        "target": "My Startup"
       }
     ],
     "metadata": {
@@ -10097,7 +10112,7 @@
   {
     "entities": [
       {
-        "name": "Healthcare Providers",
+        "name": "Healthcare Organizations",
         "type": "Organization",
         "sentiment": "neutral"
       },
@@ -10124,22 +10139,22 @@
     ],
     "relationships": [
       {
-        "source": "Healthcare Providers",
+        "source": "Healthcare Organizations",
         "relation": "RELEASED",
         "target": "Blood Bank Release"
       },
       {
-        "source": "Healthcare Providers",
+        "source": "Healthcare Organizations",
         "relation": "DISCUSSES",
         "target": "Testmetry"
       },
       {
-        "source": "Healthcare Providers",
+        "source": "Healthcare Organizations",
         "relation": "DISCUSSES",
         "target": "Software Testing"
       },
       {
-        "source": "Healthcare Providers",
+        "source": "Healthcare Organizations",
         "relation": "DISCUSSES",
         "target": "Qualityassurance"
       },
@@ -10585,7 +10600,7 @@
         "sentiment": "neutral"
       },
       {
-        "name": "Agentic AI",
+        "name": "Agentive AI",
         "type": "Trend",
         "sentiment": "positive"
       },
@@ -10639,25 +10654,25 @@
       {
         "source": "Reflection",
         "relation": "IS_PART_OF",
-        "target": "Agentic AI"
+        "target": "Agentive AI"
       },
       {
         "source": "Tool Use",
         "relation": "IS_PART_OF",
-        "target": "Agentic AI"
+        "target": "Agentive AI"
       },
       {
         "source": "Planning",
         "relation": "IS_PART_OF",
-        "target": "Agentic AI"
+        "target": "Agentive AI"
       },
       {
         "source": "Multi-Agent Collaboration",
         "relation": "IS_PART_OF",
-        "target": "Agentic AI"
+        "target": "Agentive AI"
       },
       {
-        "source": "Agentic AI",
+        "source": "Agentive AI",
         "relation": "IS_PART_OF",
         "target": "Generative AI"
       },
@@ -10711,7 +10726,7 @@
   {
     "entities": [
       {
-        "name": "Agentic AI",
+        "name": "Agentive AI",
         "type": "Trend",
         "sentiment": "positive"
       },
@@ -10743,7 +10758,7 @@
     ],
     "relationships": [
       {
-        "source": "Agentic AI",
+        "source": "Agentive AI",
         "relation": "DISCUSSES",
         "target": "Systems Of Record"
       },
@@ -10938,7 +10953,7 @@
         "sentiment": "positive"
       },
       {
-        "name": "Agentic AI",
+        "name": "Agentive AI",
         "type": "Trend",
         "sentiment": "positive"
       }
@@ -10972,7 +10987,7 @@
       {
         "source": "LLM-Council",
         "relation": "IS_PART_OF",
-        "target": "Agentic AI"
+        "target": "Agentive AI"
       },
       {
         "source": "LLM-Council",
@@ -10982,7 +10997,7 @@
       {
         "source": "Karpathy",
         "relation": "DISCUSSES",
-        "target": "Agentic AI"
+        "target": "Agentive AI"
       },
       {
         "source": "Karpathy",
@@ -11445,6 +11460,11 @@
         "sentiment": "positive"
       },
       {
+        "name": "Sales Systems",
+        "type": "Trend",
+        "sentiment": "positive"
+      },
+      {
         "name": "Follow-Up Strategy",
         "type": "Trend",
         "sentiment": "positive"
@@ -11479,7 +11499,7 @@
       {
         "source": "Eric Partaker",
         "relation": "DISCUSSES",
-        "target": "Sales Growth"
+        "target": "Sales Systems"
       },
       {
         "source": "Eric Partaker",
@@ -11514,7 +11534,7 @@
       {
         "source": "The Ceo Accelerator",
         "relation": "DISCUSSES",
-        "target": "Sales Growth"
+        "target": "Sales Systems"
       },
       {
         "source": "Eric Partaker",
@@ -11803,7 +11823,7 @@
         "sentiment": "neutral"
       },
       {
-        "name": "Sales Growth",
+        "name": "Sales Leadership",
         "type": "Trend",
         "sentiment": "positive"
       }
@@ -11812,12 +11832,12 @@
       {
         "source": "Hunter",
         "relation": "DISCUSSES",
-        "target": "Sales Growth"
+        "target": "Sales Leadership"
       },
       {
         "source": "Farmer",
         "relation": "DISCUSSES",
-        "target": "Sales Growth"
+        "target": "Sales Leadership"
       }
     ],
     "metadata": {
@@ -11955,12 +11975,12 @@
         "sentiment": "neutral"
       },
       {
-        "name": "Sales Growth",
+        "name": "Sales",
         "type": "Organization",
         "sentiment": "neutral"
       },
       {
-        "name": "Marketing Strategy",
+        "name": "Marketing",
         "type": "Organization",
         "sentiment": "neutral"
       },
@@ -12000,7 +12020,7 @@
         "sentiment": "neutral"
       },
       {
-        "name": "Revenue Growth",
+        "name": "Revenue Strategy",
         "type": "Trend",
         "sentiment": "positive"
       },
@@ -12044,12 +12064,12 @@
       {
         "source": "B2B Companies",
         "relation": "DISCUSSES",
-        "target": "Revenue Growth"
+        "target": "Revenue Strategy"
       },
       {
         "source": "B2B Companies",
         "relation": "DISCUSSES",
-        "target": "Revenue Growth"
+        "target": "Revenue Strategy"
       },
       {
         "source": "B2B Companies",
@@ -12057,12 +12077,12 @@
         "target": "Forecasting"
       },
       {
-        "source": "Sales Growth",
+        "source": "Sales",
         "relation": "DISCUSSES",
         "target": "Sales Funnel"
       },
       {
-        "source": "Marketing Strategy",
+        "source": "Marketing",
         "relation": "DISCUSSES",
         "target": "Sales Funnel"
       },
@@ -12079,12 +12099,12 @@
       {
         "source": "Revenue Leaders",
         "relation": "DISCUSSES",
-        "target": "Revenue Growth"
+        "target": "Revenue Strategy"
       },
       {
         "source": "Revenue Leaders",
         "relation": "DISCUSSES",
-        "target": "Revenue Growth"
+        "target": "Revenue Strategy"
       },
       {
         "source": "Revenue Leaders",
@@ -12092,14 +12112,14 @@
         "target": "Forecasting"
       },
       {
-        "source": "Marketing Strategy",
+        "source": "Marketing",
         "relation": "USES",
         "target": "Self-Reported Attribution"
       },
       {
         "source": "Self-Reported Attribution",
         "relation": "IS_PART_OF",
-        "target": "Revenue Growth"
+        "target": "Revenue Strategy"
       },
       {
         "source": "Pipeline Sources",
@@ -12227,7 +12247,7 @@
         "sentiment": "neutral"
       },
       {
-        "name": "Agentic AI",
+        "name": "Agentive AI",
         "type": "Trend",
         "sentiment": "neutral"
       }
@@ -12308,7 +12328,7 @@
         "sentiment": "neutral"
       },
       {
-        "name": "Apis",
+        "name": "API",
         "type": "Technology",
         "sentiment": "neutral"
       },
@@ -12355,7 +12375,7 @@
         "target": "Generative AI"
       },
       {
-        "source": "Apis",
+        "source": "API",
         "relation": "IS_PART_OF",
         "target": "Generative AI"
       },
@@ -12404,7 +12424,7 @@
         "sentiment": "neutral"
       },
       {
-        "name": "Resumes",
+        "name": "Resume",
         "type": "Technology",
         "sentiment": "positive"
       },
@@ -12414,7 +12434,7 @@
         "sentiment": "neutral"
       },
       {
-        "name": "Software Development",
+        "name": "Software Engineer",
         "type": "Trend",
         "sentiment": "positive"
       },
@@ -12451,7 +12471,7 @@
     ],
     "relationships": [
       {
-        "source": "Resumes",
+        "source": "Resume",
         "relation": "IS_PART_OF",
         "target": "Career In Tech"
       },
@@ -12466,34 +12486,34 @@
         "target": "Github"
       },
       {
-        "source": "Resumes",
+        "source": "Resume",
         "relation": "USES",
         "target": "Poppins"
       },
       {
-        "source": "Resumes",
+        "source": "Resume",
         "relation": "USES",
         "target": "Open Sans"
       },
       {
-        "source": "Resumes",
+        "source": "Resume",
         "relation": "DISCUSSES",
         "target": "Career In Tech"
       },
       {
-        "source": "Resumes",
+        "source": "Resume",
         "relation": "DISCUSSES",
         "target": "Frontend Developer"
       },
       {
         "source": "Product-Based Company",
         "relation": "USES",
-        "target": "Resumes"
+        "target": "Resume"
       },
       {
         "source": "Ats System",
         "relation": "DISCUSSES",
-        "target": "Resumes"
+        "target": "Resume"
       }
     ],
     "metadata": {
@@ -12505,7 +12525,7 @@
   {
     "entities": [
       {
-        "name": "AI Receptionists",
+        "name": "AI Voice Receptionist",
         "type": "Technology",
         "sentiment": "positive"
       },
@@ -12530,7 +12550,7 @@
         "sentiment": "neutral"
       },
       {
-        "name": "AI Call",
+        "name": "AI Call Answering Feature",
         "type": "Technology",
         "sentiment": "neutral"
       }
@@ -12542,19 +12562,19 @@
         "target": "Generative AI"
       },
       {
-        "source": "AI Receptionists",
+        "source": "AI Voice Receptionist",
         "relation": "IS_PART_OF",
         "target": "AI Voice"
       },
       {
         "source": "Crm",
         "relation": "USES",
-        "target": "AI Call"
+        "target": "AI Call Answering Feature"
       },
       {
         "source": "Business Phone Systems",
         "relation": "USES",
-        "target": "AI Call"
+        "target": "AI Call Answering Feature"
       }
     ],
     "metadata": {
@@ -12646,7 +12666,7 @@
         "sentiment": "positive"
       },
       {
-        "name": "Vibe Code",
+        "name": "Vibe Coding",
         "type": "Trend",
         "sentiment": "neutral"
       }
@@ -12655,7 +12675,7 @@
       {
         "source": "Artificial Intelligence",
         "relation": "IS_PART_OF",
-        "target": "Vibe Code"
+        "target": "Vibe Coding"
       }
     ],
     "metadata": {
@@ -13224,7 +13244,7 @@
         "sentiment": "neutral"
       },
       {
-        "name": "Graph Db",
+        "name": "Graph DB",
         "type": "Technology",
         "sentiment": "neutral"
       },
@@ -13261,7 +13281,7 @@
         "target": "Postgres"
       },
       {
-        "source": "Graph Db",
+        "source": "Graph DB",
         "relation": "IS_PART_OF",
         "target": "Trend"
       },
@@ -13295,7 +13315,7 @@
         "sentiment": "neutral"
       },
       {
-        "name": "Graph Db",
+        "name": "Graph DB",
         "type": "Technology",
         "sentiment": "neutral"
       },
@@ -13312,7 +13332,7 @@
         "target": "Knowledge Layer"
       },
       {
-        "source": "Graph Db",
+        "source": "Graph DB",
         "relation": "IS_PART_OF",
         "target": "Knowledge Layer"
       },
@@ -13676,12 +13696,12 @@
         "sentiment": "neutral"
       },
       {
-        "name": "Agentic AI",
+        "name": "Agentive AI",
         "type": "Trend",
         "sentiment": "neutral"
       },
       {
-        "name": "Policy Compliance",
+        "name": "Policy As Code",
         "type": "Trend",
         "sentiment": "neutral"
       },
@@ -13695,17 +13715,17 @@
       {
         "source": "Artificial Intelligence",
         "relation": "IS_PART_OF",
-        "target": "Agentic AI"
+        "target": "Agentive AI"
       },
       {
         "source": "Reasoning Layer",
         "relation": "IS_PART_OF",
-        "target": "Agentic AI"
+        "target": "Agentive AI"
       },
       {
-        "source": "Agentic AI",
+        "source": "Agentive AI",
         "relation": "DISCUSSES",
-        "target": "Policy Compliance"
+        "target": "Policy As Code"
       }
     ],
     "metadata": {
@@ -13777,7 +13797,7 @@
         "sentiment": "neutral"
       },
       {
-        "name": "Agentic AI",
+        "name": "Agentive AI",
         "type": "Trend",
         "sentiment": "neutral"
       }
@@ -13801,7 +13821,7 @@
       {
         "source": "Saveyond",
         "relation": "DISCUSSES",
-        "target": "Agentic AI"
+        "target": "Agentive AI"
       },
       {
         "source": "Saveyond",
@@ -13892,7 +13912,7 @@
         "sentiment": "neutral"
       },
       {
-        "name": "Agentic AI",
+        "name": "Agentive AI",
         "type": "Trend",
         "sentiment": "neutral"
       }
@@ -14293,7 +14313,7 @@
         "sentiment": "neutral"
       },
       {
-        "name": "Agentic AI",
+        "name": "Agentive AI",
         "type": "Trend",
         "sentiment": "neutral"
       }
@@ -14327,7 +14347,7 @@
       {
         "source": "Tech Adoption",
         "relation": "DISCUSSES",
-        "target": "Agentic AI"
+        "target": "Agentive AI"
       }
     ],
     "metadata": {
@@ -14377,7 +14397,7 @@
         "sentiment": "neutral"
       },
       {
-        "name": "Healthcare Providers",
+        "name": "Healthcare",
         "type": "Trend",
         "sentiment": "neutral"
       },
@@ -14396,7 +14416,7 @@
       {
         "source": "Commercial Cleaning",
         "relation": "DISCUSSES",
-        "target": "Healthcare Providers"
+        "target": "Healthcare"
       },
       {
         "source": "Commercial Cleaning",
@@ -14427,7 +14447,7 @@
   {
     "entities": [
       {
-        "name": "Healthcare Providers",
+        "name": "Healthcare",
         "type": "Trend",
         "sentiment": "positive"
       },
@@ -14451,7 +14471,7 @@
       {
         "source": "Specialty Surface Maintenance",
         "relation": "DISCUSSES",
-        "target": "Healthcare Providers"
+        "target": "Healthcare"
       },
       {
         "source": "Specialty Surface Maintenance",
@@ -14625,7 +14645,7 @@
         "sentiment": "positive"
       },
       {
-        "name": "Validation Mvp Project",
+        "name": "Validation",
         "type": "Trend",
         "sentiment": "neutral"
       }
@@ -14637,7 +14657,7 @@
         "target": "Saas"
       },
       {
-        "source": "Validation Mvp Project",
+        "source": "Validation",
         "relation": "DISCUSSES",
         "target": "Saas"
       }
@@ -15337,7 +15357,7 @@
         "sentiment": "positive"
       },
       {
-        "name": "Agentic AI",
+        "name": "Agentive AI",
         "type": "Trend",
         "sentiment": "positive"
       },
@@ -15354,7 +15374,7 @@
         "target": "Generative AI"
       },
       {
-        "source": "Agentic AI",
+        "source": "Agentive AI",
         "relation": "USES",
         "target": "Large Language Models"
       }
@@ -15387,7 +15407,7 @@
       {
         "source": "Person A",
         "relation": "HAS_IDEA_FOR",
-        "target": "Startups"
+        "target": "My Startup"
       },
       {
         "source": "Person B",
@@ -15539,7 +15559,7 @@
   {
     "entities": [
       {
-        "name": "Startups",
+        "name": "My Startup",
         "type": "Organization",
         "sentiment": "negative"
       },
@@ -15551,7 +15571,7 @@
     ],
     "relationships": [
       {
-        "source": "Startups",
+        "source": "My Startup",
         "relation": "DISCUSSES",
         "target": "Trend"
       },
@@ -15611,7 +15631,7 @@
         "sentiment": "neutral"
       },
       {
-        "name": "Marketing Strategy",
+        "name": "Marketing",
         "type": "Trend",
         "sentiment": "neutral"
       },
@@ -15633,7 +15653,7 @@
         "target": "Eu"
       },
       {
-        "source": "Marketing Strategy",
+        "source": "Marketing",
         "relation": "DISCUSSES",
         "target": "Eu"
       },
@@ -15757,7 +15777,7 @@
   {
     "entities": [
       {
-        "name": "Startups",
+        "name": "My Startup",
         "type": "Organization",
         "sentiment": "negative"
       }
@@ -16075,7 +16095,7 @@
         "sentiment": "neutral"
       },
       {
-        "name": "Communities",
+        "name": "Community Building",
         "type": "Trend",
         "sentiment": "neutral"
       },
@@ -16124,7 +16144,7 @@
       {
         "source": "We",
         "relation": "DISCUSSES",
-        "target": "Communities"
+        "target": "Community Building"
       }
     ],
     "metadata": {
@@ -16151,7 +16171,7 @@
   {
     "entities": [
       {
-        "name": "Startups",
+        "name": "My Startup",
         "type": "Organization",
         "sentiment": "neutral"
       }
@@ -16166,7 +16186,7 @@
   {
     "entities": [
       {
-        "name": "Startups",
+        "name": "My Startup",
         "type": "Organization",
         "sentiment": "negative"
       }
@@ -16246,7 +16266,7 @@
   {
     "entities": [
       {
-        "name": "Startups",
+        "name": "My Startup",
         "type": "Organization",
         "sentiment": "neutral"
       },
@@ -16260,10 +16280,10 @@
       {
         "source": "Founders",
         "relation": "WORKS_FOR",
-        "target": "Startups"
+        "target": "My Startup"
       },
       {
-        "source": "Startups",
+        "source": "My Startup",
         "relation": "DISCUSSES",
         "target": "Generative AI"
       },
@@ -16514,7 +16534,7 @@
         "sentiment": "neutral"
       },
       {
-        "name": "Startups",
+        "name": "My Startup",
         "type": "Organization",
         "sentiment": "neutral"
       }
@@ -16556,7 +16576,7 @@
   {
     "entities": [
       {
-        "name": "Startups",
+        "name": "My Startup",
         "type": "Organization",
         "sentiment": "neutral"
       },
@@ -16573,7 +16593,7 @@
     ],
     "relationships": [
       {
-        "source": "Startups",
+        "source": "My Startup",
         "relation": "RELEASED",
         "target": "Mvp"
       },
@@ -16672,7 +16692,7 @@
         "sentiment": "neutral"
       },
       {
-        "name": "Agentic AI",
+        "name": "Agentive AI",
         "type": "Trend",
         "sentiment": "neutral"
       }
@@ -16764,7 +16784,7 @@
         "sentiment": "positive"
       },
       {
-        "name": "Revenue Growth",
+        "name": "Revenue",
         "type": "Trend",
         "sentiment": "neutral"
       },
@@ -16818,7 +16838,7 @@
       {
         "source": "Bootstrapped Founders",
         "relation": "DISCUSSES",
-        "target": "Revenue Growth"
+        "target": "Revenue"
       },
       {
         "source": "Bootstrapped Founders",
@@ -16999,6 +17019,5596 @@
       "source_url": "1sjhupi",
       "author": "Reddit User",
       "topic": "MARKETING"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/EntrepreneurRideAlong/comments/1mni9i6/were_looking_for_moderators/",
+      "author": "Reddit User",
+      "topic": "TECH, PRODUCT"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/EntrepreneurRideAlong/comments/1mni9i6/were_looking_for_moderators/nfoevjr/",
+      "author": "Reddit User",
+      "topic": "OTHER"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "Meow",
+        "type": "Organization",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Chase",
+        "type": "Organization",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Quickbooks",
+        "type": "Organization",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Claude",
+        "type": "Technology",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Chatbot",
+        "type": "Technology",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Agentic Banking",
+        "type": "Trend",
+        "sentiment": "positive"
+      },
+      {
+        "name": "AI Native Bank Accounts",
+        "type": "Trend",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Fintech",
+        "type": "Trend",
+        "sentiment": "neutral"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Meow",
+        "relation": "IS_PART_OF",
+        "target": "Fintech"
+      },
+      {
+        "source": "Meow",
+        "relation": "DISCUSSES",
+        "target": "Agentic Banking"
+      },
+      {
+        "source": "Meow",
+        "relation": "DISCUSSES",
+        "target": "AI Native Bank Accounts"
+      },
+      {
+        "source": "Claude",
+        "relation": "IS_PART_OF",
+        "target": "Agentic Banking"
+      },
+      {
+        "source": "Chatbot",
+        "relation": "IS_PART_OF",
+        "target": "Agentic Banking"
+      },
+      {
+        "source": "Claude",
+        "relation": "IS_PART_OF",
+        "target": "AI Native Bank Accounts"
+      },
+      {
+        "source": "Chatbot",
+        "relation": "IS_PART_OF",
+        "target": "AI Native Bank Accounts"
+      }
+    ],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/EntrepreneurRideAlong/comments/1smifix/any_tools_to_fully_automate_business_finances/",
+      "author": "Reddit User",
+      "topic": "TECH"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "Claude",
+        "type": "Technology",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Fully Automated Business Finances",
+        "type": "Trend",
+        "sentiment": "positive"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Claude",
+        "relation": "IS_PART_OF",
+        "target": "Fully Automated Business Finances"
+      },
+      {
+        "source": "Claude",
+        "relation": "DISCUSSES",
+        "target": "Fully Automated Business Finances"
+      }
+    ],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/EntrepreneurRideAlong/comments/1smifix/any_tools_to_fully_automate_business_finances/",
+      "author": "Reddit User",
+      "topic": "OTHER"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "Ramp",
+        "type": "Organization",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Notion",
+        "type": "Organization",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Brew",
+        "type": "Organization",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Zapier",
+        "type": "Organization",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Automated Finance Management",
+        "type": "Trend",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Expense Management",
+        "type": "Technology",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Bill Pay",
+        "type": "Technology",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Financial Tracking",
+        "type": "Technology",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Reporting",
+        "type": "Technology",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Automated Email Follow-Ups",
+        "type": "Technology",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Invoice Generation",
+        "type": "Technology",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Payment Reminders",
+        "type": "Technology",
+        "sentiment": "positive"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Ramp",
+        "relation": "USES",
+        "target": "Expense Management"
+      },
+      {
+        "source": "Ramp",
+        "relation": "USES",
+        "target": "Bill Pay"
+      },
+      {
+        "source": "Notion",
+        "relation": "USES",
+        "target": "Financial Tracking"
+      },
+      {
+        "source": "Notion",
+        "relation": "USES",
+        "target": "Reporting"
+      },
+      {
+        "source": "Brew",
+        "relation": "USES",
+        "target": "Automated Email Follow-Ups"
+      },
+      {
+        "source": "Zapier",
+        "relation": "USES",
+        "target": "Invoice Generation"
+      },
+      {
+        "source": "Zapier",
+        "relation": "USES",
+        "target": "Payment Reminders"
+      },
+      {
+        "source": "Zapier",
+        "relation": "USES",
+        "target": "Expense Management"
+      },
+      {
+        "source": "Expense Management",
+        "relation": "IS_PART_OF",
+        "target": "Automated Finance Management"
+      },
+      {
+        "source": "Bill Pay",
+        "relation": "IS_PART_OF",
+        "target": "Automated Finance Management"
+      },
+      {
+        "source": "Financial Tracking",
+        "relation": "IS_PART_OF",
+        "target": "Automated Finance Management"
+      },
+      {
+        "source": "Reporting",
+        "relation": "IS_PART_OF",
+        "target": "Automated Finance Management"
+      },
+      {
+        "source": "Automated Email Follow-Ups",
+        "relation": "IS_PART_OF",
+        "target": "Automated Finance Management"
+      },
+      {
+        "source": "Invoice Generation",
+        "relation": "IS_PART_OF",
+        "target": "Automated Finance Management"
+      },
+      {
+        "source": "Payment Reminders",
+        "relation": "IS_PART_OF",
+        "target": "Automated Finance Management"
+      },
+      {
+        "source": "Expense Management",
+        "relation": "IS_PART_OF",
+        "target": "Automated Finance Management"
+      },
+      {
+        "source": "Ramp",
+        "relation": "PARTNERED_WITH",
+        "target": "Zapier"
+      },
+      {
+        "source": "Notion",
+        "relation": "PARTNERED_WITH",
+        "target": "Zapier"
+      },
+      {
+        "source": "Brew",
+        "relation": "PARTNERED_WITH",
+        "target": "Zapier"
+      }
+    ],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/EntrepreneurRideAlong/comments/1smifix/any_tools_to_fully_automate_business_finances/ogexj10/",
+      "author": "Reddit User",
+      "topic": "TECH"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "Gdpr Compliance Company",
+        "type": "Organization",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "RAG System",
+        "type": "Technology",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Generative AI",
+        "type": "Trend",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Agentive AI",
+        "type": "Trend",
+        "sentiment": "neutral"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Gdpr Compliance Company",
+        "relation": "USES",
+        "target": "RAG System"
+      },
+      {
+        "source": "RAG System",
+        "relation": "IS_PART_OF",
+        "target": "Generative AI"
+      },
+      {
+        "source": "Gdpr Compliance Company",
+        "relation": "DISCUSSES",
+        "target": "Generative AI"
+      }
+    ],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/EntrepreneurRideAlong/comments/1sm8cr7/how_i_made_2700_building_a_legal_ai_research/",
+      "author": "Reddit User",
+      "topic": "TECH, PRODUCT"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/EntrepreneurRideAlong/comments/1sm8cr7/how_i_made_2700_building_a_legal_ai_research/",
+      "author": "Reddit User",
+      "topic": "TECH"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "Artificial Intelligence",
+        "type": "Technology",
+        "sentiment": "positive"
+      },
+      {
+        "name": "German Regional Law",
+        "type": "Trend",
+        "sentiment": "neutral"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Artificial Intelligence",
+        "relation": "IS_PART_OF",
+        "target": "German Regional Law"
+      },
+      {
+        "source": "Artificial Intelligence",
+        "relation": "DISCUSSES",
+        "target": "German Regional Law"
+      }
+    ],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/EntrepreneurRideAlong/comments/1sm8cr7/how_i_made_2700_building_a_legal_ai_research/",
+      "author": "Reddit User",
+      "topic": "TECH, PRODUCT"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "The Team",
+        "type": "Organization",
+        "sentiment": "positive"
+      }
+    ],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/EntrepreneurRideAlong/comments/1sm8cr7/how_i_made_2700_building_a_legal_ai_research/",
+      "author": "Reddit User",
+      "topic": "TECH, MARKETING, PRODUCT"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "Professional Services",
+        "type": "Trend",
+        "sentiment": "positive"
+      }
+    ],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/EntrepreneurRideAlong/comments/1sm8cr7/how_i_made_2700_building_a_legal_ai_research/",
+      "author": "Reddit User",
+      "topic": "TECH, PRODUCT"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "Founders",
+        "type": "Person",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Opinion",
+        "type": "Trend",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Selling Before Building",
+        "type": "Trend",
+        "sentiment": "positive"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Founders",
+        "relation": "DISCUSSES",
+        "target": "Selling Before Building"
+      },
+      {
+        "source": "Opinion",
+        "relation": "DISCUSSES",
+        "target": "Selling Before Building"
+      }
+    ],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/EntrepreneurRideAlong/comments/1sm200n/one_founder_told_me_to_sell_my_product_before_i/",
+      "author": "Reddit User",
+      "topic": "TECH, PRODUCT"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "Fuckup Night",
+        "type": "Organization",
+        "sentiment": "neutral"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Fuckup Night",
+        "relation": "DISCUSSES",
+        "target": "Validation Fails"
+      }
+    ],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/EntrepreneurRideAlong/comments/1sm200n/one_founder_told_me_to_sell_my_product_before_i/",
+      "author": "Reddit User",
+      "topic": "PRODUCT, TECH"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/EntrepreneurRideAlong/comments/1sm200n/one_founder_told_me_to_sell_my_product_before_i/",
+      "author": "Reddit User",
+      "topic": "OTHER"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "VC",
+        "type": "Organization",
+        "sentiment": "neutral"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "VC",
+        "relation": "DISCUSSES",
+        "target": "Generative AI"
+      }
+    ],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/EntrepreneurRideAlong/comments/1sm200n/one_founder_told_me_to_sell_my_product_before_i/ogb7fpx/",
+      "author": "Reddit User",
+      "topic": "TECH, PRODUCT, FINANCE"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "Belarus Tech Scene",
+        "type": "Trend",
+        "sentiment": "positive"
+      }
+    ],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/EntrepreneurRideAlong/comments/1slj4xv/the_belarus_tech_scene_makes_no_sense_to_me_in_a/",
+      "author": "Reddit User",
+      "topic": "HIRING, TECH"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/EntrepreneurRideAlong/comments/1slj4xv/the_belarus_tech_scene_makes_no_sense_to_me_in_a/",
+      "author": "Reddit User",
+      "topic": "OTHER"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/EntrepreneurRideAlong/comments/1slj4xv/the_belarus_tech_scene_makes_no_sense_to_me_in_a/og758zq/",
+      "author": "Reddit User",
+      "topic": "HIRING"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/EntrepreneurRideAlong/comments/1slj4xv/the_belarus_tech_scene_makes_no_sense_to_me_in_a/og73v5r/",
+      "author": "Reddit User",
+      "topic": "OTHER"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/EntrepreneurRideAlong/comments/1slj4xv/the_belarus_tech_scene_makes_no_sense_to_me_in_a/og78vzc/",
+      "author": "Reddit User",
+      "topic": "OTHER"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/EntrepreneurRideAlong/comments/1slood9/medical_graduate_but_chose_unemployment/",
+      "author": "Reddit User",
+      "topic": "TECH"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/EntrepreneurRideAlong/comments/1slood9/medical_graduate_but_chose_unemployment/",
+      "author": "Reddit User",
+      "topic": "FINANCE, TECH, PRODUCT"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/EntrepreneurRideAlong/comments/1smcbwa/we_truly_live_in_horrible_times/ogd3ly9/",
+      "author": "Reddit User",
+      "topic": "OTHER"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/EntrepreneurRideAlong/comments/1smcbwa/we_truly_live_in_horrible_times/ogd5y59/",
+      "author": "Reddit User",
+      "topic": "OTHER"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/EntrepreneurRideAlong/comments/1smcbwa/we_truly_live_in_horrible_times/ogd4r9r/",
+      "author": "Reddit User",
+      "topic": "OTHER"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/EntrepreneurRideAlong/comments/1smcbwa/we_truly_live_in_horrible_times/ogd42bv/",
+      "author": "Reddit User",
+      "topic": "OTHER"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "Ellie Heisler",
+        "type": "Person",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Entertainment Law",
+        "type": "Trend",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "/R/Entrepreneur Podcast",
+        "type": "Organization",
+        "sentiment": "neutral"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Ellie Heisler",
+        "relation": "WORKS_FOR",
+        "target": "Entertainment Law"
+      },
+      {
+        "source": "Ellie Heisler",
+        "relation": "DISCUSSES",
+        "target": "Entertainment Law"
+      },
+      {
+        "source": "/R/Entrepreneur Podcast",
+        "relation": "DISCUSSES",
+        "target": "Entertainment Law"
+      }
+    ],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1rqawb9/episode_003_ama_ellie_heisler_attorney/",
+      "author": "Reddit User",
+      "topic": "TECH"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1sm9gur/ive_spent_more_time_overthinking_things_than/",
+      "author": "Reddit User",
+      "topic": "TECH, FINANCE"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1sm9gur/ive_spent_more_time_overthinking_things_than/ogchtc2/",
+      "author": "Reddit User",
+      "topic": "TECH"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1sm9gur/ive_spent_more_time_overthinking_things_than/ogciv2c/",
+      "author": "Reddit User",
+      "topic": "TECH"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "Chatbot",
+        "type": "Technology",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Gemini",
+        "type": "Technology",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Google",
+        "type": "Organization",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Grok",
+        "type": "Technology",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Generative AI",
+        "type": "Trend",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Google Ads",
+        "type": "Technology",
+        "sentiment": "neutral"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Chatbot",
+        "relation": "IS_PART_OF",
+        "target": "Generative AI"
+      },
+      {
+        "source": "Gemini",
+        "relation": "IS_PART_OF",
+        "target": "Generative AI"
+      },
+      {
+        "source": "Grok",
+        "relation": "IS_PART_OF",
+        "target": "Generative AI"
+      },
+      {
+        "source": "Google",
+        "relation": "RELEASED",
+        "target": "Google Ads"
+      },
+      {
+        "source": "Google",
+        "relation": "DISCUSSES",
+        "target": "Generative AI"
+      }
+    ],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1sm02ku/experts_here_is_there_a_way_to_rank_on_chatgpt/",
+      "author": "Reddit User",
+      "topic": "OTHER"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "Chatbot",
+        "type": "Technology",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Gemini",
+        "type": "Technology",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Seo",
+        "type": "Trend",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Google",
+        "type": "Organization",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Google Search Console",
+        "type": "Technology",
+        "sentiment": "neutral"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Chatbot",
+        "relation": "IS_PART_OF",
+        "target": "Seo"
+      },
+      {
+        "source": "Gemini",
+        "relation": "IS_PART_OF",
+        "target": "Seo"
+      },
+      {
+        "source": "Google",
+        "relation": "RELEASED",
+        "target": "Google Search Console"
+      },
+      {
+        "source": "Google Search Console",
+        "relation": "IS_PART_OF",
+        "target": "Seo"
+      },
+      {
+        "source": "Google",
+        "relation": "DISCUSSES",
+        "target": "Seo"
+      }
+    ],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1sm02ku/experts_here_is_there_a_way_to_rank_on_chatgpt/ogait5k/",
+      "author": "Reddit User",
+      "topic": "MARKETING"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "Frizerly",
+        "type": "Technology",
+        "sentiment": "positive"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Frizerly",
+        "relation": "IS_PART_OF",
+        "target": "Generative AI"
+      }
+    ],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1sm02ku/experts_here_is_there_a_way_to_rank_on_chatgpt/ogait5k/",
+      "author": "Reddit User",
+      "topic": "TECH"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "Large Language Models",
+        "type": "Technology",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Google",
+        "type": "Organization",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Reddit",
+        "type": "Organization",
+        "sentiment": "positive"
+      },
+      {
+        "name": "G2",
+        "type": "Organization",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Capterra",
+        "type": "Organization",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Trustpilot",
+        "type": "Organization",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Generative AI",
+        "type": "Trend",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Third-Party Mentions",
+        "type": "Trend",
+        "sentiment": "positive"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Large Language Models",
+        "relation": "DISCUSSES",
+        "target": "Generative AI"
+      },
+      {
+        "source": "Large Language Models",
+        "relation": "USES",
+        "target": "Google"
+      },
+      {
+        "source": "Large Language Models",
+        "relation": "USES",
+        "target": "Reddit"
+      },
+      {
+        "source": "Large Language Models",
+        "relation": "USES",
+        "target": "G2"
+      },
+      {
+        "source": "Large Language Models",
+        "relation": "USES",
+        "target": "Capterra"
+      },
+      {
+        "source": "Large Language Models",
+        "relation": "USES",
+        "target": "Trustpilot"
+      },
+      {
+        "source": "Reddit",
+        "relation": "IS_PART_OF",
+        "target": "Third-Party Mentions"
+      },
+      {
+        "source": "G2",
+        "relation": "IS_PART_OF",
+        "target": "Third-Party Mentions"
+      },
+      {
+        "source": "Capterra",
+        "relation": "IS_PART_OF",
+        "target": "Third-Party Mentions"
+      },
+      {
+        "source": "Trustpilot",
+        "relation": "IS_PART_OF",
+        "target": "Third-Party Mentions"
+      },
+      {
+        "source": "Third-Party Mentions",
+        "relation": "DISCUSSES",
+        "target": "Generative AI"
+      }
+    ],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1sm02ku/experts_here_is_there_a_way_to_rank_on_chatgpt/ogb3qc1/",
+      "author": "Reddit User",
+      "topic": "TECH, MARKETING"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "Artificial Intelligence",
+        "type": "Trend",
+        "sentiment": "neutral"
+      }
+    ],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1sm02ku/experts_here_is_there_a_way_to_rank_on_chatgpt/ogb3qc1/",
+      "author": "Reddit User",
+      "topic": "TECH"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1slyli4/what_is_the_best_way_to_prevent_sales_from/",
+      "author": "Reddit User",
+      "topic": "TECH, FINANCE"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1slyli4/what_is_the_best_way_to_prevent_sales_from/",
+      "author": "Reddit User",
+      "topic": "FINANCE, TECH"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "Finance",
+        "type": "Organization",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Sales",
+        "type": "Organization",
+        "sentiment": "neutral"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Finance",
+        "relation": "PARTNERED_WITH",
+        "target": "Sales"
+      },
+      {
+        "source": "Finance",
+        "relation": "DISCUSSES",
+        "target": "Trend"
+      },
+      {
+        "source": "Sales",
+        "relation": "DISCUSSES",
+        "target": "Trend"
+      }
+    ],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1slyli4/what_is_the_best_way_to_prevent_sales_from/oga90fy/",
+      "author": "Reddit User",
+      "topic": "TECH, FINANCE"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1slyli4/what_is_the_best_way_to_prevent_sales_from/oga90fy/",
+      "author": "Reddit User",
+      "topic": "TECH, FINANCE, PRICING"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1slyli4/what_is_the_best_way_to_prevent_sales_from/oga90fy/",
+      "author": "Reddit User",
+      "topic": "TECH, FINANCE"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1slyli4/what_is_the_best_way_to_prevent_sales_from/ogb2bnp/",
+      "author": "Reddit User",
+      "topic": "TECH, PRICING, PRODUCT"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1slyli4/what_is_the_best_way_to_prevent_sales_from/ogb2bnp/",
+      "author": "Reddit User",
+      "topic": "OTHER"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "Reps",
+        "type": "Organization",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Signed Deals",
+        "type": "Trend",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Collected Cash",
+        "type": "Trend",
+        "sentiment": "neutral"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Reps",
+        "relation": "DISCUSSES",
+        "target": "Signed Deals"
+      },
+      {
+        "source": "Reps",
+        "relation": "DISCUSSES",
+        "target": "Collected Cash"
+      }
+    ],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1slyli4/what_is_the_best_way_to_prevent_sales_from/ogavtwl/",
+      "author": "Reddit User",
+      "topic": "TECH, FINANCE"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "My Startup",
+        "type": "Organization",
+        "sentiment": "neutral"
+      }
+    ],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1slyli4/what_is_the_best_way_to_prevent_sales_from/ogadg5h/",
+      "author": "Reddit User",
+      "topic": "FINANCE"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "I",
+        "type": "Person",
+        "sentiment": "neutral"
+      }
+    ],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1sly45g/strong_niche_authority_weak_seo_visibility_whats/",
+      "author": "Reddit User",
+      "topic": "TECH, MARKETING"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1sly45g/strong_niche_authority_weak_seo_visibility_whats/",
+      "author": "Reddit User",
+      "topic": "MARKETING"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "Google",
+        "type": "Organization",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Chatbot",
+        "type": "Technology",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Perplexity",
+        "type": "Organization",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Gemini",
+        "type": "Technology",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "AI Search",
+        "type": "Trend",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Brand Mentions",
+        "type": "Trend",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Published Content",
+        "type": "Trend",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Social Presence",
+        "type": "Trend",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Real-World Authority",
+        "type": "Trend",
+        "sentiment": "positive"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Chatbot",
+        "relation": "IS_PART_OF",
+        "target": "AI Search"
+      },
+      {
+        "source": "Gemini",
+        "relation": "IS_PART_OF",
+        "target": "AI Search"
+      },
+      {
+        "source": "Perplexity",
+        "relation": "USES",
+        "target": "AI Search"
+      },
+      {
+        "source": "Google",
+        "relation": "COMPETES_WITH",
+        "target": "AI Search"
+      },
+      {
+        "source": "Brand Mentions",
+        "relation": "DISCUSSES",
+        "target": "AI Search"
+      },
+      {
+        "source": "Published Content",
+        "relation": "DISCUSSES",
+        "target": "AI Search"
+      },
+      {
+        "source": "Social Presence",
+        "relation": "DISCUSSES",
+        "target": "AI Search"
+      },
+      {
+        "source": "Real-World Authority",
+        "relation": "DISCUSSES",
+        "target": "AI Search"
+      }
+    ],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1sly45g/strong_niche_authority_weak_seo_visibility_whats/oga8fms/",
+      "author": "Reddit User",
+      "topic": "TECH"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "Dev Agency",
+        "type": "Organization",
+        "sentiment": "neutral"
+      }
+    ],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1sl7zns/ive_run_a_dev_agency_for_14_years_the_coding_was/",
+      "author": "Reddit User",
+      "topic": "TECH"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1sl7zns/ive_run_a_dev_agency_for_14_years_the_coding_was/",
+      "author": "Reddit User",
+      "topic": "TECH"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "Client",
+        "type": "Organization",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Net-30",
+        "type": "Trend",
+        "sentiment": "negative"
+      },
+      {
+        "name": "Net-15",
+        "type": "Trend",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Late Fee Clause",
+        "type": "Trend",
+        "sentiment": "positive"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Client",
+        "relation": "DISCUSSES",
+        "target": "Net-30"
+      },
+      {
+        "source": "Client",
+        "relation": "DISCUSSES",
+        "target": "Net-15"
+      },
+      {
+        "source": "Client",
+        "relation": "DISCUSSES",
+        "target": "Late Fee Clause"
+      },
+      {
+        "source": "Net-15",
+        "relation": "IS_PART_OF",
+        "target": "Net-30"
+      }
+    ],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1sl7zns/ive_run_a_dev_agency_for_14_years_the_coding_was/og4k6wj/",
+      "author": "Reddit User",
+      "topic": "TECH"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1sl7zns/ive_run_a_dev_agency_for_14_years_the_coding_was/og8tzf5/",
+      "author": "Reddit User",
+      "topic": "OTHER"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1sl7zns/ive_run_a_dev_agency_for_14_years_the_coding_was/og5dy5i/",
+      "author": "Reddit User",
+      "topic": "OTHER"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "Dev",
+        "type": "Trend",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Agency",
+        "type": "Organization",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Niche Language/Tech",
+        "type": "Technology",
+        "sentiment": "positive"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Agency",
+        "relation": "DISCUSSES",
+        "target": "Dev"
+      },
+      {
+        "source": "Niche Language/Tech",
+        "relation": "IS_PART_OF",
+        "target": "Dev"
+      }
+    ],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1sl7zns/ive_run_a_dev_agency_for_14_years_the_coding_was/og4m3ge/",
+      "author": "Reddit User",
+      "topic": "OTHER"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "Niche Tech",
+        "type": "Trend",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Generalist",
+        "type": "Trend",
+        "sentiment": "negative"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Niche Tech",
+        "relation": "DISCUSSES",
+        "target": "Trend"
+      },
+      {
+        "source": "Generalist",
+        "relation": "DISCUSSES",
+        "target": "Trend"
+      }
+    ],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1sl7zns/ive_run_a_dev_agency_for_14_years_the_coding_was/og5gwuo/",
+      "author": "Reddit User",
+      "topic": "OTHER"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1sl7zns/ive_run_a_dev_agency_for_14_years_the_coding_was/og4ilq3/",
+      "author": "Reddit User",
+      "topic": "TECH, FINANCE"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1sl7zns/ive_run_a_dev_agency_for_14_years_the_coding_was/og4vd0q/",
+      "author": "Reddit User",
+      "topic": "TECH, PRODUCT"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1sl7zns/ive_run_a_dev_agency_for_14_years_the_coding_was/og4vd0q/",
+      "author": "Reddit User",
+      "topic": "TECH, PRODUCT, FINANCE"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "Generative AI",
+        "type": "Trend",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Agentive AI",
+        "type": "Trend",
+        "sentiment": "neutral"
+      }
+    ],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1sl9fnb/how_do_you_tell_the_difference_between_something/",
+      "author": "Reddit User",
+      "topic": "OTHER"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1sl9fnb/how_do_you_tell_the_difference_between_something/og55zgx/",
+      "author": "Reddit User",
+      "topic": "TECH"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1sl9fnb/how_do_you_tell_the_difference_between_something/og4wmy6/",
+      "author": "Reddit User",
+      "topic": "FINANCE, TECH, MARKETING"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1sl9fnb/how_do_you_tell_the_difference_between_something/og4wmy6/",
+      "author": "Reddit User",
+      "topic": "OTHER"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1sl9fnb/how_do_you_tell_the_difference_between_something/og4xbme/",
+      "author": "Reddit User",
+      "topic": "OTHER"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1sl9fnb/how_do_you_tell_the_difference_between_something/og56wia/",
+      "author": "Reddit User",
+      "topic": "TECH"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1sl9fnb/how_do_you_tell_the_difference_between_something/og56wia/",
+      "author": "Reddit User",
+      "topic": "FINANCE"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "Ar",
+        "type": "Trend",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Webar",
+        "type": "Technology",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Artificial Intelligence",
+        "type": "Trend",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Saas",
+        "type": "Trend",
+        "sentiment": "neutral"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Webar",
+        "relation": "IS_PART_OF",
+        "target": "Ar"
+      },
+      {
+        "source": "Artificial Intelligence",
+        "relation": "DISCUSSES",
+        "target": "Ar"
+      },
+      {
+        "source": "Saas",
+        "relation": "DISCUSSES",
+        "target": "Ar"
+      }
+    ],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1sljbh4/whats_the_biggest_barrier_to_starting_a_b2b_ar/",
+      "author": "Reddit User",
+      "topic": "TECH, PRODUCT"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1sljbh4/whats_the_biggest_barrier_to_starting_a_b2b_ar/",
+      "author": "Reddit User",
+      "topic": "PRICING"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1sljbh4/whats_the_biggest_barrier_to_starting_a_b2b_ar/og78ay2/",
+      "author": "Reddit User",
+      "topic": "TECH"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "Generative AI",
+        "type": "Trend",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Facebook Ads",
+        "type": "Technology",
+        "sentiment": "neutral"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Facebook Ads",
+        "relation": "IS_PART_OF",
+        "target": "Generative AI"
+      }
+    ],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1sl29gg/how_did_i_pivot_change_your_business_when_things/",
+      "author": "Reddit User",
+      "topic": "TECH, MARKETING, PRODUCT"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1sl29gg/how_did_i_pivot_change_your_business_when_things/",
+      "author": "Reddit User",
+      "topic": "FINANCE"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1sl29gg/how_did_i_pivot_change_your_business_when_things/og3gnlv/",
+      "author": "Reddit User",
+      "topic": "TECH, FINANCE"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "Y Combinator",
+        "type": "Organization",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Slack",
+        "type": "Technology",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Discord",
+        "type": "Technology",
+        "sentiment": "neutral"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Y Combinator",
+        "relation": "IS_PART_OF",
+        "target": "Trend"
+      },
+      {
+        "source": "Slack",
+        "relation": "IS_PART_OF",
+        "target": "Trend"
+      },
+      {
+        "source": "Discord",
+        "relation": "IS_PART_OF",
+        "target": "Trend"
+      }
+    ],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1sl0s1j/are_there_any_communities_similar_to_y_combinator/",
+      "author": "Reddit User",
+      "topic": "TECH, PRODUCT"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1sl0s1j/are_there_any_communities_similar_to_y_combinator/og34rz0/",
+      "author": "Reddit User",
+      "topic": "PRODUCT"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "Generative AI",
+        "type": "Trend",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Agentive AI",
+        "type": "Trend",
+        "sentiment": "neutral"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Generative AI",
+        "relation": "IS_PART_OF",
+        "target": "Trend"
+      },
+      {
+        "source": "Agentive AI",
+        "relation": "IS_PART_OF",
+        "target": "Trend"
+      }
+    ],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1sky9ua/pitch_suggestions_anyone/",
+      "author": "Reddit User",
+      "topic": "OTHER"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1sky9ua/pitch_suggestions_anyone/og2o4b2/",
+      "author": "Reddit User",
+      "topic": "MARKETING"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "Network Guy",
+        "type": "Person",
+        "sentiment": "neutral"
+      }
+    ],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1sky9ua/pitch_suggestions_anyone/og84y5a/",
+      "author": "Reddit User",
+      "topic": "TECH"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "United Capital Investments Group",
+        "type": "Organization",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Uae",
+        "type": "Organization",
+        "sentiment": "neutral"
+      }
+    ],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1skzpc0/is_this_investment_firm_a_scam_i_was_excited_now/",
+      "author": "Reddit User",
+      "topic": "TECH, FUNDING"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1skzpc0/is_this_investment_firm_a_scam_i_was_excited_now/og84s5z/",
+      "author": "Reddit User",
+      "topic": "HIRING, TECH"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "Tiktok",
+        "type": "Organization",
+        "sentiment": "neutral"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Tiktok",
+        "relation": "DISCUSSES",
+        "target": "Generative AI"
+      }
+    ],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1skzpc0/is_this_investment_firm_a_scam_i_was_excited_now/og2zd03/",
+      "author": "Reddit User",
+      "topic": "OTHER"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "AI Voice Receptionist",
+        "type": "Technology",
+        "sentiment": "positive"
+      },
+      {
+        "name": "AI Voice",
+        "type": "Trend",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Crm",
+        "type": "Technology",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Business Phone Systems",
+        "type": "Technology",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "AI Call Answering Feature",
+        "type": "Technology",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Cash Pay Medical Clinics",
+        "type": "Trend",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Home Service Companies",
+        "type": "Trend",
+        "sentiment": "neutral"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "AI Voice",
+        "relation": "IS_PART_OF",
+        "target": "AI Voice Receptionist"
+      },
+      {
+        "source": "Crm",
+        "relation": "USES",
+        "target": "AI Call Answering Feature"
+      },
+      {
+        "source": "Business Phone Systems",
+        "relation": "USES",
+        "target": "AI Call Answering Feature"
+      },
+      {
+        "source": "AI Voice Receptionist",
+        "relation": "DISCUSSES",
+        "target": "AI Voice"
+      },
+      {
+        "source": "Cash Pay Medical Clinics",
+        "relation": "DISCUSSES",
+        "target": "AI Voice Receptionist"
+      },
+      {
+        "source": "Home Service Companies",
+        "relation": "DISCUSSES",
+        "target": "AI Voice Receptionist"
+      }
+    ],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1skhn6y/my_business_failed_not_sure_how_to_pivot_help/",
+      "author": "Reddit User",
+      "topic": "TECH, FINANCE"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "3Rd Party Software",
+        "type": "Technology",
+        "sentiment": "negative"
+      },
+      {
+        "name": "AI Call Answering Feature",
+        "type": "Technology",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Crm",
+        "type": "Technology",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Prompt Engineering",
+        "type": "Trend",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Programs",
+        "type": "Technology",
+        "sentiment": "neutral"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "AI Call Answering Feature",
+        "relation": "IS_PART_OF",
+        "target": "Crm"
+      },
+      {
+        "source": "3Rd Party Software",
+        "relation": "DISCUSSES",
+        "target": "Prompt Engineering"
+      },
+      {
+        "source": "Programs",
+        "relation": "DISCUSSES",
+        "target": "Prompt Engineering"
+      },
+      {
+        "source": "AI Call Answering Feature",
+        "relation": "IS_PART_OF",
+        "target": "Prompt Engineering"
+      }
+    ],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1skhn6y/my_business_failed_not_sure_how_to_pivot_help/",
+      "author": "Reddit User",
+      "topic": "HIRING, TECH, PRODUCT"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "Artificial Intelligence",
+        "type": "Trend",
+        "sentiment": "positive"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Artificial Intelligence",
+        "relation": "DISCUSSES",
+        "target": "Trend"
+      }
+    ],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1skhn6y/my_business_failed_not_sure_how_to_pivot_help/",
+      "author": "Reddit User",
+      "topic": "TECH"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1skhn6y/my_business_failed_not_sure_how_to_pivot_help/",
+      "author": "Reddit User",
+      "topic": "OTHER"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "Virtual Receptionists",
+        "type": "Trend",
+        "sentiment": "negative"
+      }
+    ],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1skhn6y/my_business_failed_not_sure_how_to_pivot_help/og0bzfx/",
+      "author": "Reddit User",
+      "topic": "PRODUCT"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1skhn6y/my_business_failed_not_sure_how_to_pivot_help/og0s0mj/",
+      "author": "Reddit User",
+      "topic": "OTHER"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1skhn6y/my_business_failed_not_sure_how_to_pivot_help/ofzomg4/",
+      "author": "Reddit User",
+      "topic": "OTHER"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "Google Maps",
+        "type": "Technology",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Medical Clinics",
+        "type": "Trend",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Home Service Companies",
+        "type": "Trend",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Marketing",
+        "type": "Trend",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Tech Implementation Services",
+        "type": "Trend",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Local Business Leads",
+        "type": "Trend",
+        "sentiment": "positive"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Google Maps",
+        "relation": "DISCUSSES",
+        "target": "Local Business Leads"
+      },
+      {
+        "source": "Google Maps",
+        "relation": "IS_PART_OF",
+        "target": "Tech Implementation Services"
+      },
+      {
+        "source": "Medical Clinics",
+        "relation": "DISCUSSES",
+        "target": "Marketing"
+      },
+      {
+        "source": "Home Service Companies",
+        "relation": "DISCUSSES",
+        "target": "Marketing"
+      },
+      {
+        "source": "Medical Clinics",
+        "relation": "DISCUSSES",
+        "target": "Tech Implementation Services"
+      },
+      {
+        "source": "Home Service Companies",
+        "relation": "DISCUSSES",
+        "target": "Tech Implementation Services"
+      }
+    ],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1skhn6y/my_business_failed_not_sure_how_to_pivot_help/ofzlwnr/",
+      "author": "Reddit User",
+      "topic": "OTHER"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "AI Voice Receptionist",
+        "type": "Technology",
+        "sentiment": "negative"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "AI Voice Receptionist",
+        "relation": "IS_PART_OF",
+        "target": "Generative AI"
+      }
+    ],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1skhn6y/my_business_failed_not_sure_how_to_pivot_help/og2abq1/",
+      "author": "Reddit User",
+      "topic": "TECH"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "Generative AI",
+        "type": "Trend",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Agentive AI",
+        "type": "Trend",
+        "sentiment": "neutral"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Generative AI",
+        "relation": "IS_PART_OF",
+        "target": "Agentive AI"
+      }
+    ],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1skhn6y/my_business_failed_not_sure_how_to_pivot_help/ofzahvj/",
+      "author": "Reddit User",
+      "topic": "OTHER"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "AI Voice Receptionist",
+        "type": "Technology",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Recovered Missed Calls And Turned Them Into Booked Revenue",
+        "type": "Trend",
+        "sentiment": "positive"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "AI Voice Receptionist",
+        "relation": "IS_PART_OF",
+        "target": "Recovered Missed Calls And Turned Them Into Booked Revenue"
+      }
+    ],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1skhn6y/my_business_failed_not_sure_how_to_pivot_help/ofzmvdc/",
+      "author": "Reddit User",
+      "topic": "TECH, MARKETING, FINANCE"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1skhn6y/my_business_failed_not_sure_how_to_pivot_help/ofzmvdc/",
+      "author": "Reddit User",
+      "topic": "OTHER"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "Call Center",
+        "type": "Organization",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Artificial Intelligence",
+        "type": "Technology",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Hybrid",
+        "type": "Trend",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Generative AI",
+        "type": "Trend",
+        "sentiment": "positive"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Call Center",
+        "relation": "USES",
+        "target": "Artificial Intelligence"
+      },
+      {
+        "source": "Call Center",
+        "relation": "DISCUSSES",
+        "target": "Hybrid"
+      },
+      {
+        "source": "Artificial Intelligence",
+        "relation": "IS_PART_OF",
+        "target": "Generative AI"
+      }
+    ],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1skhn6y/my_business_failed_not_sure_how_to_pivot_help/og0y5db/",
+      "author": "Reddit User",
+      "topic": "TECH"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "Artificial Intelligence",
+        "type": "Trend",
+        "sentiment": "neutral"
+      }
+    ],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1skhn6y/my_business_failed_not_sure_how_to_pivot_help/ofzfcwf/",
+      "author": "Reddit User",
+      "topic": "TECH"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1skhn6y/my_business_failed_not_sure_how_to_pivot_help/og0vhk3/",
+      "author": "Reddit User",
+      "topic": "TECH"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1skhn6y/my_business_failed_not_sure_how_to_pivot_help/og1oei9/",
+      "author": "Reddit User",
+      "topic": "OTHER"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1skhn6y/my_business_failed_not_sure_how_to_pivot_help/og0cnsd/",
+      "author": "Reddit User",
+      "topic": "TECH"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "Artificial Intelligence",
+        "type": "Trend",
+        "sentiment": "neutral"
+      }
+    ],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1skhn6y/my_business_failed_not_sure_how_to_pivot_help/og0y21g/",
+      "author": "Reddit User",
+      "topic": "TECH"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "Saas",
+        "type": "Technology",
+        "sentiment": "positive"
+      },
+      {
+        "name": "AI Website",
+        "type": "Trend",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Canva",
+        "type": "Organization",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Generative AI",
+        "type": "Trend",
+        "sentiment": "neutral"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Saas",
+        "relation": "IS_PART_OF",
+        "target": "AI Website"
+      },
+      {
+        "source": "Saas",
+        "relation": "IS_PART_OF",
+        "target": "Generative AI"
+      },
+      {
+        "source": "Canva",
+        "relation": "DISCUSSES",
+        "target": "AI Website"
+      }
+    ],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1sks62w/how_would_you_market_this_business/",
+      "author": "Reddit User",
+      "topic": "TECH, MARKETING"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "Artificial Intelligence",
+        "type": "Technology",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Vibe Coding",
+        "type": "Trend",
+        "sentiment": "neutral"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Artificial Intelligence",
+        "relation": "IS_PART_OF",
+        "target": "Vibe Coding"
+      }
+    ],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1skcj3k/how_do_people_vibe_code_apps/",
+      "author": "Reddit User",
+      "topic": "TECH, PRICING"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1skcj3k/how_do_people_vibe_code_apps/",
+      "author": "Reddit User",
+      "topic": "OTHER"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1skcj3k/how_do_people_vibe_code_apps/ofy9xsm/",
+      "author": "Reddit User",
+      "topic": "OTHER"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "Pablo Picasso",
+        "type": "Person",
+        "sentiment": "neutral"
+      }
+    ],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1skcj3k/how_do_people_vibe_code_apps/ofzvvdp/",
+      "author": "Reddit User",
+      "topic": "OTHER"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1skcj3k/how_do_people_vibe_code_apps/og15ytl/",
+      "author": "Reddit User",
+      "topic": "TECH"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "Artificial Intelligence",
+        "type": "Technology",
+        "sentiment": "neutral"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Artificial Intelligence",
+        "relation": "IS_PART_OF",
+        "target": "Generative AI"
+      }
+    ],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1skcj3k/how_do_people_vibe_code_apps/og06r6m/",
+      "author": "Reddit User",
+      "topic": "TECH"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "Saas",
+        "type": "Trend",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Vibe Coding",
+        "type": "Trend",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Large Language Models",
+        "type": "Technology",
+        "sentiment": "neutral"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Large Language Models",
+        "relation": "IS_PART_OF",
+        "target": "Vibe Coding"
+      },
+      {
+        "source": "Vibe Coding",
+        "relation": "DISCUSSES",
+        "target": "Saas"
+      },
+      {
+        "source": "Large Language Models",
+        "relation": "DISCUSSES",
+        "target": "Security Vulnerabilities"
+      }
+    ],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1skcj3k/how_do_people_vibe_code_apps/og0wxoe/",
+      "author": "Reddit User",
+      "topic": "TECH"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "Saas",
+        "type": "Trend",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Shopify",
+        "type": "Organization",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Print On Demand",
+        "type": "Trend",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Dropshipping",
+        "type": "Trend",
+        "sentiment": "neutral"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Saas",
+        "relation": "DISCUSSES",
+        "target": "Trend"
+      },
+      {
+        "source": "Dropshipping",
+        "relation": "DISCUSSES",
+        "target": "Trend"
+      },
+      {
+        "source": "Print On Demand",
+        "relation": "DISCUSSES",
+        "target": "Trend"
+      },
+      {
+        "source": "Shopify",
+        "relation": "DISCUSSES",
+        "target": "Dropshipping"
+      }
+    ],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1skcj3k/how_do_people_vibe_code_apps/og0wxoe/",
+      "author": "Reddit User",
+      "topic": "TECH"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1skcj3k/how_do_people_vibe_code_apps/og0wxoe/",
+      "author": "Reddit User",
+      "topic": "OTHER"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "Artificial Intelligence",
+        "type": "Technology",
+        "sentiment": "positive"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Artificial Intelligence",
+        "relation": "IS_PART_OF",
+        "target": "Generative AI"
+      }
+    ],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1skcj3k/how_do_people_vibe_code_apps/ofycixi/",
+      "author": "Reddit User",
+      "topic": "TECH"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "Vibe Coding",
+        "type": "Trend",
+        "sentiment": "positive"
+      }
+    ],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1skcj3k/how_do_people_vibe_code_apps/ofz1jf7/",
+      "author": "Reddit User",
+      "topic": "TECH"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "Claude",
+        "type": "Technology",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Artificial Intelligence",
+        "type": "Trend",
+        "sentiment": "positive"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Claude",
+        "relation": "IS_PART_OF",
+        "target": "Artificial Intelligence"
+      }
+    ],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1skcj3k/how_do_people_vibe_code_apps/ofz9rcv/",
+      "author": "Reddit User",
+      "topic": "TECH, PRODUCT"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "Artificial Intelligence",
+        "type": "Trend",
+        "sentiment": "positive"
+      },
+      {
+        "name": "AI Coding Tool",
+        "type": "Technology",
+        "sentiment": "positive"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "AI Coding Tool",
+        "relation": "IS_PART_OF",
+        "target": "Artificial Intelligence"
+      }
+    ],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1skcj3k/how_do_people_vibe_code_apps/ofz9rcv/",
+      "author": "Reddit User",
+      "topic": "TECH"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "Generative AI",
+        "type": "Trend",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Agentive AI",
+        "type": "Trend",
+        "sentiment": "neutral"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Generative AI",
+        "relation": "IS_PART_OF",
+        "target": "Agentive AI"
+      }
+    ],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1skcj3k/how_do_people_vibe_code_apps/ofyd7v3/",
+      "author": "Reddit User",
+      "topic": "TECH"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1skcj3k/how_do_people_vibe_code_apps/ofyd7v3/",
+      "author": "Reddit User",
+      "topic": "TECH"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "Claude",
+        "type": "Technology",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Chatbot",
+        "type": "Technology",
+        "sentiment": "negative"
+      },
+      {
+        "name": "Vs Code",
+        "type": "Technology",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Claude Plugin",
+        "type": "Technology",
+        "sentiment": "neutral"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Claude",
+        "relation": "IS_PART_OF",
+        "target": "Generative AI"
+      },
+      {
+        "source": "Chatbot",
+        "relation": "IS_PART_OF",
+        "target": "Generative AI"
+      },
+      {
+        "source": "Vs Code",
+        "relation": "USES",
+        "target": "Claude Plugin"
+      },
+      {
+        "source": "Claude Plugin",
+        "relation": "USES",
+        "target": "Claude"
+      },
+      {
+        "source": "Claude",
+        "relation": "COMPETES_WITH",
+        "target": "Chatbot"
+      }
+    ],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1skcj3k/how_do_people_vibe_code_apps/ofyd7v3/",
+      "author": "Reddit User",
+      "topic": "PRODUCT"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1skcj3k/how_do_people_vibe_code_apps/ofyd7v3/",
+      "author": "Reddit User",
+      "topic": "OTHER"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1skcj3k/how_do_people_vibe_code_apps/ofy2x6z/",
+      "author": "Reddit User",
+      "topic": "OTHER"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "Generative AI",
+        "type": "Trend",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Agentive AI",
+        "type": "Trend",
+        "sentiment": "neutral"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Generative AI",
+        "relation": "IS_PART_OF",
+        "target": "Agentive AI"
+      }
+    ],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1skcj3k/how_do_people_vibe_code_apps/ofydh1k/",
+      "author": "Reddit User",
+      "topic": "PRODUCT"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "Vibe Coding",
+        "type": "Trend",
+        "sentiment": "neutral"
+      }
+    ],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1skcj3k/how_do_people_vibe_code_apps/ofy6675/",
+      "author": "Reddit User",
+      "topic": "OTHER"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "Vibe Coding",
+        "type": "Trend",
+        "sentiment": "negative"
+      }
+    ],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1skcj3k/how_do_people_vibe_code_apps/ofysfmn/",
+      "author": "Reddit User",
+      "topic": "TECH"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1skcj3k/how_do_people_vibe_code_apps/ofysfmn/",
+      "author": "Reddit User",
+      "topic": "HIRING, TECH"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "Vibe Coding",
+        "type": "Trend",
+        "sentiment": "positive"
+      },
+      {
+        "name": "AI Generative",
+        "type": "Trend",
+        "sentiment": "positive"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Vibe Coding",
+        "relation": "IS_PART_OF",
+        "target": "AI Generative"
+      }
+    ],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1skcj3k/how_do_people_vibe_code_apps/ofy7lmr/",
+      "author": "Reddit User",
+      "topic": "TECH"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "Artificial Intelligence",
+        "type": "Technology",
+        "sentiment": "positive"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Artificial Intelligence",
+        "relation": "IS_PART_OF",
+        "target": "Generative AI"
+      }
+    ],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1skcj3k/how_do_people_vibe_code_apps/ofy3xkb/",
+      "author": "Reddit User",
+      "topic": "PRODUCT, TECH"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1skcj3k/how_do_people_vibe_code_apps/ofy3xkb/",
+      "author": "Reddit User",
+      "topic": "TECH"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "Founders",
+        "type": "Person",
+        "sentiment": "positive"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Founders",
+        "relation": "DISCUSSES",
+        "target": "Generative AI"
+      }
+    ],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1skeiox/one_thing_i_know_for_certain/",
+      "author": "Reddit User",
+      "topic": "TECH, PRODUCT"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1skeiox/one_thing_i_know_for_certain/ofyhk7s/",
+      "author": "Reddit User",
+      "topic": "TECH"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "Caterpillar AI",
+        "type": "Organization",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Saas",
+        "type": "Trend",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Chatbot",
+        "type": "Technology",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Generative AI",
+        "type": "Trend",
+        "sentiment": "neutral"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Caterpillar AI",
+        "relation": "IS_PART_OF",
+        "target": "Saas"
+      },
+      {
+        "source": "Caterpillar AI",
+        "relation": "USES",
+        "target": "Chatbot"
+      },
+      {
+        "source": "Chatbot",
+        "relation": "IS_PART_OF",
+        "target": "Generative AI"
+      }
+    ],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1skomu1/when_is_it_worth_to_trademark_your_business_name/",
+      "author": "Reddit User",
+      "topic": "TECH"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1skomu1/when_is_it_worth_to_trademark_your_business_name/",
+      "author": "Reddit User",
+      "topic": "MARKETING"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1skomu1/when_is_it_worth_to_trademark_your_business_name/og0rbsx/",
+      "author": "Reddit User",
+      "topic": "OTHER"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "Seo",
+        "type": "Trend",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Social Media",
+        "type": "Trend",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Paid Ads",
+        "type": "Trend",
+        "sentiment": "negative"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Seo",
+        "relation": "IS_PART_OF",
+        "target": "Organic Marketing"
+      },
+      {
+        "source": "Social Media",
+        "relation": "IS_PART_OF",
+        "target": "Organic Marketing"
+      },
+      {
+        "source": "Paid Ads",
+        "relation": "IS_PART_OF",
+        "target": "Paid Marketing"
+      }
+    ],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1sk3c20/people_with_a_successful_business_do_you_focus/",
+      "author": "Reddit User",
+      "topic": "TECH, MARKETING"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "Meta",
+        "type": "Organization",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Facebook Ads",
+        "type": "Technology",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Organic Growth",
+        "type": "Trend",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Paid Ads",
+        "type": "Trend",
+        "sentiment": "negative"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Meta",
+        "relation": "RELEASED",
+        "target": "Facebook Ads"
+      },
+      {
+        "source": "Facebook Ads",
+        "relation": "IS_PART_OF",
+        "target": "Paid Ads"
+      }
+    ],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1sk3c20/people_with_a_successful_business_do_you_focus/ofwca5b/",
+      "author": "Reddit User",
+      "topic": "TECH, PRODUCT, FINANCE"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "Cold Outbound",
+        "type": "Trend",
+        "sentiment": "neutral"
+      }
+    ],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1sk3c20/people_with_a_successful_business_do_you_focus/ofw9eub/",
+      "author": "Reddit User",
+      "topic": "OTHER"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1sk3c20/people_with_a_successful_business_do_you_focus/ofwvxtj/",
+      "author": "Reddit User",
+      "topic": "OTHER"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1sk3c20/people_with_a_successful_business_do_you_focus/ofx532k/",
+      "author": "Reddit User",
+      "topic": "OTHER"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1sk4bc0/monday_mentorship_ask_anything_april_13_2026/ofzcn8h/",
+      "author": "Reddit User",
+      "topic": "OTHER"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1sk4bc0/monday_mentorship_ask_anything_april_13_2026/ofzcn8h/",
+      "author": "Reddit User",
+      "topic": "OTHER"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "Founders",
+        "type": "Person",
+        "sentiment": "positive"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Founders",
+        "relation": "DISCUSSES",
+        "target": "Generative AI"
+      }
+    ],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1sk4bc0/monday_mentorship_ask_anything_april_13_2026/ofx9zf6/",
+      "author": "Reddit User",
+      "topic": "PRODUCT, CAREER"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "Affiliate Marketing",
+        "type": "Trend",
+        "sentiment": "positive"
+      }
+    ],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1sk489t/why_copying_other_affiliates_is_killing_your/",
+      "author": "Reddit User",
+      "topic": "PRODUCT"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "Affiliate Marketers",
+        "type": "Trend",
+        "sentiment": "positive"
+      }
+    ],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1sk489t/why_copying_other_affiliates_is_killing_your/",
+      "author": "Reddit User",
+      "topic": "OTHER"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1sj8xnv/nearly_took_all_my_efforts_to_get_to_this_point/",
+      "author": "Reddit User",
+      "topic": "HIRING, TECH, FINANCE"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1sj8xnv/nearly_took_all_my_efforts_to_get_to_this_point/",
+      "author": "Reddit User",
+      "topic": "OTHER"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1sj8xnv/nearly_took_all_my_efforts_to_get_to_this_point/",
+      "author": "Reddit User",
+      "topic": "OTHER"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1sj8xnv/nearly_took_all_my_efforts_to_get_to_this_point/ofpwicl/",
+      "author": "Reddit User",
+      "topic": "OTHER"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1sj8xnv/nearly_took_all_my_efforts_to_get_to_this_point/ofpyd8n/",
+      "author": "Reddit User",
+      "topic": "TECH"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1sj8xnv/nearly_took_all_my_efforts_to_get_to_this_point/ofq8v0l/",
+      "author": "Reddit User",
+      "topic": "OTHER"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1sj8xnv/nearly_took_all_my_efforts_to_get_to_this_point/ofq8x80/",
+      "author": "Reddit User",
+      "topic": "OTHER"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1sj8xnv/nearly_took_all_my_efforts_to_get_to_this_point/ofq24im/",
+      "author": "Reddit User",
+      "topic": "PRODUCT"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1sj8xnv/nearly_took_all_my_efforts_to_get_to_this_point/ofqblei/",
+      "author": "Reddit User",
+      "topic": "PRODUCT, FINANCE, PRICING"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1sj8xnv/nearly_took_all_my_efforts_to_get_to_this_point/ofpxac9/",
+      "author": "Reddit User",
+      "topic": "OTHER"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "R/Startups",
+        "type": "Organization",
+        "sentiment": "neutral"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "R/Startups",
+        "relation": "DISCUSSES",
+        "target": "Generative AI"
+      },
+      {
+        "source": "R/Startups",
+        "relation": "DISCUSSES",
+        "target": "Agentive AI"
+      }
+    ],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/startups/comments/1siohta/share_your_startup_quarterly_post/",
+      "author": "Reddit User",
+      "topic": "TECH"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "Startup Genome",
+        "type": "Organization",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Kauffman Foundation",
+        "type": "Organization",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Max Marmer",
+        "type": "Person",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Startup Life Cycle Stages",
+        "type": "Trend",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Discovery",
+        "type": "Trend",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Validation",
+        "type": "Trend",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Efficiency",
+        "type": "Trend",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Problem/Solution Fit",
+        "type": "Trend",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Product/Market Fit",
+        "type": "Trend",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Mvp",
+        "type": "Technology",
+        "sentiment": "neutral"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Max Marmer",
+        "relation": "DISCUSSES",
+        "target": "Startup Life Cycle Stages"
+      },
+      {
+        "source": "Startup Genome",
+        "relation": "DISCUSSES",
+        "target": "Startup Life Cycle Stages"
+      },
+      {
+        "source": "Kauffman Foundation",
+        "relation": "DISCUSSES",
+        "target": "Startup Life Cycle Stages"
+      },
+      {
+        "source": "Startup Life Cycle Stages",
+        "relation": "IS_PART_OF",
+        "target": "Discovery"
+      },
+      {
+        "source": "Startup Life Cycle Stages",
+        "relation": "IS_PART_OF",
+        "target": "Validation"
+      },
+      {
+        "source": "Startup Life Cycle Stages",
+        "relation": "IS_PART_OF",
+        "target": "Efficiency"
+      },
+      {
+        "source": "Discovery",
+        "relation": "DISCUSSES",
+        "target": "Problem/Solution Fit"
+      },
+      {
+        "source": "Discovery",
+        "relation": "DISCUSSES",
+        "target": "Mvp"
+      },
+      {
+        "source": "Validation",
+        "relation": "DISCUSSES",
+        "target": "Problem/Solution Fit"
+      },
+      {
+        "source": "Validation",
+        "relation": "DISCUSSES",
+        "target": "Product/Market Fit"
+      },
+      {
+        "source": "Validation",
+        "relation": "DISCUSSES",
+        "target": "Mvp"
+      },
+      {
+        "source": "Efficiency",
+        "relation": "DISCUSSES",
+        "target": "Product/Market Fit"
+      }
+    ],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/startups/comments/1siohta/share_your_startup_quarterly_post/",
+      "author": "Reddit User",
+      "topic": "PRODUCT, TECH, MARKETING"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/startups/comments/1siohta/share_your_startup_quarterly_post/",
+      "author": "Reddit User",
+      "topic": "FINANCE, MARKETING"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "Company",
+        "type": "Organization",
+        "sentiment": "neutral"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Company",
+        "relation": "DISCUSSES",
+        "target": "Generative AI"
+      },
+      {
+        "source": "Company",
+        "relation": "DISCUSSES",
+        "target": "Agentive AI"
+      },
+      {
+        "source": "Company",
+        "relation": "DISCUSSES",
+        "target": "Horizontal Expansion"
+      },
+      {
+        "source": "Company",
+        "relation": "DISCUSSES",
+        "target": "Vertical Expansion"
+      }
+    ],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/startups/comments/1siohta/share_your_startup_quarterly_post/",
+      "author": "Reddit User",
+      "topic": "OTHER"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "Opal",
+        "type": "Technology",
+        "sentiment": "negative"
+      },
+      {
+        "name": "Grayscale",
+        "type": "Technology",
+        "sentiment": "negative"
+      },
+      {
+        "name": "Instagram",
+        "type": "Technology",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Youtube",
+        "type": "Technology",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Reels",
+        "type": "Technology",
+        "sentiment": "negative"
+      },
+      {
+        "name": "Shorts",
+        "type": "Technology",
+        "sentiment": "negative"
+      },
+      {
+        "name": "Tiktok",
+        "type": "Technology",
+        "sentiment": "negative"
+      },
+      {
+        "name": "Short Form Content",
+        "type": "Trend",
+        "sentiment": "negative"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Reels",
+        "relation": "IS_PART_OF",
+        "target": "Short Form Content"
+      },
+      {
+        "source": "Shorts",
+        "relation": "IS_PART_OF",
+        "target": "Short Form Content"
+      },
+      {
+        "source": "Tiktok",
+        "relation": "IS_PART_OF",
+        "target": "Short Form Content"
+      },
+      {
+        "source": "Opal",
+        "relation": "USES",
+        "target": "Reels"
+      },
+      {
+        "source": "Opal",
+        "relation": "USES",
+        "target": "Shorts"
+      },
+      {
+        "source": "Grayscale",
+        "relation": "USES",
+        "target": "Short Form Content"
+      }
+    ],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/startups/comments/1smkufz/solo_founder_20_years_old_got_my_first_2_paid/",
+      "author": "Reddit User",
+      "topic": "TECH, PRODUCT"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "Play Store",
+        "type": "Organization",
+        "sentiment": "neutral"
+      }
+    ],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/startups/comments/1smkufz/solo_founder_20_years_old_got_my_first_2_paid/",
+      "author": "Reddit User",
+      "topic": "TECH, MARKETING"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/startups/comments/1smkufz/solo_founder_20_years_old_got_my_first_2_paid/",
+      "author": "Reddit User",
+      "topic": "PRODUCT"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/startups/comments/1sm48hy/how_do_you_find_right_people_to_talk_i_will_not/",
+      "author": "Reddit User",
+      "topic": "HIRING, MARKETING, PRODUCT"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/startups/comments/1sm48hy/how_do_you_find_right_people_to_talk_i_will_not/ogbfrra/",
+      "author": "Reddit User",
+      "topic": "PRODUCT"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "Slack",
+        "type": "Organization",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Reddit",
+        "type": "Organization",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "R/Entrepreneur",
+        "type": "Technology",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Niche Slack",
+        "type": "Technology",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Community Building",
+        "type": "Trend",
+        "sentiment": "neutral"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Slack",
+        "relation": "RELEASED",
+        "target": "Niche Slack"
+      },
+      {
+        "source": "Reddit",
+        "relation": "RELEASED",
+        "target": "R/Entrepreneur"
+      },
+      {
+        "source": "Community Building",
+        "relation": "IS_PART_OF",
+        "target": "Trend"
+      },
+      {
+        "source": "Niche Slack",
+        "relation": "IS_PART_OF",
+        "target": "Community Building"
+      },
+      {
+        "source": "R/Entrepreneur",
+        "relation": "IS_PART_OF",
+        "target": "Community Building"
+      },
+      {
+        "source": "Slack",
+        "relation": "COMPETES_WITH",
+        "target": "Reddit"
+      }
+    ],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/startups/comments/1sm48hy/how_do_you_find_right_people_to_talk_i_will_not/ogbfrra/",
+      "author": "Reddit User",
+      "topic": "HIRING"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/startups/comments/1sm48hy/how_do_you_find_right_people_to_talk_i_will_not/ogcqgb0/",
+      "author": "Reddit User",
+      "topic": "OTHER"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "Buyers",
+        "type": "Trend",
+        "sentiment": "negative"
+      }
+    ],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/startups/comments/1sm48hy/how_do_you_find_right_people_to_talk_i_will_not/ogcqgb0/",
+      "author": "Reddit User",
+      "topic": "HIRING, TECH, PRODUCT"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/startups/comments/1smenbo/how_looking_for_tech_cofounder_turned_into/",
+      "author": "Reddit User",
+      "topic": "TECH, PRODUCT"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "Investors",
+        "type": "Organization",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Mvp",
+        "type": "Technology",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Scam",
+        "type": "Trend",
+        "sentiment": "negative"
+      },
+      {
+        "name": "Idea Validation",
+        "type": "Trend",
+        "sentiment": "positive"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Investors",
+        "relation": "INVESTED_IN",
+        "target": "Mvp"
+      },
+      {
+        "source": "Scam",
+        "relation": "DISCUSSES",
+        "target": "Trend"
+      },
+      {
+        "source": "Idea Validation",
+        "relation": "DISCUSSES",
+        "target": "Trend"
+      }
+    ],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/startups/comments/1smenbo/how_looking_for_tech_cofounder_turned_into/",
+      "author": "Reddit User",
+      "topic": "PRODUCT"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "Freelance Full Stack Developer",
+        "type": "Person",
+        "sentiment": "neutral"
+      }
+    ],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/startups/comments/1smenbo/how_looking_for_tech_cofounder_turned_into/ogdnltz/",
+      "author": "Reddit User",
+      "topic": "TECH, PRODUCT"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "Founding Engineer",
+        "type": "Person",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Founders",
+        "type": "Person",
+        "sentiment": "neutral"
+      }
+    ],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/startups/comments/1sm9pdt/how_much_should_i_give_my_founding_engineer_i/",
+      "author": "Reddit User",
+      "topic": "HIRING, TECH, PRODUCT"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/startups/comments/1sm9pdt/how_much_should_i_give_my_founding_engineer_i/",
+      "author": "Reddit User",
+      "topic": "OTHER"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/startups/comments/1sm9pdt/how_much_should_i_give_my_founding_engineer_i/ogdcuwx/",
+      "author": "Reddit User",
+      "topic": "FINANCE"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/startups/comments/1sm9pdt/how_much_should_i_give_my_founding_engineer_i/oged1ml/",
+      "author": "Reddit User",
+      "topic": "HIRING, TECH, FINANCE"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/startups/comments/1sm9pdt/how_much_should_i_give_my_founding_engineer_i/ogejmhn/",
+      "author": "Reddit User",
+      "topic": "HIRING"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/startups/comments/1sm9pdt/how_much_should_i_give_my_founding_engineer_i/ogfelak/",
+      "author": "Reddit User",
+      "topic": "HIRING"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "Monetization Optimization",
+        "type": "Trend",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Service-Based Businesses",
+        "type": "Trend",
+        "sentiment": "neutral"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Monetization Optimization",
+        "relation": "IS_PART_OF",
+        "target": "Service-Based Businesses"
+      }
+    ],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/startups/comments/1sm9rxh/how_do_i_seriously_acquire_customers_for_my/",
+      "author": "Reddit User",
+      "topic": "TECH, FINANCE"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/startups/comments/1sm9rxh/how_do_i_seriously_acquire_customers_for_my/",
+      "author": "Reddit User",
+      "topic": "OTHER"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/startups/comments/1sm9rxh/how_do_i_seriously_acquire_customers_for_my/",
+      "author": "Reddit User",
+      "topic": "OTHER"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "Founders",
+        "type": "Person",
+        "sentiment": "neutral"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Founders",
+        "relation": "DISCUSSES",
+        "target": "Generative AI"
+      }
+    ],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/startups/comments/1sm1uln/would_you_use_this_is_probably_one_of_the_worst/",
+      "author": "Reddit User",
+      "topic": "PRODUCT, MARKETING"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/startups/comments/1sm1uln/would_you_use_this_is_probably_one_of_the_worst/",
+      "author": "Reddit User",
+      "topic": "TECH, PRICING"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "Siftid.Co",
+        "type": "Technology",
+        "sentiment": "positive"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Siftid.Co",
+        "relation": "IS_PART_OF",
+        "target": "Trend"
+      }
+    ],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/startups/comments/1sm1uln/would_you_use_this_is_probably_one_of_the_worst/ogb23vo/",
+      "author": "Reddit User",
+      "topic": "TECH, PRODUCT"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "Start-Up Fintech Platform",
+        "type": "Organization",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Founders",
+        "type": "Person",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Tech-Savvy Coo",
+        "type": "Person",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Incubators",
+        "type": "Organization",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Fundraising",
+        "type": "Trend",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Licensing Process",
+        "type": "Trend",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Trading Simulations",
+        "type": "Technology",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Finance",
+        "type": "Trend",
+        "sentiment": "neutral"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Founders",
+        "relation": "WORKS_FOR",
+        "target": "Start-Up Fintech Platform"
+      },
+      {
+        "source": "Tech-Savvy Coo",
+        "relation": "WORKS_FOR",
+        "target": "Start-Up Fintech Platform"
+      },
+      {
+        "source": "Start-Up Fintech Platform",
+        "relation": "PARTNERED_WITH",
+        "target": "Incubators"
+      },
+      {
+        "source": "Start-Up Fintech Platform",
+        "relation": "DISCUSSES",
+        "target": "Fundraising"
+      },
+      {
+        "source": "Start-Up Fintech Platform",
+        "relation": "DISCUSSES",
+        "target": "Licensing Process"
+      },
+      {
+        "source": "Start-Up Fintech Platform",
+        "relation": "RELEASED",
+        "target": "Trading Simulations"
+      },
+      {
+        "source": "Founders",
+        "relation": "DISCUSSES",
+        "target": "Finance"
+      },
+      {
+        "source": "Trading Simulations",
+        "relation": "IS_PART_OF",
+        "target": "Finance"
+      }
+    ],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/startups/comments/1slvjxh/structuring_my_involvement_with_a_startup_i_will/",
+      "author": "Reddit User",
+      "topic": "TECH, CAREER"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "Founders",
+        "type": "Person",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Anchor Investor",
+        "type": "Organization",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Project",
+        "type": "Trend",
+        "sentiment": "positive"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Founders",
+        "relation": "DISCUSSES",
+        "target": "Project"
+      },
+      {
+        "source": "Anchor Investor",
+        "relation": "INVESTED_IN",
+        "target": "Founders"
+      },
+      {
+        "source": "Founders",
+        "relation": "DISCUSSES",
+        "target": "Trend"
+      }
+    ],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/startups/comments/1slvjxh/structuring_my_involvement_with_a_startup_i_will/",
+      "author": "Reddit User",
+      "topic": "FUNDING, TECH, FINANCE"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/startups/comments/1slvjxh/structuring_my_involvement_with_a_startup_i_will/",
+      "author": "Reddit User",
+      "topic": "FUNDING"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/startups/comments/1slqndn/when_do_you_share_your_ideabusiness_plan_with_a/",
+      "author": "Reddit User",
+      "topic": "FINANCE"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/startups/comments/1slbxy2/only_been_paid_in_equity_should_i_quit_i_will_not/",
+      "author": "Reddit User",
+      "topic": "TECH"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/startups/comments/1slbxy2/only_been_paid_in_equity_should_i_quit_i_will_not/",
+      "author": "Reddit User",
+      "topic": "TECH"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/startups/comments/1slbxy2/only_been_paid_in_equity_should_i_quit_i_will_not/og5dlqy/",
+      "author": "Reddit User",
+      "topic": "TECH"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/startups/comments/1slbxy2/only_been_paid_in_equity_should_i_quit_i_will_not/og5eph4/",
+      "author": "Reddit User",
+      "topic": "HIRING, TECH"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/startups/comments/1slbxy2/only_been_paid_in_equity_should_i_quit_i_will_not/og5f1w6/",
+      "author": "Reddit User",
+      "topic": "OTHER"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/startups/comments/1slbxy2/only_been_paid_in_equity_should_i_quit_i_will_not/og5g51g/",
+      "author": "Reddit User",
+      "topic": "OTHER"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "Phd",
+        "type": "Trend",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "My Startup",
+        "type": "Organization",
+        "sentiment": "neutral"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Phd",
+        "relation": "DISCUSSES",
+        "target": "My Startup"
+      }
+    ],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/startups/comments/1slbxy2/only_been_paid_in_equity_should_i_quit_i_will_not/og5krq8/",
+      "author": "Reddit User",
+      "topic": "OTHER"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/startups/comments/1slbxy2/only_been_paid_in_equity_should_i_quit_i_will_not/og5jazz/",
+      "author": "Reddit User",
+      "topic": "FUNDING, HIRING, TECH"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/startups/comments/1slbxy2/only_been_paid_in_equity_should_i_quit_i_will_not/og5jazz/",
+      "author": "Reddit User",
+      "topic": "HIRING"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/startups/comments/1sm95en/raising_a_2m_preseed_i_will_not_promote/ogck2f7/",
+      "author": "Reddit User",
+      "topic": "TECH"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/startups/comments/1sm95en/raising_a_2m_preseed_i_will_not_promote/ogcmnaq/",
+      "author": "Reddit User",
+      "topic": "TECH, PRODUCT"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/startups/comments/1sm95en/raising_a_2m_preseed_i_will_not_promote/ogcx3w0/",
+      "author": "Reddit User",
+      "topic": "OTHER"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "Angels",
+        "type": "Organization",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Institutional",
+        "type": "Organization",
+        "sentiment": "neutral"
+      }
+    ],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/startups/comments/1sm95en/raising_a_2m_preseed_i_will_not_promote/ogchmvj/",
+      "author": "Reddit User",
+      "topic": "FUNDING, TECH"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "Christian Vcs",
+        "type": "Organization",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Platform In The Christian Space",
+        "type": "Technology",
+        "sentiment": "positive"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Christian Vcs",
+        "relation": "INVESTED_IN",
+        "target": "Platform In The Christian Space"
+      }
+    ],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/startups/comments/1sll6yb/how_soon_is_too_soon_to_reach_out_to_vcs_am_i/",
+      "author": "Reddit User",
+      "topic": "MARKETING, PRODUCT, TECH"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "VC",
+        "type": "Organization",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Donation-Based Model",
+        "type": "Trend",
+        "sentiment": "neutral"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "VC",
+        "relation": "DISCUSSES",
+        "target": "Donation-Based Model"
+      }
+    ],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/startups/comments/1sll6yb/how_soon_is_too_soon_to_reach_out_to_vcs_am_i/",
+      "author": "Reddit User",
+      "topic": "TECH, PRODUCT"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "VC",
+        "type": "Organization",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Angels",
+        "type": "Organization",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Angellist",
+        "type": "Organization",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Huge Market",
+        "type": "Trend",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Good Traction",
+        "type": "Trend",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Significant/Quick Growth",
+        "type": "Trend",
+        "sentiment": "positive"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Angels",
+        "relation": "INVESTED_IN",
+        "target": "Angellist"
+      },
+      {
+        "source": "VC",
+        "relation": "COMPETES_WITH",
+        "target": "Angels"
+      },
+      {
+        "source": "Huge Market",
+        "relation": "DISCUSSES",
+        "target": "VC"
+      },
+      {
+        "source": "Good Traction",
+        "relation": "DISCUSSES",
+        "target": "VC"
+      },
+      {
+        "source": "Significant/Quick Growth",
+        "relation": "DISCUSSES",
+        "target": "VC"
+      }
+    ],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/startups/comments/1sll6yb/how_soon_is_too_soon_to_reach_out_to_vcs_am_i/og7gg33/",
+      "author": "Reddit User",
+      "topic": "FUNDING, TECH, MARKETING"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/startups/comments/1sl863y/did_my_screening_call_actually_go_well_the_wait/",
+      "author": "Reddit User",
+      "topic": "TECH"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/startups/comments/1sl863y/did_my_screening_call_actually_go_well_the_wait/",
+      "author": "Reddit User",
+      "topic": "TECH, CAREER"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/startups/comments/1sl863y/did_my_screening_call_actually_go_well_the_wait/",
+      "author": "Reddit User",
+      "topic": "TECH"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/startups/comments/1sl863y/did_my_screening_call_actually_go_well_the_wait/",
+      "author": "Reddit User",
+      "topic": "OTHER"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/startups/comments/1sl863y/did_my_screening_call_actually_go_well_the_wait/og4mbg3/",
+      "author": "Reddit User",
+      "topic": "HIRING"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/startups/comments/1skdb7x/from_broke_with_a_baby_on_the_way_and_a_failed/",
+      "author": "Reddit User",
+      "topic": "HIRING, TECH"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/startups/comments/1skdb7x/from_broke_with_a_baby_on_the_way_and_a_failed/",
+      "author": "Reddit User",
+      "topic": "TECH, CAREER"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/startups/comments/1skdb7x/from_broke_with_a_baby_on_the_way_and_a_failed/",
+      "author": "Reddit User",
+      "topic": "HIRING, TECH"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/startups/comments/1skdb7x/from_broke_with_a_baby_on_the_way_and_a_failed/",
+      "author": "Reddit User",
+      "topic": "FINANCE, TECH"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/startups/comments/1skdb7x/from_broke_with_a_baby_on_the_way_and_a_failed/",
+      "author": "Reddit User",
+      "topic": "HIRING, TECH"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/startups/comments/1skdb7x/from_broke_with_a_baby_on_the_way_and_a_failed/",
+      "author": "Reddit User",
+      "topic": "FINANCE"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/startups/comments/1skdb7x/from_broke_with_a_baby_on_the_way_and_a_failed/",
+      "author": "Reddit User",
+      "topic": "TECH, PRODUCT"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/startups/comments/1skdb7x/from_broke_with_a_baby_on_the_way_and_a_failed/",
+      "author": "Reddit User",
+      "topic": "TECH"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/startups/comments/1skdb7x/from_broke_with_a_baby_on_the_way_and_a_failed/ofy8vrf/",
+      "author": "Reddit User",
+      "topic": "TECH"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/startups/comments/1skdb7x/from_broke_with_a_baby_on_the_way_and_a_failed/ofycbzs/",
+      "author": "Reddit User",
+      "topic": "OTHER"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "Blue Ocean Strategy",
+        "type": "Trend",
+        "sentiment": "positive"
+      }
+    ],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/startups/comments/1skdb7x/from_broke_with_a_baby_on_the_way_and_a_failed/ofyj749/",
+      "author": "Reddit User",
+      "topic": "OTHER"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/startups/comments/1skdb7x/from_broke_with_a_baby_on_the_way_and_a_failed/ofynzm9/",
+      "author": "Reddit User",
+      "topic": "OTHER"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/startups/comments/1skdb7x/from_broke_with_a_baby_on_the_way_and_a_failed/ofzumvd/",
+      "author": "Reddit User",
+      "topic": "TECH, PRODUCT, FINANCE"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/startups/comments/1skdb7x/from_broke_with_a_baby_on_the_way_and_a_failed/ofzumvd/",
+      "author": "Reddit User",
+      "topic": "HIRING, FINANCE"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/startups/comments/1skdb7x/from_broke_with_a_baby_on_the_way_and_a_failed/og18bn7/",
+      "author": "Reddit User",
+      "topic": "TECH"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/startups/comments/1skdb7x/from_broke_with_a_baby_on_the_way_and_a_failed/og1e4wt/",
+      "author": "Reddit User",
+      "topic": "HIRING, TECH"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/startups/comments/1skdb7x/from_broke_with_a_baby_on_the_way_and_a_failed/og12b4l/",
+      "author": "Reddit User",
+      "topic": "PRICING"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/startups/comments/1skdb7x/from_broke_with_a_baby_on_the_way_and_a_failed/og16bf7/",
+      "author": "Reddit User",
+      "topic": "TECH"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "Apple",
+        "type": "Organization",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Meta",
+        "type": "Organization",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Samsung",
+        "type": "Organization",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Ar Smart Glasses",
+        "type": "Trend",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Spatial Computing",
+        "type": "Trend",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Smart Glasses Sdk",
+        "type": "Technology",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "AR/VR",
+        "type": "Trend",
+        "sentiment": "neutral"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Apple",
+        "relation": "DISCUSSES",
+        "target": "AR/VR"
+      },
+      {
+        "source": "Meta",
+        "relation": "DISCUSSES",
+        "target": "AR/VR"
+      },
+      {
+        "source": "Samsung",
+        "relation": "DISCUSSES",
+        "target": "AR/VR"
+      },
+      {
+        "source": "Apple",
+        "relation": "DISCUSSES",
+        "target": "Spatial Computing"
+      },
+      {
+        "source": "Meta",
+        "relation": "RELEASED",
+        "target": "Smart Glasses Sdk"
+      },
+      {
+        "source": "Smart Glasses Sdk",
+        "relation": "IS_PART_OF",
+        "target": "Ar Smart Glasses"
+      },
+      {
+        "source": "Ar Smart Glasses",
+        "relation": "IS_PART_OF",
+        "target": "AR/VR"
+      },
+      {
+        "source": "Meta",
+        "relation": "DISCUSSES",
+        "target": "Ar Smart Glasses"
+      },
+      {
+        "source": "Apple",
+        "relation": "DISCUSSES",
+        "target": "Ar Smart Glasses"
+      }
+    ],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/startups/comments/1skwlp1/the_ar_smart_glasses_market_tripled_last_year_and/",
+      "author": "Reddit User",
+      "topic": "PRODUCT"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "Apple",
+        "type": "Organization",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Vision Pro",
+        "type": "Technology",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Spatial Computing",
+        "type": "Trend",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Meta",
+        "type": "Organization",
+        "sentiment": "positive"
+      },
+      {
+        "name": "AR/VR",
+        "type": "Trend",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Ctrl-Labs",
+        "type": "Organization",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Bigbox Vr",
+        "type": "Organization",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Scape Technologies",
+        "type": "Organization",
+        "sentiment": "neutral"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Apple",
+        "relation": "RELEASED",
+        "target": "Vision Pro"
+      },
+      {
+        "source": "Apple",
+        "relation": "DISCUSSES",
+        "target": "Spatial Computing"
+      },
+      {
+        "source": "Apple",
+        "relation": "IS_PART_OF",
+        "target": "AR/VR"
+      },
+      {
+        "source": "Meta",
+        "relation": "DISCUSSES",
+        "target": "AR/VR"
+      },
+      {
+        "source": "Meta",
+        "relation": "ACQUIRED",
+        "target": "Ctrl-Labs"
+      },
+      {
+        "source": "Meta",
+        "relation": "ACQUIRED",
+        "target": "Bigbox Vr"
+      },
+      {
+        "source": "Meta",
+        "relation": "ACQUIRED",
+        "target": "Scape Technologies"
+      }
+    ],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/startups/comments/1skwlp1/the_ar_smart_glasses_market_tripled_last_year_and/",
+      "author": "Reddit User",
+      "topic": "PRODUCT"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "Sony",
+        "type": "Organization",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Microsoft",
+        "type": "Organization",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Samsung",
+        "type": "Organization",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Essilorluxottica",
+        "type": "Organization",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Meta",
+        "type": "Organization",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Ray-Ban",
+        "type": "Organization",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Idc",
+        "type": "Organization",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Ar/Vr/Xr",
+        "type": "Trend",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Eye Tracking Hardware",
+        "type": "Technology",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Gesture Recognition Systems",
+        "type": "Technology",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Waveguide Displays",
+        "type": "Technology",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Spatial Audio",
+        "type": "Technology",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Ar Smart Glasses",
+        "type": "Technology",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Ray-Ban Stories",
+        "type": "Technology",
+        "sentiment": "positive"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Sony",
+        "relation": "DISCUSSES",
+        "target": "Ar/Vr/Xr"
+      },
+      {
+        "source": "Microsoft",
+        "relation": "DISCUSSES",
+        "target": "Ar/Vr/Xr"
+      },
+      {
+        "source": "Samsung",
+        "relation": "DISCUSSES",
+        "target": "Ar/Vr/Xr"
+      },
+      {
+        "source": "Essilorluxottica",
+        "relation": "PARTNERED_WITH",
+        "target": "Meta"
+      },
+      {
+        "source": "Ray-Ban",
+        "relation": "IS_PART_OF",
+        "target": "Essilorluxottica"
+      },
+      {
+        "source": "Meta",
+        "relation": "RELEASED",
+        "target": "Ar Smart Glasses"
+      },
+      {
+        "source": "Meta",
+        "relation": "RELEASED",
+        "target": "Ray-Ban Stories"
+      },
+      {
+        "source": "Ar Smart Glasses",
+        "relation": "IS_PART_OF",
+        "target": "Ar/Vr/Xr"
+      },
+      {
+        "source": "Ray-Ban Stories",
+        "relation": "IS_PART_OF",
+        "target": "Ar/Vr/Xr"
+      },
+      {
+        "source": "Eye Tracking Hardware",
+        "relation": "IS_PART_OF",
+        "target": "Ar/Vr/Xr"
+      },
+      {
+        "source": "Gesture Recognition Systems",
+        "relation": "IS_PART_OF",
+        "target": "Ar/Vr/Xr"
+      },
+      {
+        "source": "Waveguide Displays",
+        "relation": "IS_PART_OF",
+        "target": "Ar/Vr/Xr"
+      },
+      {
+        "source": "Spatial Audio",
+        "relation": "IS_PART_OF",
+        "target": "Ar/Vr/Xr"
+      },
+      {
+        "source": "Idc",
+        "relation": "DISCUSSES",
+        "target": "Ar/Vr/Xr"
+      }
+    ],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/startups/comments/1skwlp1/the_ar_smart_glasses_market_tripled_last_year_and/",
+      "author": "Reddit User",
+      "topic": "FINANCE"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "Meta",
+        "type": "Organization",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Wearables Device Access Toolkit",
+        "type": "Technology",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Smartglasses",
+        "type": "Trend",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Developer Ecosystem",
+        "type": "Trend",
+        "sentiment": "negative"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Meta",
+        "relation": "RELEASED",
+        "target": "Wearables Device Access Toolkit"
+      },
+      {
+        "source": "Wearables Device Access Toolkit",
+        "relation": "IS_PART_OF",
+        "target": "Smartglasses"
+      },
+      {
+        "source": "Meta",
+        "relation": "DISCUSSES",
+        "target": "Smartglasses"
+      },
+      {
+        "source": "Developer Ecosystem",
+        "relation": "DISCUSSES",
+        "target": "Smartglasses"
+      }
+    ],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/startups/comments/1skwlp1/the_ar_smart_glasses_market_tripled_last_year_and/",
+      "author": "Reddit User",
+      "topic": "TECH"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "Twitch",
+        "type": "Organization",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Microsoft Seeing AI",
+        "type": "Organization",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Logitech Streamlabs",
+        "type": "Organization",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Disney Imagineering",
+        "type": "Organization",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "18Birdies",
+        "type": "Organization",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Goodnotes",
+        "type": "Organization",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Apple Pencil",
+        "type": "Technology",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Ipad Pro",
+        "type": "Technology",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "App Store",
+        "type": "Technology",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Angry Birds",
+        "type": "Technology",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Generative AI",
+        "type": "Trend",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Agentive AI",
+        "type": "Trend",
+        "sentiment": "neutral"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Twitch",
+        "relation": "PARTNERED_WITH",
+        "target": "18Birdies"
+      },
+      {
+        "source": "Microsoft Seeing AI",
+        "relation": "PARTNERED_WITH",
+        "target": "Logitech Streamlabs"
+      },
+      {
+        "source": "Disney Imagineering",
+        "relation": "PARTNERED_WITH",
+        "target": "18Birdies"
+      },
+      {
+        "source": "Goodnotes",
+        "relation": "RELEASED",
+        "target": "App Store"
+      },
+      {
+        "source": "Apple Pencil",
+        "relation": "IS_PART_OF",
+        "target": "Ipad Pro"
+      },
+      {
+        "source": "Goodnotes",
+        "relation": "USES",
+        "target": "Apple Pencil"
+      },
+      {
+        "source": "Angry Birds",
+        "relation": "RELEASED",
+        "target": "App Store"
+      }
+    ],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/startups/comments/1skwlp1/the_ar_smart_glasses_market_tripled_last_year_and/",
+      "author": "Reddit User",
+      "topic": "TECH, MARKETING, PRODUCT"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "Ar Smart Glasses",
+        "type": "Trend",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Apple",
+        "type": "Organization",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Meta",
+        "type": "Organization",
+        "sentiment": "neutral"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Apple",
+        "relation": "COMPETES_WITH",
+        "target": "Ar Smart Glasses"
+      },
+      {
+        "source": "Meta",
+        "relation": "COMPETES_WITH",
+        "target": "Ar Smart Glasses"
+      }
+    ],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/startups/comments/1skwlp1/the_ar_smart_glasses_market_tripled_last_year_and/",
+      "author": "Reddit User",
+      "topic": "OTHER"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "Corporate",
+        "type": "Organization",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Developer",
+        "type": "Organization",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Sdk",
+        "type": "Technology",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Early App Store Days",
+        "type": "Trend",
+        "sentiment": "neutral"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Corporate",
+        "relation": "INVESTED_IN",
+        "target": "Sdk"
+      },
+      {
+        "source": "Developer",
+        "relation": "PARTNERED_WITH",
+        "target": "Sdk"
+      },
+      {
+        "source": "Corporate",
+        "relation": "DISCUSSES",
+        "target": "Early App Store Days"
+      },
+      {
+        "source": "Developer",
+        "relation": "DISCUSSES",
+        "target": "Early App Store Days"
+      }
+    ],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/startups/comments/1skwlp1/the_ar_smart_glasses_market_tripled_last_year_and/",
+      "author": "Reddit User",
+      "topic": "OTHER"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "Meta",
+        "type": "Organization",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "AR/VR",
+        "type": "Trend",
+        "sentiment": "neutral"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Meta",
+        "relation": "PARTNERED_WITH",
+        "target": "AR/VR"
+      }
+    ],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/startups/comments/1skwlp1/the_ar_smart_glasses_market_tripled_last_year_and/og36ywt/",
+      "author": "Reddit User",
+      "topic": "OTHER"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "Chinese Open Source Hardware",
+        "type": "Technology",
+        "sentiment": "neutral"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Chinese Open Source  Hardware",
+        "relation": "IS_PART_OF",
+        "target": "Generative AI"
+      }
+    ],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/startups/comments/1skwlp1/the_ar_smart_glasses_market_tripled_last_year_and/og36ywt/",
+      "author": "Reddit User",
+      "topic": "OTHER"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/startups/comments/1skwlp1/the_ar_smart_glasses_market_tripled_last_year_and/og3wzpz/",
+      "author": "Reddit User",
+      "topic": "PRODUCT"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "Smartglasses",
+        "type": "Technology",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Ar",
+        "type": "Technology",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Vr",
+        "type": "Technology",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Xr",
+        "type": "Trend",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "App Titans",
+        "type": "Organization",
+        "sentiment": "neutral"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Xr",
+        "relation": "IS_PART_OF",
+        "target": "Trend"
+      },
+      {
+        "source": "Ar",
+        "relation": "IS_PART_OF",
+        "target": "Xr"
+      },
+      {
+        "source": "Vr",
+        "relation": "IS_PART_OF",
+        "target": "Xr"
+      },
+      {
+        "source": "Smartglasses",
+        "relation": "IS_PART_OF",
+        "target": "Xr"
+      },
+      {
+        "source": "App Titans",
+        "relation": "DISCUSSES",
+        "target": "Xr"
+      },
+      {
+        "source": "App Titans",
+        "relation": "RELEASED",
+        "target": "Smartglasses"
+      }
+    ],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/startups/comments/1skwlp1/the_ar_smart_glasses_market_tripled_last_year_and/og4ktco/",
+      "author": "Reddit User",
+      "topic": "PRODUCT"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/startups/comments/1skwlp1/the_ar_smart_glasses_market_tripled_last_year_and/og4ldl3/",
+      "author": "Reddit User",
+      "topic": "OTHER"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "Google Glass",
+        "type": "Technology",
+        "sentiment": "negative"
+      },
+      {
+        "name": "Meta",
+        "type": "Organization",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Ar",
+        "type": "Trend",
+        "sentiment": "negative"
+      },
+      {
+        "name": "Smartglasses",
+        "type": "Technology",
+        "sentiment": "negative"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Google Glass",
+        "relation": "IS_PART_OF",
+        "target": "Ar"
+      },
+      {
+        "source": "Smartglasses",
+        "relation": "IS_PART_OF",
+        "target": "Ar"
+      },
+      {
+        "source": "Meta",
+        "relation": "RELEASED",
+        "target": "Smartglasses"
+      },
+      {
+        "source": "Ar",
+        "relation": "DISCUSSES",
+        "target": "Smartglasses"
+      }
+    ],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/startups/comments/1skwlp1/the_ar_smart_glasses_market_tripled_last_year_and/og362t4/",
+      "author": "Reddit User",
+      "topic": "OTHER"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "Smartglasses",
+        "type": "Trend",
+        "sentiment": "neutral"
+      }
+    ],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/startups/comments/1skwlp1/the_ar_smart_glasses_market_tripled_last_year_and/og53n3m/",
+      "author": "Reddit User",
+      "topic": "MARKETING"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "Vr",
+        "type": "Trend",
+        "sentiment": "negative"
+      }
+    ],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/startups/comments/1skwlp1/the_ar_smart_glasses_market_tripled_last_year_and/og2zp19/",
+      "author": "Reddit User",
+      "topic": "OTHER"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "Dating Apps",
+        "type": "Trend",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Well-Known Businessman",
+        "type": "Person",
+        "sentiment": "negative"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Well-Known Businessman",
+        "relation": "DISCUSSES",
+        "target": "Dating Apps"
+      }
+    ],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Startup_Ideas/comments/1sm5omc/are_dating_apps_idea_so_overhyped/",
+      "author": "Reddit User",
+      "topic": "TECH, MARKETING, PRODUCT"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Startup_Ideas/comments/1sm5omc/are_dating_apps_idea_so_overhyped/",
+      "author": "Reddit User",
+      "topic": "TECH"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Startup_Ideas/comments/1sm5omc/are_dating_apps_idea_so_overhyped/ogblvpe/",
+      "author": "Reddit User",
+      "topic": "MARKETING, PRODUCT"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "Dating Market",
+        "type": "Trend",
+        "sentiment": "neutral"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Dating Market",
+        "relation": "DISCUSSES",
+        "target": "Network Effects"
+      }
+    ],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Startup_Ideas/comments/1sm5omc/are_dating_apps_idea_so_overhyped/ogbn6i3/",
+      "author": "Reddit User",
+      "topic": "MARKETING"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "500 Vc",
+        "type": "Organization",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Ugly Baby (Vc Brain)",
+        "type": "Technology",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Saas",
+        "type": "Trend",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Artificial Intelligence",
+        "type": "Trend",
+        "sentiment": "positive"
+      },
+      {
+        "name": "AI-Native Companies",
+        "type": "Organization",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Api/Infrastructure",
+        "type": "Technology",
+        "sentiment": "positive"
+      },
+      {
+        "name": "AI-Sprinkled Projects",
+        "type": "Organization",
+        "sentiment": "negative"
+      },
+      {
+        "name": "Non-AI Startups",
+        "type": "Organization",
+        "sentiment": "neutral"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "500 Vc",
+        "relation": "INVESTED_IN",
+        "target": "Ugly Baby (Vc Brain)"
+      },
+      {
+        "source": "Ugly Baby (Vc Brain)",
+        "relation": "DISCUSSES",
+        "target": "Saas"
+      },
+      {
+        "source": "Ugly Baby (Vc Brain)",
+        "relation": "DISCUSSES",
+        "target": "Artificial Intelligence"
+      },
+      {
+        "source": "AI-Native Companies",
+        "relation": "IS_PART_OF",
+        "target": "Artificial Intelligence"
+      },
+      {
+        "source": "AI-Sprinkled Projects",
+        "relation": "IS_PART_OF",
+        "target": "Artificial Intelligence"
+      },
+      {
+        "source": "AI-Native Companies",
+        "relation": "DISCUSSES",
+        "target": "Artificial Intelligence"
+      },
+      {
+        "source": "AI-Sprinkled Projects",
+        "relation": "DISCUSSES",
+        "target": "Artificial Intelligence"
+      },
+      {
+        "source": "Non-AI Startups",
+        "relation": "DISCUSSES",
+        "target": "Saas"
+      },
+      {
+        "source": "Api/Infrastructure",
+        "relation": "IS_PART_OF",
+        "target": "Saas"
+      }
+    ],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Startup_Ideas/comments/1sm0a19/500_vc_audits_later_the_brutal_microeconomics_of/",
+      "author": "Reddit User",
+      "topic": "TECH, PRODUCT, FINANCE"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "Saas",
+        "type": "Trend",
+        "sentiment": "positive"
+      },
+      {
+        "name": "API",
+        "type": "Trend",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Marketplaces",
+        "type": "Trend",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Service-Plus-Product Plays",
+        "type": "Trend",
+        "sentiment": "neutral"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Saas",
+        "relation": "DISCUSSES",
+        "target": "Trend"
+      },
+      {
+        "source": "API",
+        "relation": "DISCUSSES",
+        "target": "Trend"
+      },
+      {
+        "source": "Marketplaces",
+        "relation": "DISCUSSES",
+        "target": "Trend"
+      },
+      {
+        "source": "Service-Plus-Product Plays",
+        "relation": "DISCUSSES",
+        "target": "Trend"
+      }
+    ],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Startup_Ideas/comments/1sm0a19/500_vc_audits_later_the_brutal_microeconomics_of/",
+      "author": "Reddit User",
+      "topic": "TECH, FINANCE"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "VC",
+        "type": "Organization",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Artificial Intelligence",
+        "type": "Trend",
+        "sentiment": "positive"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "VC",
+        "relation": "INVESTED_IN",
+        "target": "Artificial Intelligence"
+      },
+      {
+        "source": "VC",
+        "relation": "DISCUSSES",
+        "target": "Artificial Intelligence"
+      }
+    ],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Startup_Ideas/comments/1sm0a19/500_vc_audits_later_the_brutal_microeconomics_of/",
+      "author": "Reddit User",
+      "topic": "TECH, PRICING, FUNDING"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Startup_Ideas/comments/1slqkhy/whats_something_you_wish_you_new_when_you_started/",
+      "author": "Reddit User",
+      "topic": "OTHER"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Startup_Ideas/comments/1slqkhy/whats_something_you_wish_you_new_when_you_started/og8m5f6/",
+      "author": "Reddit User",
+      "topic": "OTHER"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "19 Year Old College Student",
+        "type": "Person",
+        "sentiment": "neutral"
+      }
+    ],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Startup_Ideas/comments/1slypmc/19_year_old_college_student_with_the_wrong/",
+      "author": "Reddit User",
+      "topic": "TECH"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "Saas",
+        "type": "Technology",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Cloud Kitchen",
+        "type": "Trend",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Sewing",
+        "type": "Trend",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Makeup Pouches",
+        "type": "Trend",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Book Sleeves",
+        "type": "Trend",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Laptop Sleeves",
+        "type": "Trend",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Jude Beanies",
+        "type": "Trend",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Scrunchies",
+        "type": "Trend",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Aprons",
+        "type": "Trend",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "Baby Clothes",
+        "type": "Trend",
+        "sentiment": "neutral"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Sewing",
+        "relation": "IS_PART_OF",
+        "target": "Makeup Pouches"
+      },
+      {
+        "source": "Sewing",
+        "relation": "IS_PART_OF",
+        "target": "Book Sleeves"
+      },
+      {
+        "source": "Sewing",
+        "relation": "IS_PART_OF",
+        "target": "Laptop Sleeves"
+      },
+      {
+        "source": "Sewing",
+        "relation": "IS_PART_OF",
+        "target": "Jude Beanies"
+      },
+      {
+        "source": "Sewing",
+        "relation": "IS_PART_OF",
+        "target": "Scrunchies"
+      },
+      {
+        "source": "Sewing",
+        "relation": "IS_PART_OF",
+        "target": "Aprons"
+      },
+      {
+        "source": "Sewing",
+        "relation": "IS_PART_OF",
+        "target": "Baby Clothes"
+      },
+      {
+        "source": "Saas",
+        "relation": "DISCUSSES",
+        "target": "Trend"
+      },
+      {
+        "source": "Cloud Kitchen",
+        "relation": "DISCUSSES",
+        "target": "Trend"
+      }
+    ],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Startup_Ideas/comments/1slyngn/stop_me_if_im_gonna_waste_more_of_my_time/",
+      "author": "Reddit User",
+      "topic": "TECH"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Startup_Ideas/comments/1slyngn/stop_me_if_im_gonna_waste_more_of_my_time/",
+      "author": "Reddit User",
+      "topic": "OTHER"
+    }
+  },
+  {
+    "entities": [
+      {
+        "name": "Website Development Business",
+        "type": "Organization",
+        "sentiment": "neutral"
+      },
+      {
+        "name": "B2B Lead Generation System",
+        "type": "Technology",
+        "sentiment": "positive"
+      },
+      {
+        "name": "Lead Generation",
+        "type": "Trend",
+        "sentiment": "positive"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "B2B Lead Generation System",
+        "relation": "IS_PART_OF",
+        "target": "Lead Generation"
+      },
+      {
+        "source": "Website Development Business",
+        "relation": "USES",
+        "target": "B2B Lead Generation System"
+      },
+      {
+        "source": "Website Development Business",
+        "relation": "DISCUSSES",
+        "target": "Lead Generation"
+      }
+    ],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Startup_Ideas/comments/1slvrj0/lead_generation_the_hardest_to_get_but_most/",
+      "author": "Reddit User",
+      "topic": "TECH"
+    }
+  },
+  {
+    "entities": [],
+    "relationships": [],
+    "metadata": {
+      "source_url": "https://www.reddit.com/r/Startup_Ideas/comments/1slvrj0/lead_generation_the_hardest_to_get_but_most/",
+      "author": "Reddit User",
+      "topic": "TECH"
     }
   }
 ]

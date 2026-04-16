@@ -2,7 +2,7 @@ import pandas as pd
 import chromadb
 import hashlib
 import os
-from config import MASTER_DATASET_PATH, CHROMA_DB_PATH, REDDIT_CLEANED_CSV_PATH
+from config import MASTER_DATASET_PATH, CHROMA_DB_PATH, REDDIT_CLEANED_CSV_PATH, TECHCRUNCH_CLEANED_CSV_PATH, STARTUPS_GALLERY_CLEANED_CSV_PATH
 def generate_id(url, index):
     if url:
         return hashlib.md5(str(url).encode('utf-8')).hexdigest() + f"_{index}"
@@ -15,6 +15,10 @@ def main():
         dfs.append(pd.read_csv(MASTER_DATASET_PATH))
     if os.path.exists(REDDIT_CLEANED_CSV_PATH):
         dfs.append(pd.read_csv(REDDIT_CLEANED_CSV_PATH))
+    if os.path.exists(TECHCRUNCH_CLEANED_CSV_PATH):
+        dfs.append(pd.read_csv(TECHCRUNCH_CLEANED_CSV_PATH))
+    if os.path.exists(STARTUPS_GALLERY_CLEANED_CSV_PATH):
+        dfs.append(pd.read_csv(STARTUPS_GALLERY_CLEANED_CSV_PATH))
         
     if not dfs:
         print("No datasets found.")
@@ -42,16 +46,27 @@ def main():
         
         meta = {
             "author_name": str(row.get('Name', '')),
+            "authors": str(row.get('Name', '')),
             "profile_url": str(row.get('Link to profile', '')),
             "post_url": str(row.get('Link to post', '')),
             "source_topic": str(row.get('source_topic', '')),
-            "source": str(row.get('source', 'LinkedIn'))
+            "source": str(row.get('source', 'LinkedIn')),
+            "keywords": str(row.get('keywords', ''))
         }
         
         if 'importance' in row and row['importance'] != '':
             meta['importance'] = float(row['importance'])
         if 'chunk_id' in row and row['chunk_id'] != '':
             meta['chunk_id'] = str(row['chunk_id'])
+            
+        if 'investors' in row and row['investors'] != '':
+            meta['investors'] = str(row['investors'])
+        if 'funding_amount' in row and row['funding_amount'] != '':
+            meta['funding_amount'] = str(row['funding_amount'])
+        if 'funding_amount_pretty' in row and row['funding_amount_pretty'] != '':
+            meta['funding_amount_pretty'] = str(row['funding_amount_pretty'])
+        if 'funding_stage' in row and row['funding_stage'] != '':
+            meta['funding_stage'] = str(row['funding_stage'])
             
         metadatas.append(meta)
         
