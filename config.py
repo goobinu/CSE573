@@ -12,9 +12,9 @@ DATA_DIR_RAW = os.path.join(BASE_DIR, "DATA", "raw")
 DATA_DIR_PROCESSED = os.path.join(BASE_DIR, "DATA", "processed")
 
 EXPECTED_SOURCES = ["LinkedIn", "Reddit"]
-RESULTS_CSV_PATH = os.path.join(DATA_DIR_RAW, "results.csv")
-CURATED_CATEGORIES_PATH = os.path.join(DATA_DIR_RAW, "curatedcategories.csv")
-SUBPAGE_RESULTS_DIR = os.path.join(DATA_DIR_RAW, "subpage_results")
+RESULTS_CSV_PATH = os.path.join(DATA_DIR_RAW, "linkedin", "results.csv")
+CURATED_CATEGORIES_PATH = os.path.join(DATA_DIR_RAW, "linkedin", "curatedcategories.csv")
+SUBPAGE_RESULTS_DIR = os.path.join(DATA_DIR_RAW, "linkedin", "subpage_results")
 
 MASTER_DATASET_PATH = os.path.join(DATA_DIR_RAW, "master_dataset_cleaned.csv")
 REDDIT_CLEANED_CSV_PATH = os.path.join(DATA_DIR_PROCESSED, "reddit_cleaned_for_extraction.csv")

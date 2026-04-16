@@ -8,9 +8,9 @@ SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 # Define the script sequences for each pipeline stage
 PIPELINE_MAP = {
     "scrape": [
-        "CODE/scraping/topcategoriesscraper.py",
-        "CODE/scraping/resultscurator.py",
-        "CODE/scraping/subpagescraping.py"
+        "CODE/scraping/linkedin/topcategoriesscraper.py",
+        "CODE/scraping/linkedin/resultscurator.py",
+        "CODE/scraping/linkedin/subpagescraping.py"
     ],
     "process": [
         "CODE/processing/ingestion.py",

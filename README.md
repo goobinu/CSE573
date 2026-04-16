@@ -8,13 +8,15 @@
 ## Directory Structure
 
 - **CODE/**: Contains all source code for the project.
-  - **scraping/**: Scripts for LinkedIn data collection.
+  - **scraping/**: Scripts for data collection, organized by source platform:
+    - **linkedin/**: LinkedIn scraping modules.
+    - **reddit/**: Reddit scraping modules.
   - **processing/**: Data ingestion, entity extraction, and resolution.
   - **database/**: Neo4j and ChromaDB setup and integration.
   - **utilities/**: Reusable helper scripts encompassing browser actions, file handling, and LLM clients.
   - `app.py`: Streamlit-based user interface.
 - **DATA/**: Storage for all datasets.
-  - **raw/**: Initial scraped CSV files and intermediate data.
+  - **raw/**: Initial scraped CSV files, organized into **linkedin/** and **reddit/** subdirectories.
   - **processed/**: Final knowledge graph JSON and vector database files.
 - **EVALUATIONS/**: Contains performance reports and evaluation results.
   - **Output_Reports/**: Automated pipeline logs and intelligence reports.
