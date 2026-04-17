@@ -133786,5 +133786,1925 @@
     "canonical_name": "Data Extraction",
     "e1": "Data Entry",
     "e2": "Data Extraction"
+  },
+  "Data Entry|||Data Integrators": {
+    "is_same": false,
+    "canonical_name": "Data Entry",
+    "e1": "Data Entry",
+    "e2": "Data Integrators"
+  },
+  "Data Entry|||Data Leak": {
+    "is_same": false,
+    "canonical_name": "Data Entry",
+    "e1": "Data Entry",
+    "e2": "Data Leak"
+  },
+  "Data Entry|||Data Center Power Demand": {
+    "is_same": false,
+    "canonical_name": "Data Entry",
+    "e1": "Data Entry",
+    "e2": "Data Center Power Demand"
+  },
+  "Data Entry|||Data Sovereignty": {
+    "is_same": false,
+    "canonical_name": "Data Entry",
+    "e1": "Data Entry",
+    "e2": "Data Sovereignty"
+  },
+  "Business Process Outsourcers|||Business Process Outsourcing": {
+    "is_same": true,
+    "canonical_name": "Business Process Outsourcing",
+    "e1": "Business Process Outsourcers",
+    "e2": "Business Process Outsourcing"
+  },
+  "Business Process Outsourcers|||Business Users": {
+    "is_same": false,
+    "canonical_name": "Business Process Outsourcing",
+    "e1": "Business Process Outsourcers",
+    "e2": "Business Users"
+  },
+  "Business Process Outsourcers|||Businesses": {
+    "is_same": false,
+    "canonical_name": "Business Process Outsourcing",
+    "e1": "Business Process Outsourcers",
+    "e2": "Businesses"
+  },
+  "Business Process Outsourcers|||Business Phone Systems": {
+    "is_same": false,
+    "canonical_name": "Business Process Outsourcing",
+    "e1": "Business Process Outsourcers",
+    "e2": "Business Phone Systems"
+  },
+  "Business Process Outsourcers|||Business": {
+    "is_same": false,
+    "canonical_name": "Business Process Outsourcing",
+    "e1": "Business Process Outsourcers",
+    "e2": "Business"
+  },
+  "Ricursive Intelligence|||Ricursive": {
+    "is_same": true,
+    "canonical_name": "Ricursive Intelligence",
+    "e1": "Ricursive Intelligence",
+    "e2": "Ricursive"
+  },
+  "Ricursive Intelligence|||Recursive Intelligence": {
+    "is_same": true,
+    "canonical_name": "Recursive Intelligence",
+    "e1": "Ricursive Intelligence",
+    "e2": "Recursive Intelligence"
+  },
+  "Self-Improving Systems|||Self-Improving AI": {
+    "is_same": true,
+    "canonical_name": "Self-Improving Systems",
+    "e1": "Self-Improving Systems",
+    "e2": "Self-Improving AI"
+  },
+  "Self-Improving Systems|||Self-Driving System": {
+    "is_same": false,
+    "canonical_name": "Self-Improving Systems",
+    "e1": "Self-Improving Systems",
+    "e2": "Self-Driving System"
+  },
+  "Self-Improving Systems|||Self-Driving Cars": {
+    "is_same": false,
+    "canonical_name": "Self-Improving Systems",
+    "e1": "Self-Improving Systems",
+    "e2": "Self-Driving Cars"
+  },
+  "Artificial Superintelligence|||Artificial Intelligence Tools": {
+    "is_same": false,
+    "canonical_name": "Artificial Superintelligence",
+    "e1": "Artificial Superintelligence",
+    "e2": "Artificial Intelligence Tools"
+  },
+  "Artificial Superintelligence|||Artificial Intelligence Startups": {
+    "is_same": false,
+    "canonical_name": "Artificial Superintelligence",
+    "e1": "Artificial Superintelligence",
+    "e2": "Artificial Intelligence Startups"
+  },
+  "Artificial Superintelligence|||Artificial Intelligence": {
+    "is_same": false,
+    "canonical_name": "Artificial Superintelligence",
+    "e1": "Artificial Superintelligence",
+    "e2": "Artificial Intelligence"
+  },
+  "Artificial Superintelligence|||Artificial General Intelligence": {
+    "is_same": true,
+    "canonical_name": "Artificial Superintelligence",
+    "e1": "Artificial Superintelligence",
+    "e2": "Artificial General Intelligence"
+  },
+  "Artificial Superintelligence|||Artificial Intelligence Models": {
+    "is_same": false,
+    "canonical_name": "Artificial Superintelligence",
+    "e1": "Artificial Superintelligence",
+    "e2": "Artificial Intelligence Models"
+  },
+  "Cambio|||Cambridge": {
+    "is_same": false,
+    "canonical_name": "Cambio",
+    "e1": "Cambio",
+    "e2": "Cambridge"
+  },
+  "Cambio|||Camber Road": {
+    "is_same": false,
+    "canonical_name": "Cambio",
+    "e1": "Cambio",
+    "e2": "Camber Road"
+  },
+  "Cambio|||Cameo": {
+    "is_same": false,
+    "canonical_name": "Cambio",
+    "e1": "Cambio",
+    "e2": "Cameo"
+  },
+  "Real Estate Decarbonization|||Real World Interaction": {
+    "is_same": false,
+    "canonical_name": "Real Estate Decarbonization",
+    "e1": "Real Estate Decarbonization",
+    "e2": "Real World Interaction"
+  },
+  "Real Estate Decarbonization|||Real-Time Translated Captions": {
+    "is_same": false,
+    "canonical_name": "Real Estate Decarbonization",
+    "e1": "Real Estate Decarbonization",
+    "e2": "Real-Time Translated Captions"
+  },
+  "AI-Based Recommendations|||AI-Based Foreign Exchange Tool": {
+    "is_same": false,
+    "canonical_name": "AI-Based Recommendations",
+    "e1": "AI-Based Recommendations",
+    "e2": "AI-Based Foreign Exchange Tool"
+  },
+  "Climate Action|||Climate Tech": {
+    "is_same": true,
+    "canonical_name": "Climate Tech",
+    "e1": "Climate Action",
+    "e2": "Climate Tech"
+  },
+  "Climate Action|||Climate Resilience": {
+    "is_same": false,
+    "canonical_name": "Climate Action",
+    "e1": "Climate Action",
+    "e2": "Climate Resilience"
+  },
+  "Climate Action|||Climate Technology": {
+    "is_same": true,
+    "canonical_name": "Climate Tech",
+    "e1": "Climate Action",
+    "e2": "Climate Technology"
+  },
+  "Climate Action|||Climate Change": {
+    "is_same": false,
+    "canonical_name": "Climate Action",
+    "e1": "Climate Action",
+    "e2": "Climate Change"
+  },
+  "Climate Action|||Climate Technologies": {
+    "is_same": true,
+    "canonical_name": "Climate Tech",
+    "e1": "Climate Action",
+    "e2": "Climate Technologies"
+  },
+  "Climate Action|||Climactic": {
+    "is_same": false,
+    "canonical_name": "Climate Action",
+    "e1": "Climate Action",
+    "e2": "Climactic"
+  },
+  "Climate Action|||Climate": {
+    "is_same": false,
+    "canonical_name": "Climate Action",
+    "e1": "Climate Action",
+    "e2": "Climate"
+  },
+  "Software Tools|||Software Company": {
+    "is_same": false,
+    "canonical_name": "Software Tools",
+    "e1": "Software Tools",
+    "e2": "Software Company"
+  },
+  "Software Tools|||Software Stack": {
+    "is_same": false,
+    "canonical_name": "Software Tools",
+    "e1": "Software Tools",
+    "e2": "Software Stack"
+  },
+  "Software Tools|||Safety Tools": {
+    "is_same": false,
+    "canonical_name": "Software Tools",
+    "e1": "Software Tools",
+    "e2": "Safety Tools"
+  },
+  "Software Tools|||Software Application": {
+    "is_same": true,
+    "canonical_name": "Software Tools",
+    "e1": "Software Tools",
+    "e2": "Software Application"
+  },
+  "Software Tools|||Software Construction": {
+    "is_same": false,
+    "canonical_name": "Software Tools",
+    "e1": "Software Tools",
+    "e2": "Software Construction"
+  },
+  "Software Tools|||Softbank Robotics": {
+    "is_same": false,
+    "canonical_name": "Software Tools",
+    "e1": "Software Tools",
+    "e2": "Softbank Robotics"
+  },
+  "Software Tools|||Software": {
+    "is_same": true,
+    "canonical_name": "Software Tools",
+    "e1": "Software Tools",
+    "e2": "Software"
+  },
+  "Software Tools|||Software Margins": {
+    "is_same": false,
+    "canonical_name": "Software Tools",
+    "e1": "Software Tools",
+    "e2": "Software Margins"
+  },
+  "Software Tools|||Software Subscriptions": {
+    "is_same": false,
+    "canonical_name": "Software Tools",
+    "e1": "Software Tools",
+    "e2": "Software Subscriptions"
+  },
+  "Software Tools|||Software Testing": {
+    "is_same": false,
+    "canonical_name": "Software Tools",
+    "e1": "Software Tools",
+    "e2": "Software Testing"
+  },
+  "AI Video Communications Platform|||AI Video Tools": {
+    "is_same": true,
+    "canonical_name": "AI Video Tools",
+    "e1": "AI Video Communications Platform",
+    "e2": "AI Video Tools"
+  },
+  "Teleperformance|||Teleporter": {
+    "is_same": false,
+    "canonical_name": "Teleperformance",
+    "e1": "Teleperformance",
+    "e2": "Teleporter"
+  },
+  "Teleperformance|||Telekom": {
+    "is_same": false,
+    "canonical_name": "Teleperformance",
+    "e1": "Teleperformance",
+    "e2": "Telekom"
+  },
+  "Inference Stack|||Inferact": {
+    "is_same": false,
+    "canonical_name": "Inference Stack",
+    "e1": "Inference Stack",
+    "e2": "Inferact"
+  },
+  "Inference Stack|||Inference Analytics": {
+    "is_same": false,
+    "canonical_name": "Inference Stack",
+    "e1": "Inference Stack",
+    "e2": "Inference Analytics"
+  },
+  "Inference Stack|||Inference": {
+    "is_same": true,
+    "canonical_name": "Inference",
+    "e1": "Inference Stack",
+    "e2": "Inference"
+  },
+  "Inference Stack|||Inference Optimization": {
+    "is_same": false,
+    "canonical_name": "Inference Stack",
+    "e1": "Inference Stack",
+    "e2": "Inference Optimization"
+  },
+  "Inference Stack|||Inference Tasks On Orbit": {
+    "is_same": false,
+    "canonical_name": "Inference Stack",
+    "e1": "Inference Stack",
+    "e2": "Inference Tasks On Orbit"
+  },
+  "Inference Stack|||Inferentia": {
+    "is_same": false,
+    "canonical_name": "Inference Stack",
+    "e1": "Inference Stack",
+    "e2": "Inferentia"
+  },
+  "Inference Stack|||Inference Workloads": {
+    "is_same": true,
+    "canonical_name": "Inference Workloads",
+    "e1": "Inference Stack",
+    "e2": "Inference Workloads"
+  },
+  "Inference Stack|||Inference Tasks": {
+    "is_same": true,
+    "canonical_name": "Inference Tasks",
+    "e1": "Inference Stack",
+    "e2": "Inference Tasks"
+  },
+  "Inference Stack|||Inference Infrastructure": {
+    "is_same": true,
+    "canonical_name": "Inference Infrastructure",
+    "e1": "Inference Stack",
+    "e2": "Inference Infrastructure"
+  },
+  "Mine|||Ming Lee": {
+    "is_same": false,
+    "canonical_name": "Mine",
+    "e1": "Mine",
+    "e2": "Ming Lee"
+  },
+  "Mine|||Mint": {
+    "is_same": false,
+    "canonical_name": "Mine",
+    "e1": "Mine",
+    "e2": "Mint"
+  },
+  "Mine|||Minecraft": {
+    "is_same": false,
+    "canonical_name": "Mine",
+    "e1": "Mine",
+    "e2": "Minecraft"
+  },
+  "Mine|||Mixpanel": {
+    "is_same": false,
+    "canonical_name": "Mine",
+    "e1": "Mine",
+    "e2": "Mixpanel"
+  },
+  "Mine|||Minnestar": {
+    "is_same": false,
+    "canonical_name": "Mine",
+    "e1": "Mine",
+    "e2": "Minnestar"
+  },
+  "Mine|||Mineos": {
+    "is_same": false,
+    "canonical_name": "Mine",
+    "e1": "Mine",
+    "e2": "Mineos"
+  },
+  "Mine|||Minneapolis": {
+    "is_same": false,
+    "canonical_name": "Mine",
+    "e1": "Mine",
+    "e2": "Minneapolis"
+  },
+  "Mine|||Mckinsey": {
+    "is_same": false,
+    "canonical_name": "Mine",
+    "e1": "Mine",
+    "e2": "Mckinsey"
+  },
+  "Mine|||Minnesota": {
+    "is_same": false,
+    "canonical_name": "Mine",
+    "e1": "Mine",
+    "e2": "Minnesota"
+  },
+  "Personalized Spending Insights|||Personalized Ad Campaigns": {
+    "is_same": false,
+    "canonical_name": "Personalized Spending Insights",
+    "e1": "Personalized Spending Insights",
+    "e2": "Personalized Ad Campaigns"
+  },
+  "Personalized Spending Insights|||Personalized Experiences": {
+    "is_same": false,
+    "canonical_name": "Personalized Spending Insights",
+    "e1": "Personalized Spending Insights",
+    "e2": "Personalized Experiences"
+  },
+  "Personalized Spending Insights|||Personalized Matching": {
+    "is_same": false,
+    "canonical_name": "Personalized Spending Insights",
+    "e1": "Personalized Spending Insights",
+    "e2": "Personalized Matching"
+  },
+  "AI Progress|||AI Superpowers": {
+    "is_same": false,
+    "canonical_name": "AI Progress",
+    "e1": "AI Progress",
+    "e2": "AI Superpowers"
+  },
+  "AI Progress|||AI Program": {
+    "is_same": false,
+    "canonical_name": "AI Progress",
+    "e1": "AI Progress",
+    "e2": "AI Program"
+  },
+  "AI Progress|||AI Pro": {
+    "is_same": false,
+    "canonical_name": "AI Progress",
+    "e1": "AI Progress",
+    "e2": "AI Pro"
+  },
+  "AI Progress|||AI Processing": {
+    "is_same": false,
+    "canonical_name": "AI Progress",
+    "e1": "AI Progress",
+    "e2": "AI Processing"
+  },
+  "AI Progress|||AI Browser": {
+    "is_same": false,
+    "canonical_name": "AI Progress",
+    "e1": "AI Progress",
+    "e2": "AI Browser"
+  },
+  "AI Progress|||AI Routers": {
+    "is_same": false,
+    "canonical_name": "AI Progress",
+    "e1": "AI Progress",
+    "e2": "AI Routers"
+  },
+  "Models|||AI Models": {
+    "is_same": true,
+    "canonical_name": "AI Models",
+    "e1": "Models",
+    "e2": "AI Models"
+  },
+  "Models|||Model 3": {
+    "is_same": false,
+    "canonical_name": "Models",
+    "e1": "Models",
+    "e2": "Model 3"
+  },
+  "Models|||Model Y": {
+    "is_same": false,
+    "canonical_name": "Models",
+    "e1": "Models",
+    "e2": "Model Y"
+  },
+  "Models|||Model Responses": {
+    "is_same": false,
+    "canonical_name": "Models",
+    "e1": "Models",
+    "e2": "Model Responses"
+  },
+  "Models|||Model Distillation": {
+    "is_same": false,
+    "canonical_name": "Models",
+    "e1": "Models",
+    "e2": "Model Distillation"
+  },
+  "Models|||Model S": {
+    "is_same": false,
+    "canonical_name": "Models",
+    "e1": "Models",
+    "e2": "Model S"
+  },
+  "Models|||Model-Agnostic AI": {
+    "is_same": false,
+    "canonical_name": "Models",
+    "e1": "Models",
+    "e2": "Model-Agnostic AI"
+  },
+  "Models|||Model X": {
+    "is_same": false,
+    "canonical_name": "Models",
+    "e1": "Models",
+    "e2": "Model X"
+  },
+  "Models|||Model Vault": {
+    "is_same": false,
+    "canonical_name": "Models",
+    "e1": "Models",
+    "e2": "Model Vault"
+  },
+  "Models|||Model Spec": {
+    "is_same": false,
+    "canonical_name": "Models",
+    "e1": "Models",
+    "e2": "Model Spec"
+  },
+  "Models|||Model-Agnostic Approach": {
+    "is_same": false,
+    "canonical_name": "Models",
+    "e1": "Models",
+    "e2": "Model-Agnostic Approach"
+  },
+  "Models|||Model Research": {
+    "is_same": false,
+    "canonical_name": "Models",
+    "e1": "Models",
+    "e2": "Model Research"
+  },
+  "Models|||Model Abuse": {
+    "is_same": false,
+    "canonical_name": "Models",
+    "e1": "Models",
+    "e2": "Model Abuse"
+  },
+  "Platform As A Service|||Platform 1": {
+    "is_same": false,
+    "canonical_name": "Platform As A Service",
+    "e1": "Platform As A Service",
+    "e2": "Platform 1"
+  },
+  "Platform As A Service|||Platform In The Christian Space": {
+    "is_same": false,
+    "canonical_name": "Platform As A Service",
+    "e1": "Platform As A Service",
+    "e2": "Platform In The Christian Space"
+  },
+  "Platform As A Service|||Platform Shift": {
+    "is_same": false,
+    "canonical_name": "Platform As A Service",
+    "e1": "Platform As A Service",
+    "e2": "Platform Shift"
+  },
+  "Platform As A Service|||Platform 2": {
+    "is_same": false,
+    "canonical_name": "Platform As A Service",
+    "e1": "Platform As A Service",
+    "e2": "Platform 2"
+  },
+  "Platform As A Service|||Platform": {
+    "is_same": true,
+    "canonical_name": "Platform As A Service",
+    "e1": "Platform As A Service",
+    "e2": "Platform"
+  },
+  "Internet Infrastructure|||Internet Blackout": {
+    "is_same": false,
+    "canonical_name": "Internet Infrastructure",
+    "e1": "Internet Infrastructure",
+    "e2": "Internet Blackout"
+  },
+  "Internet Infrastructure|||Internet Archive": {
+    "is_same": false,
+    "canonical_name": "Internet Infrastructure",
+    "e1": "Internet Infrastructure",
+    "e2": "Internet Archive"
+  },
+  "Internet Infrastructure|||Internet Freedom": {
+    "is_same": false,
+    "canonical_name": "Internet Infrastructure",
+    "e1": "Internet Infrastructure",
+    "e2": "Internet Freedom"
+  },
+  "Internet Infrastructure|||Internet Shutdown": {
+    "is_same": false,
+    "canonical_name": "Internet Infrastructure",
+    "e1": "Internet Infrastructure",
+    "e2": "Internet Shutdown"
+  },
+  "Internet Infrastructure|||Interest Rates": {
+    "is_same": false,
+    "canonical_name": "Internet Infrastructure",
+    "e1": "Internet Infrastructure",
+    "e2": "Interest Rates"
+  },
+  "Internet Infrastructure|||Internet Services": {
+    "is_same": true,
+    "canonical_name": "Internet Infrastructure",
+    "e1": "Internet Infrastructure",
+    "e2": "Internet Services"
+  },
+  "Internet Infrastructure|||Internal Culture": {
+    "is_same": false,
+    "canonical_name": "Internet Infrastructure",
+    "e1": "Internet Infrastructure",
+    "e2": "Internal Culture"
+  },
+  "Internet Infrastructure|||Inference Infrastructure": {
+    "is_same": false,
+    "canonical_name": "Internet Infrastructure",
+    "e1": "Internet Infrastructure",
+    "e2": "Inference Infrastructure"
+  },
+  "Internet Infrastructure|||Internet Outage": {
+    "is_same": false,
+    "canonical_name": "Internet Infrastructure",
+    "e1": "Internet Infrastructure",
+    "e2": "Internet Outage"
+  },
+  "Internet Infrastructure|||Internet Access": {
+    "is_same": true,
+    "canonical_name": "Internet Access",
+    "e1": "Internet Infrastructure",
+    "e2": "Internet Access"
+  },
+  "Developers Ship Without Friction|||Developers": {
+    "is_same": false,
+    "canonical_name": "Developers",
+    "e1": "Developers Ship Without Friction",
+    "e2": "Developers"
+  },
+  "Developers Ship Without Friction|||Developer Account Verification": {
+    "is_same": false,
+    "canonical_name": "Developer Account Verification",
+    "e1": "Developers Ship Without Friction",
+    "e2": "Developer Account Verification"
+  },
+  "Developers Ship Without Friction|||Developer Verification": {
+    "is_same": false,
+    "canonical_name": "Developer Verification",
+    "e1": "Developers Ship Without Friction",
+    "e2": "Developer Verification"
+  },
+  "Developers Ship Without Friction|||Developer": {
+    "is_same": false,
+    "canonical_name": "Developer",
+    "e1": "Developers Ship Without Friction",
+    "e2": "Developer"
+  },
+  "Artie|||Particle6": {
+    "is_same": false,
+    "canonical_name": "Artie",
+    "e1": "Artie",
+    "e2": "Particle6"
+  },
+  "Artie|||Artisan": {
+    "is_same": false,
+    "canonical_name": "Artie",
+    "e1": "Artie",
+    "e2": "Artisan"
+  },
+  "Artie|||Airtime": {
+    "is_same": false,
+    "canonical_name": "Artie",
+    "e1": "Artie",
+    "e2": "Airtime"
+  },
+  "Artie|||Art\u00e9mis": {
+    "is_same": false,
+    "canonical_name": "Artie",
+    "e1": "Artie",
+    "e2": "Art\u00e9mis"
+  },
+  "Artie|||Particle": {
+    "is_same": false,
+    "canonical_name": "Artie",
+    "e1": "Artie",
+    "e2": "Particle"
+  },
+  "Artie|||Airtel": {
+    "is_same": false,
+    "canonical_name": "Artie",
+    "e1": "Artie",
+    "e2": "Airtel"
+  },
+  "Artie|||Particle+": {
+    "is_same": false,
+    "canonical_name": "Artie",
+    "e1": "Artie",
+    "e2": "Particle+"
+  },
+  "Artie|||Attie": {
+    "is_same": false,
+    "canonical_name": "Artie",
+    "e1": "Artie",
+    "e2": "Attie"
+  },
+  "Data Ingestion Lifecycle Automation|||Data Collection For AI Training": {
+    "is_same": false,
+    "canonical_name": "Data Ingestion Lifecycle Automation",
+    "e1": "Data Ingestion Lifecycle Automation",
+    "e2": "Data Collection For AI Training"
+  },
+  "Production-Grade Data Infrastructure|||Production-Grade Use Cases": {
+    "is_same": false,
+    "canonical_name": "Production-Grade Data Infrastructure",
+    "e1": "Production-Grade Data Infrastructure",
+    "e2": "Production-Grade Use Cases"
+  },
+  "Cosmos|||Cosmos-Reason 2": {
+    "is_same": false,
+    "canonical_name": "Cosmos",
+    "e1": "Cosmos",
+    "e2": "Cosmos-Reason 2"
+  },
+  "Generative-AI Native Software|||Generative AI Models": {
+    "is_same": false,
+    "canonical_name": "Generative-AI Native Software",
+    "e1": "Generative-AI Native Software",
+    "e2": "Generative AI Models"
+  },
+  "Generative-AI Native Software|||Generative Video": {
+    "is_same": false,
+    "canonical_name": "Generative-AI Native Software",
+    "e1": "Generative-AI Native Software",
+    "e2": "Generative Video"
+  },
+  "Generative-AI Native Software|||Generative AI Video": {
+    "is_same": false,
+    "canonical_name": "Generative-AI Native Software",
+    "e1": "Generative-AI Native Software",
+    "e2": "Generative AI Video"
+  },
+  "Generative-AI Native Software|||Generative AI": {
+    "is_same": false,
+    "canonical_name": "Generative-AI Native Software",
+    "e1": "Generative-AI Native Software",
+    "e2": "Generative AI"
+  },
+  "Generative-AI Native Software|||Generative Remove": {
+    "is_same": false,
+    "canonical_name": "Generative-AI Native Software",
+    "e1": "Generative-AI Native Software",
+    "e2": "Generative Remove"
+  },
+  "Generative-AI Native Software|||Generative AI In Hardware": {
+    "is_same": false,
+    "canonical_name": "Generative-AI Native Software",
+    "e1": "Generative-AI Native Software",
+    "e2": "Generative AI In Hardware"
+  },
+  "Generative-AI Native Software|||Generative Media Infrastructure": {
+    "is_same": false,
+    "canonical_name": "Generative-AI Native Software",
+    "e1": "Generative-AI Native Software",
+    "e2": "Generative Media Infrastructure"
+  },
+  "Generative-AI Native Software|||Generative AI In Chemistry": {
+    "is_same": false,
+    "canonical_name": "Generative-AI Native Software",
+    "e1": "Generative-AI Native Software",
+    "e2": "Generative AI In Chemistry"
+  },
+  "Stilla|||Stilta": {
+    "is_same": false,
+    "canonical_name": "Stilla",
+    "e1": "Stilla",
+    "e2": "Stilta"
+  },
+  "AI Agent Management Platform|||Agent Management Platform": {
+    "is_same": true,
+    "canonical_name": "AI Agent Management Platform",
+    "e1": "AI Agent Management Platform",
+    "e2": "Agent Management Platform"
+  },
+  "AI Agent Management Platform|||AI Agent": {
+    "is_same": false,
+    "canonical_name": "AI Agent Management Platform",
+    "e1": "AI Agent Management Platform",
+    "e2": "AI Agent"
+  },
+  "AI Agent Management Platform|||AI Agent Marketplace": {
+    "is_same": false,
+    "canonical_name": "AI Agent Management Platform",
+    "e1": "AI Agent Management Platform",
+    "e2": "AI Agent Marketplace"
+  },
+  "AI Agent Management Platform|||AI Agent Integration": {
+    "is_same": false,
+    "canonical_name": "AI Agent Management Platform",
+    "e1": "AI Agent Management Platform",
+    "e2": "AI Agent Integration"
+  },
+  "AI Agent Management Platform|||AI Agent Adoption": {
+    "is_same": false,
+    "canonical_name": "AI Agent Management Platform",
+    "e1": "AI Agent Management Platform",
+    "e2": "AI Agent Adoption"
+  },
+  "General Purpose Robotic Intelligence|||General Security Intelligence": {
+    "is_same": false,
+    "canonical_name": "General Purpose Robotic Intelligence",
+    "e1": "General Purpose Robotic Intelligence",
+    "e2": "General Security Intelligence"
+  },
+  "General Purpose Robotic Intelligence|||General-Purpose Robotic Intelligence": {
+    "is_same": true,
+    "canonical_name": "General-Purpose Robotic Intelligence",
+    "e1": "General Purpose Robotic Intelligence",
+    "e2": "General-Purpose Robotic Intelligence"
+  },
+  "Data-Driven Machine Learning|||Data Center-Grid Integration": {
+    "is_same": false,
+    "canonical_name": "Data-Driven Machine Learning",
+    "e1": "Data-Driven Machine Learning",
+    "e2": "Data Center-Grid Integration"
+  },
+  "Data-Driven Machine Learning|||Data-Driven Doctor Matching": {
+    "is_same": false,
+    "canonical_name": "Data-Driven Machine Learning",
+    "e1": "Data-Driven Machine Learning",
+    "e2": "Data-Driven Doctor Matching"
+  },
+  "Etched Asics|||Etched": {
+    "is_same": true,
+    "canonical_name": "Etched",
+    "e1": "Etched Asics",
+    "e2": "Etched"
+  },
+  "Real-Time Video Generation Models|||Real-Time AI Voice And Video Applications": {
+    "is_same": false,
+    "canonical_name": "Real-Time Video Generation Models",
+    "e1": "Real-Time Video Generation Models",
+    "e2": "Real-Time AI Voice And Video Applications"
+  },
+  "Real-Time Video Generation Models|||Real-Time Vehicle Data": {
+    "is_same": false,
+    "canonical_name": "Real-Time Video Generation Models",
+    "e1": "Real-Time Video Generation Models",
+    "e2": "Real-Time Vehicle Data"
+  },
+  "Real-Time Video Generation Models|||Real-Time Bidding": {
+    "is_same": false,
+    "canonical_name": "Real-Time Video Generation Models",
+    "e1": "Real-Time Video Generation Models",
+    "e2": "Real-Time Bidding"
+  },
+  "Real-Time Video Generation Models|||Real-Time Media Generation": {
+    "is_same": true,
+    "canonical_name": "Real-Time Media Generation",
+    "e1": "Real-Time Video Generation Models",
+    "e2": "Real-Time Media Generation"
+  },
+  "Real-Time Video Generation Models|||Real-Time Data": {
+    "is_same": false,
+    "canonical_name": "Real-Time Video Generation Models",
+    "e1": "Real-Time Video Generation Models",
+    "e2": "Real-Time Data"
+  },
+  "Real-Time Video Generation Models|||Real-Time Video Analysis": {
+    "is_same": false,
+    "canonical_name": "Real-Time Video Generation Models",
+    "e1": "Real-Time Video Generation Models",
+    "e2": "Real-Time Video Analysis"
+  },
+  "Real-Time Video Generation Models|||Real-Time Interaction": {
+    "is_same": false,
+    "canonical_name": "Real-Time Video Generation Models",
+    "e1": "Real-Time Video Generation Models",
+    "e2": "Real-Time Interaction"
+  },
+  "Real-Time Video Generation Models|||Real-Time Defenses": {
+    "is_same": false,
+    "canonical_name": "Real-Time Video Generation Models",
+    "e1": "Real-Time Video Generation Models",
+    "e2": "Real-Time Defenses"
+  },
+  "Chain-Of-Thought Reasoning Agents|||Chain-Of-Thought Reasoning": {
+    "is_same": true,
+    "canonical_name": "Chain-Of-Thought Reasoning",
+    "e1": "Chain-Of-Thought Reasoning Agents",
+    "e2": "Chain-Of-Thought Reasoning"
+  },
+  "Listen|||Listen Labs": {
+    "is_same": false,
+    "canonical_name": "Listen",
+    "e1": "Listen",
+    "e2": "Listen Labs"
+  },
+  "Autonomous Market Researcher|||Autonomous Vehicle Tech": {
+    "is_same": false,
+    "canonical_name": "Autonomous Market Researcher",
+    "e1": "Autonomous Market Researcher",
+    "e2": "Autonomous Vehicle Tech"
+  },
+  "Autonomous Market Researcher|||Autonomous Military Aircraft": {
+    "is_same": false,
+    "canonical_name": "Autonomous Market Researcher",
+    "e1": "Autonomous Market Researcher",
+    "e2": "Autonomous Military Aircraft"
+  },
+  "Autonomous Market Researcher|||Autonomous Infrastructure": {
+    "is_same": false,
+    "canonical_name": "Autonomous Market Researcher",
+    "e1": "Autonomous Market Researcher",
+    "e2": "Autonomous Infrastructure"
+  },
+  "Autonomous Market Researcher|||Autonomous Farm": {
+    "is_same": false,
+    "canonical_name": "Autonomous Market Researcher",
+    "e1": "Autonomous Market Researcher",
+    "e2": "Autonomous Farm"
+  },
+  "Autonomous Market Researcher|||Autonomous Boats": {
+    "is_same": false,
+    "canonical_name": "Autonomous Market Researcher",
+    "e1": "Autonomous Market Researcher",
+    "e2": "Autonomous Boats"
+  },
+  "Autonomous Market Researcher|||Autonomous Naval Vessels": {
+    "is_same": false,
+    "canonical_name": "Autonomous Market Researcher",
+    "e1": "Autonomous Market Researcher",
+    "e2": "Autonomous Naval Vessels"
+  },
+  "Autonomous Market Researcher|||Autonomous Drones": {
+    "is_same": false,
+    "canonical_name": "Autonomous Market Researcher",
+    "e1": "Autonomous Market Researcher",
+    "e2": "Autonomous Drones"
+  },
+  "Autonomous Market Researcher|||Autonomous Microbuses": {
+    "is_same": false,
+    "canonical_name": "Autonomous Market Researcher",
+    "e1": "Autonomous Market Researcher",
+    "e2": "Autonomous Microbuses"
+  },
+  "Autonomous Market Researcher|||Autonomous Defense Systems": {
+    "is_same": false,
+    "canonical_name": "Autonomous Market Researcher",
+    "e1": "Autonomous Market Researcher",
+    "e2": "Autonomous Defense Systems"
+  },
+  "Autonomous Market Researcher|||Autonomous Agents": {
+    "is_same": true,
+    "canonical_name": "Autonomous Agents",
+    "e1": "Autonomous Market Researcher",
+    "e2": "Autonomous Agents"
+  },
+  "Autonomous Market Researcher|||Autonomous Risk Systems": {
+    "is_same": false,
+    "canonical_name": "Autonomous Market Researcher",
+    "e1": "Autonomous Market Researcher",
+    "e2": "Autonomous Risk Systems"
+  },
+  "Autonomous Market Researcher|||Autonomous Tractors": {
+    "is_same": false,
+    "canonical_name": "Autonomous Market Researcher",
+    "e1": "Autonomous Market Researcher",
+    "e2": "Autonomous Tractors"
+  },
+  "Autonomous Market Researcher|||Autonomous Haulage Trucks": {
+    "is_same": false,
+    "canonical_name": "Autonomous Market Researcher",
+    "e1": "Autonomous Market Researcher",
+    "e2": "Autonomous Haulage Trucks"
+  },
+  "Autonomous Market Researcher|||Autonomous Vehicle Software": {
+    "is_same": false,
+    "canonical_name": "Autonomous Market Researcher",
+    "e1": "Autonomous Market Researcher",
+    "e2": "Autonomous Vehicle Software"
+  },
+  "Autonomous Market Researcher|||Autonomous AI Agents": {
+    "is_same": true,
+    "canonical_name": "Autonomous AI Agents",
+    "e1": "Autonomous Market Researcher",
+    "e2": "Autonomous AI Agents"
+  },
+  "Autonomous Market Researcher|||Autonomous Sre": {
+    "is_same": false,
+    "canonical_name": "Autonomous Market Researcher",
+    "e1": "Autonomous Market Researcher",
+    "e2": "Autonomous Sre"
+  },
+  "Autonomous Market Researcher|||Autonomous Vehicle": {
+    "is_same": false,
+    "canonical_name": "Autonomous Market Researcher",
+    "e1": "Autonomous Market Researcher",
+    "e2": "Autonomous Vehicle"
+  },
+  "Autonomous Market Researcher|||Autonomous Forklifts": {
+    "is_same": false,
+    "canonical_name": "Autonomous Market Researcher",
+    "e1": "Autonomous Market Researcher",
+    "e2": "Autonomous Forklifts"
+  },
+  "Product Testing|||Product/Market Fit": {
+    "is_same": false,
+    "canonical_name": "Product Testing",
+    "e1": "Product Testing",
+    "e2": "Product/Market Fit"
+  },
+  "Product Testing|||Productivity Tools": {
+    "is_same": false,
+    "canonical_name": "Product Testing",
+    "e1": "Product Testing",
+    "e2": "Productivity Tools"
+  },
+  "Product Testing|||Product Lines": {
+    "is_same": false,
+    "canonical_name": "Product Testing",
+    "e1": "Product Testing",
+    "e2": "Product Lines"
+  },
+  "Product Testing|||Product Innovation": {
+    "is_same": false,
+    "canonical_name": "Product Testing",
+    "e1": "Product Testing",
+    "e2": "Product Innovation"
+  },
+  "Product Testing|||Product Intelligence": {
+    "is_same": false,
+    "canonical_name": "Product Testing",
+    "e1": "Product Testing",
+    "e2": "Product Intelligence"
+  },
+  "Product Testing|||Product-Market Fit": {
+    "is_same": false,
+    "canonical_name": "Product Testing",
+    "e1": "Product Testing",
+    "e2": "Product-Market Fit"
+  },
+  "Product Testing|||Product Discovery": {
+    "is_same": false,
+    "canonical_name": "Product Testing",
+    "e1": "Product Testing",
+    "e2": "Product Discovery"
+  },
+  "Product Testing|||Product": {
+    "is_same": false,
+    "canonical_name": "Product Testing",
+    "e1": "Product Testing",
+    "e2": "Product"
+  },
+  "Product Testing|||Product Demo": {
+    "is_same": false,
+    "canonical_name": "Product Testing",
+    "e1": "Product Testing",
+    "e2": "Product Demo"
+  },
+  "Product Testing|||Product Hunt": {
+    "is_same": false,
+    "canonical_name": "Product Testing",
+    "e1": "Product Testing",
+    "e2": "Product Hunt"
+  },
+  "Market Exploration|||Marketing Automation": {
+    "is_same": false,
+    "canonical_name": "Market Exploration",
+    "e1": "Market Exploration",
+    "e2": "Marketing Automation"
+  },
+  "Market Exploration|||Market Correction": {
+    "is_same": false,
+    "canonical_name": "Market Exploration",
+    "e1": "Market Exploration",
+    "e2": "Market Correction"
+  },
+  "Market Exploration|||Marketing Solution": {
+    "is_same": false,
+    "canonical_name": "Market Exploration",
+    "e1": "Market Exploration",
+    "e2": "Marketing Solution"
+  },
+  "Market Exploration|||Market Froth": {
+    "is_same": false,
+    "canonical_name": "Market Exploration",
+    "e1": "Market Exploration",
+    "e2": "Market Froth"
+  },
+  "Market Exploration|||Market Reasoning": {
+    "is_same": false,
+    "canonical_name": "Market Exploration",
+    "e1": "Market Exploration",
+    "e2": "Market Reasoning"
+  },
+  "Market Exploration|||Market Validation": {
+    "is_same": false,
+    "canonical_name": "Market Validation",
+    "e1": "Market Exploration",
+    "e2": "Market Validation"
+  },
+  "Market Exploration|||Market Fit": {
+    "is_same": false,
+    "canonical_name": "Market Exploration",
+    "e1": "Market Exploration",
+    "e2": "Market Fit"
+  },
+  "Market Exploration|||Market Dominance": {
+    "is_same": false,
+    "canonical_name": "Market Exploration",
+    "e1": "Market Exploration",
+    "e2": "Market Dominance"
+  },
+  "Insurance Brokerage Industry|||Insurance": {
+    "is_same": false,
+    "canonical_name": "Insurance Brokerage Industry",
+    "e1": "Insurance Brokerage Industry",
+    "e2": "Insurance"
+  },
+  "Insurance Brokerage Industry|||Insurance Industry": {
+    "is_same": true,
+    "canonical_name": "Insurance Industry",
+    "e1": "Insurance Brokerage Industry",
+    "e2": "Insurance Industry"
+  },
+  "Ambitious Businesses|||Ambition": {
+    "is_same": false,
+    "canonical_name": "Ambitious Businesses",
+    "e1": "Ambitious Businesses",
+    "e2": "Ambition"
+  },
+  "Risk Management Team|||Risk Management Platform": {
+    "is_same": false,
+    "canonical_name": "Risk Management Team",
+    "e1": "Risk Management Team",
+    "e2": "Risk Management Platform"
+  },
+  "Converge Bio|||Converso": {
+    "is_same": false,
+    "canonical_name": "Converge Bio",
+    "e1": "Converge Bio",
+    "e2": "Converso"
+  },
+  "Converge Bio|||Conversion": {
+    "is_same": false,
+    "canonical_name": "Converge Bio",
+    "e1": "Converge Bio",
+    "e2": "Conversion"
+  },
+  "Biological Data|||Biology": {
+    "is_same": false,
+    "canonical_name": "Biological Data",
+    "e1": "Biological Data",
+    "e2": "Biology"
+  },
+  "Security And Operations Teams|||Security Information And Event Management": {
+    "is_same": false,
+    "canonical_name": "Security And Operations Teams",
+    "e1": "Security And Operations Teams",
+    "e2": "Security Information And Event Management"
+  },
+  "Security And Operations Teams|||Security Training": {
+    "is_same": false,
+    "canonical_name": "Security And Operations Teams",
+    "e1": "Security And Operations Teams",
+    "e2": "Security Training"
+  },
+  "Security And Operations Teams|||Security Spend": {
+    "is_same": false,
+    "canonical_name": "Security And Operations Teams",
+    "e1": "Security And Operations Teams",
+    "e2": "Security Spend"
+  },
+  "Security And Operations Teams|||Security Compliance Certifications": {
+    "is_same": false,
+    "canonical_name": "Security And Operations Teams",
+    "e1": "Security And Operations Teams",
+    "e2": "Security Compliance Certifications"
+  },
+  "Security And Operations Teams|||Security": {
+    "is_same": false,
+    "canonical_name": "Security And Operations Teams",
+    "e1": "Security And Operations Teams",
+    "e2": "Security"
+  },
+  "Security And Operations Teams|||Security Updates": {
+    "is_same": false,
+    "canonical_name": "Security And Operations Teams",
+    "e1": "Security And Operations Teams",
+    "e2": "Security Updates"
+  },
+  "Security And Operations Teams|||Security Testing": {
+    "is_same": false,
+    "canonical_name": "Security And Operations Teams",
+    "e1": "Security And Operations Teams",
+    "e2": "Security Testing"
+  },
+  "Security And Operations Teams|||Security And Identification": {
+    "is_same": false,
+    "canonical_name": "Security And Operations Teams",
+    "e1": "Security And Operations Teams",
+    "e2": "Security And Identification"
+  },
+  "Security And Operations Teams|||Security And Privacy Risks": {
+    "is_same": false,
+    "canonical_name": "Security And Operations Teams",
+    "e1": "Security And Operations Teams",
+    "e2": "Security And Privacy Risks"
+  },
+  "Security And Operations Teams|||Security Lapse": {
+    "is_same": false,
+    "canonical_name": "Security And Operations Teams",
+    "e1": "Security And Operations Teams",
+    "e2": "Security Lapse"
+  },
+  "Security And Operations Teams|||Security Audits": {
+    "is_same": false,
+    "canonical_name": "Security And Operations Teams",
+    "e1": "Security And Operations Teams",
+    "e2": "Security Audits"
+  },
+  "Security And Operations Teams|||Security Engineers": {
+    "is_same": true,
+    "canonical_name": "Security And Operations Teams",
+    "e1": "Security And Operations Teams",
+    "e2": "Security Engineers"
+  },
+  "Security And Operations Teams|||Security Systems": {
+    "is_same": false,
+    "canonical_name": "Security And Operations Teams",
+    "e1": "Security And Operations Teams",
+    "e2": "Security Systems"
+  },
+  "Automated Flows|||Automated Email Follow-Ups": {
+    "is_same": false,
+    "canonical_name": "Automated Flows",
+    "e1": "Automated Flows",
+    "e2": "Automated Email Follow-Ups"
+  },
+  "Automated Flows|||Automation Testing": {
+    "is_same": false,
+    "canonical_name": "Automated Flows",
+    "e1": "Automated Flows",
+    "e2": "Automation Testing"
+  },
+  "Automated Flows|||Automated Forklifts": {
+    "is_same": false,
+    "canonical_name": "Automated Flows",
+    "e1": "Automated Flows",
+    "e2": "Automated Forklifts"
+  },
+  "Automated Flows|||Automated Execution": {
+    "is_same": true,
+    "canonical_name": "Automated Flows",
+    "e1": "Automated Flows",
+    "e2": "Automated Execution"
+  },
+  "Automated Flows|||Automated Workflows": {
+    "is_same": true,
+    "canonical_name": "Automated Workflows",
+    "e1": "Automated Flows",
+    "e2": "Automated Workflows"
+  },
+  "Automated Flows|||Automated Valuation Models": {
+    "is_same": false,
+    "canonical_name": "Automated Flows",
+    "e1": "Automated Flows",
+    "e2": "Automated Valuation Models"
+  },
+  "Automated Flows|||Automated Cybercrimes": {
+    "is_same": false,
+    "canonical_name": "Automated Flows",
+    "e1": "Automated Flows",
+    "e2": "Automated Cybercrimes"
+  },
+  "Automated Flows|||Automation Feasibility": {
+    "is_same": false,
+    "canonical_name": "Automated Flows",
+    "e1": "Automated Flows",
+    "e2": "Automation Feasibility"
+  },
+  "Automated Flows|||Automation": {
+    "is_same": true,
+    "canonical_name": "Automation",
+    "e1": "Automated Flows",
+    "e2": "Automation"
+  },
+  "Automated Flows|||Automakers": {
+    "is_same": false,
+    "canonical_name": "Automated Flows",
+    "e1": "Automated Flows",
+    "e2": "Automakers"
+  },
+  "Automated Flows|||Auto Mode": {
+    "is_same": false,
+    "canonical_name": "Automated Flows",
+    "e1": "Automated Flows",
+    "e2": "Auto Mode"
+  },
+  "Automated Flows|||Automated Code-Review": {
+    "is_same": false,
+    "canonical_name": "Automated Flows",
+    "e1": "Automated Flows",
+    "e2": "Automated Code-Review"
+  },
+  "Threat Response|||Threshold Ventures": {
+    "is_same": false,
+    "canonical_name": "Threat Response",
+    "e1": "Threat Response",
+    "e2": "Threshold Ventures"
+  },
+  "Threat Response|||Threads": {
+    "is_same": false,
+    "canonical_name": "Threat Response",
+    "e1": "Threat Response",
+    "e2": "Threads"
+  },
+  "Threat Response|||Threat Detection": {
+    "is_same": false,
+    "canonical_name": "Threat Response",
+    "e1": "Threat Response",
+    "e2": "Threat Detection"
+  },
+  "Voice AI Platform|||Voice Automation": {
+    "is_same": true,
+    "canonical_name": "Voice AI Platform",
+    "e1": "Voice AI Platform",
+    "e2": "Voice Automation"
+  },
+  "Voice AI Platform|||Voice AI Model": {
+    "is_same": true,
+    "canonical_name": "Voice AI Platform",
+    "e1": "Voice AI Platform",
+    "e2": "Voice AI Model"
+  },
+  "Voice AI Platform|||Voice Chat": {
+    "is_same": false,
+    "canonical_name": "Voice AI Platform",
+    "e1": "Voice AI Platform",
+    "e2": "Voice Chat"
+  },
+  "Voice AI Platform|||Voice AI Boom": {
+    "is_same": false,
+    "canonical_name": "Voice AI Platform",
+    "e1": "Voice AI Platform",
+    "e2": "Voice AI Boom"
+  },
+  "Voice AI Platform|||Voicemail Feature": {
+    "is_same": false,
+    "canonical_name": "Voice AI Platform",
+    "e1": "Voice AI Platform",
+    "e2": "Voicemail Feature"
+  },
+  "Voice AI Platform|||Voice AI": {
+    "is_same": true,
+    "canonical_name": "Voice AI",
+    "e1": "Voice AI Platform",
+    "e2": "Voice AI"
+  },
+  "Autonomous Technologies Group|||Autonomous Vehicle Tech": {
+    "is_same": false,
+    "canonical_name": "Autonomous Technologies Group",
+    "e1": "Autonomous Technologies Group",
+    "e2": "Autonomous Vehicle Tech"
+  },
+  "Autonomous Technologies Group|||Autonomous Drones For Cattle Herding": {
+    "is_same": false,
+    "canonical_name": "Autonomous Technologies Group",
+    "e1": "Autonomous Technologies Group",
+    "e2": "Autonomous Drones For Cattle Herding"
+  },
+  "Autonomous Technologies Group|||Autonomous Personal Mobility Vehicles": {
+    "is_same": false,
+    "canonical_name": "Autonomous Technologies Group",
+    "e1": "Autonomous Technologies Group",
+    "e2": "Autonomous Personal Mobility Vehicles"
+  },
+  "Autonomous Technologies Group|||Autonomous Cybersecurity Agents": {
+    "is_same": false,
+    "canonical_name": "Autonomous Technologies Group",
+    "e1": "Autonomous Technologies Group",
+    "e2": "Autonomous Cybersecurity Agents"
+  },
+  "Autonomous Technologies Group|||Autonomous Navigation Technology": {
+    "is_same": false,
+    "canonical_name": "Autonomous Technologies Group",
+    "e1": "Autonomous Technologies Group",
+    "e2": "Autonomous Navigation Technology"
+  },
+  "Autonomous Technologies Group|||Autonomous Drone Delivery": {
+    "is_same": false,
+    "canonical_name": "Autonomous Technologies Group",
+    "e1": "Autonomous Technologies Group",
+    "e2": "Autonomous Drone Delivery"
+  },
+  "Autonomous Technologies Group|||Autonomous Deployments": {
+    "is_same": false,
+    "canonical_name": "Autonomous Technologies Group",
+    "e1": "Autonomous Technologies Group",
+    "e2": "Autonomous Deployments"
+  },
+  "Autonomous Technologies Group|||Autonomous Boats": {
+    "is_same": false,
+    "canonical_name": "Autonomous Technologies Group",
+    "e1": "Autonomous Technologies Group",
+    "e2": "Autonomous Boats"
+  },
+  "Autonomous Technologies Group|||Autonomous Farming Technology": {
+    "is_same": false,
+    "canonical_name": "Autonomous Technologies Group",
+    "e1": "Autonomous Technologies Group",
+    "e2": "Autonomous Farming Technology"
+  },
+  "Autonomous Technologies Group|||Autonomous Coding Tools": {
+    "is_same": false,
+    "canonical_name": "Autonomous Technologies Group",
+    "e1": "Autonomous Technologies Group",
+    "e2": "Autonomous Coding Tools"
+  },
+  "Autonomous Technologies Group|||Autonomous Pods": {
+    "is_same": false,
+    "canonical_name": "Autonomous Technologies Group",
+    "e1": "Autonomous Technologies Group",
+    "e2": "Autonomous Pods"
+  },
+  "Autonomous Technologies Group|||Autonomous Drones": {
+    "is_same": false,
+    "canonical_name": "Autonomous Technologies Group",
+    "e1": "Autonomous Technologies Group",
+    "e2": "Autonomous Drones"
+  },
+  "Autonomous Technologies Group|||Autonomous Weapons": {
+    "is_same": false,
+    "canonical_name": "Autonomous Technologies Group",
+    "e1": "Autonomous Technologies Group",
+    "e2": "Autonomous Weapons"
+  },
+  "Autonomous Technologies Group|||Autonomous Microbuses": {
+    "is_same": false,
+    "canonical_name": "Autonomous Technologies Group",
+    "e1": "Autonomous Technologies Group",
+    "e2": "Autonomous Microbuses"
+  },
+  "Autonomous Technologies Group|||Autonomous Vehicle Technology": {
+    "is_same": false,
+    "canonical_name": "Autonomous Technologies Group",
+    "e1": "Autonomous Technologies Group",
+    "e2": "Autonomous Vehicle Technology"
+  },
+  "Autonomous Technologies Group|||Autonomous Agents": {
+    "is_same": false,
+    "canonical_name": "Autonomous Technologies Group",
+    "e1": "Autonomous Technologies Group",
+    "e2": "Autonomous Agents"
+  },
+  "Autonomous Technologies Group|||Autonomous Construction": {
+    "is_same": false,
+    "canonical_name": "Autonomous Technologies Group",
+    "e1": "Autonomous Technologies Group",
+    "e2": "Autonomous Construction"
+  },
+  "Autonomous Technologies Group|||Autonomous Production Systems": {
+    "is_same": false,
+    "canonical_name": "Autonomous Technologies Group",
+    "e1": "Autonomous Technologies Group",
+    "e2": "Autonomous Production Systems"
+  },
+  "Autonomous Technologies Group|||Autonomous Sourcing": {
+    "is_same": false,
+    "canonical_name": "Autonomous Technologies Group",
+    "e1": "Autonomous Technologies Group",
+    "e2": "Autonomous Sourcing"
+  },
+  "Autonomous Technologies Group|||Autonomous Logistics": {
+    "is_same": false,
+    "canonical_name": "Autonomous Technologies Group",
+    "e1": "Autonomous Technologies Group",
+    "e2": "Autonomous Logistics"
+  },
+  "Autonomous Technologies Group|||Autonomous Tractors": {
+    "is_same": false,
+    "canonical_name": "Autonomous Technologies Group",
+    "e1": "Autonomous Technologies Group",
+    "e2": "Autonomous Tractors"
+  },
+  "Autonomous Technologies Group|||Autonomous Haulage Trucks": {
+    "is_same": false,
+    "canonical_name": "Autonomous Technologies Group",
+    "e1": "Autonomous Technologies Group",
+    "e2": "Autonomous Haulage Trucks"
+  },
+  "Autonomous Technologies Group|||Autonomous Vehicle Software": {
+    "is_same": false,
+    "canonical_name": "Autonomous Technologies Group",
+    "e1": "Autonomous Technologies Group",
+    "e2": "Autonomous Vehicle Software"
+  },
+  "Autonomous Technologies Group|||Autonomous AI Agents": {
+    "is_same": false,
+    "canonical_name": "Autonomous Technologies Group",
+    "e1": "Autonomous Technologies Group",
+    "e2": "Autonomous AI Agents"
+  },
+  "Autonomous Technologies Group|||Autonomous Sre": {
+    "is_same": false,
+    "canonical_name": "Autonomous Technologies Group",
+    "e1": "Autonomous Technologies Group",
+    "e2": "Autonomous Sre"
+  },
+  "Autonomous Technologies Group|||Autonomous Vehicle": {
+    "is_same": false,
+    "canonical_name": "Autonomous Technologies Group",
+    "e1": "Autonomous Technologies Group",
+    "e2": "Autonomous Vehicle"
+  },
+  "Autonomous Technologies Group|||Autonomous Forklifts": {
+    "is_same": false,
+    "canonical_name": "Autonomous Technologies Group",
+    "e1": "Autonomous Technologies Group",
+    "e2": "Autonomous Forklifts"
+  },
+  "Frontier Reasoning Systems|||Frontier": {
+    "is_same": true,
+    "canonical_name": "Frontier Reasoning Systems",
+    "e1": "Frontier Reasoning Systems",
+    "e2": "Frontier"
+  },
+  "Frontier Reasoning Systems|||Frontier Growth": {
+    "is_same": false,
+    "canonical_name": "Frontier Reasoning Systems",
+    "e1": "Frontier Reasoning Systems",
+    "e2": "Frontier Growth"
+  },
+  "Frontier Reasoning Systems|||Frontier Labs": {
+    "is_same": false,
+    "canonical_name": "Frontier Reasoning Systems",
+    "e1": "Frontier Reasoning Systems",
+    "e2": "Frontier Labs"
+  },
+  "Financial Markets|||Financial Sector": {
+    "is_same": true,
+    "canonical_name": "Financial Markets",
+    "e1": "Financial Markets",
+    "e2": "Financial Sector"
+  },
+  "Financial Markets|||Financial Fraud": {
+    "is_same": false,
+    "canonical_name": "Financial Markets",
+    "e1": "Financial Markets",
+    "e2": "Financial Fraud"
+  },
+  "Financial Markets|||Financially Motivated Hackers": {
+    "is_same": false,
+    "canonical_name": "Financial Markets",
+    "e1": "Financial Markets",
+    "e2": "Financially Motivated Hackers"
+  },
+  "Financial Markets|||Financial Layer For Enterprises": {
+    "is_same": false,
+    "canonical_name": "Financial Markets",
+    "e1": "Financial Markets",
+    "e2": "Financial Layer For Enterprises"
+  },
+  "Financial Markets|||Financial Times": {
+    "is_same": false,
+    "canonical_name": "Financial Markets",
+    "e1": "Financial Markets",
+    "e2": "Financial Times"
+  },
+  "Financial Markets|||Financial Compatibility": {
+    "is_same": false,
+    "canonical_name": "Financial Markets",
+    "e1": "Financial Markets",
+    "e2": "Financial Compatibility"
+  },
+  "Financial Markets|||Financial Modeling": {
+    "is_same": false,
+    "canonical_name": "Financial Markets",
+    "e1": "Financial Markets",
+    "e2": "Financial Modeling"
+  },
+  "Financial Markets|||Financial Behavior": {
+    "is_same": false,
+    "canonical_name": "Financial Markets",
+    "e1": "Financial Markets",
+    "e2": "Financial Behavior"
+  },
+  "Financial Markets|||Financial Tooling": {
+    "is_same": false,
+    "canonical_name": "Financial Markets",
+    "e1": "Financial Markets",
+    "e2": "Financial Tooling"
+  },
+  "Financial Markets|||Financial Tracking": {
+    "is_same": false,
+    "canonical_name": "Financial Markets",
+    "e1": "Financial Markets",
+    "e2": "Financial Tracking"
+  },
+  "Financial Markets|||Financial Statement Preparation": {
+    "is_same": false,
+    "canonical_name": "Financial Markets",
+    "e1": "Financial Markets",
+    "e2": "Financial Statement Preparation"
+  },
+  "Financial Markets|||Financial Math": {
+    "is_same": false,
+    "canonical_name": "Financial Markets",
+    "e1": "Financial Markets",
+    "e2": "Financial Math"
+  },
+  "Financial Markets|||Financially Motivated Crime Group": {
+    "is_same": false,
+    "canonical_name": "Financial Markets",
+    "e1": "Financial Markets",
+    "e2": "Financially Motivated Crime Group"
+  },
+  "Financial Markets|||Financial Leader": {
+    "is_same": false,
+    "canonical_name": "Financial Markets",
+    "e1": "Financial Markets",
+    "e2": "Financial Leader"
+  },
+  "Payment Card Solutions|||Payment Overdue": {
+    "is_same": false,
+    "canonical_name": "Payment Card Solutions",
+    "e1": "Payment Card Solutions",
+    "e2": "Payment Overdue"
+  },
+  "Blockchain Settlement|||Blockchain-Based Digital Clone": {
+    "is_same": false,
+    "canonical_name": "Blockchain Settlement",
+    "e1": "Blockchain Settlement",
+    "e2": "Blockchain-Based Digital Clone"
+  },
+  "Blockchain Settlement|||Blockstream": {
+    "is_same": false,
+    "canonical_name": "Blockchain Settlement",
+    "e1": "Blockchain Settlement",
+    "e2": "Blockstream"
+  },
+  "Blockchain Settlement|||Blockit Agent": {
+    "is_same": false,
+    "canonical_name": "Blockchain Settlement",
+    "e1": "Blockchain Settlement",
+    "e2": "Blockit Agent"
+  },
+  "Blockchain Settlement|||Blockit": {
+    "is_same": false,
+    "canonical_name": "Blockchain Settlement",
+    "e1": "Blockchain Settlement",
+    "e2": "Blockit"
+  },
+  "Blockchain Settlement|||Blockchain": {
+    "is_same": false,
+    "canonical_name": "Blockchain Settlement",
+    "e1": "Blockchain Settlement",
+    "e2": "Blockchain"
+  },
+  "Blockchain Settlement|||Blockchain Analysis": {
+    "is_same": false,
+    "canonical_name": "Blockchain Settlement",
+    "e1": "Blockchain Settlement",
+    "e2": "Blockchain Analysis"
+  },
+  "Blockchain Settlement|||Blockchain Intelligence": {
+    "is_same": false,
+    "canonical_name": "Blockchain Settlement",
+    "e1": "Blockchain Settlement",
+    "e2": "Blockchain Intelligence"
+  },
+  "Blockchain Settlement|||Blockchain Tech": {
+    "is_same": false,
+    "canonical_name": "Blockchain Settlement",
+    "e1": "Blockchain Settlement",
+    "e2": "Blockchain Tech"
+  },
+  "Blockchain Settlement|||Blockchain Capital": {
+    "is_same": false,
+    "canonical_name": "Blockchain Settlement",
+    "e1": "Blockchain Settlement",
+    "e2": "Blockchain Capital"
+  },
+  "Visa Network|||Visa": {
+    "is_same": true,
+    "canonical_name": "Visa Network",
+    "e1": "Visa Network",
+    "e2": "Visa"
+  },
+  "Visa Network|||Vantor": {
+    "is_same": false,
+    "canonical_name": "Visa Network",
+    "e1": "Visa Network",
+    "e2": "Vantor"
+  },
+  "Visa Network|||Network": {
+    "is_same": false,
+    "canonical_name": "Visa Network",
+    "e1": "Visa Network",
+    "e2": "Network"
+  },
+  "Traditional Financial Systems|||Traditional Pr": {
+    "is_same": false,
+    "canonical_name": "Traditional Financial Systems",
+    "e1": "Traditional Financial Systems",
+    "e2": "Traditional Pr"
+  },
+  "Traditional Financial Systems|||Traditional Media": {
+    "is_same": false,
+    "canonical_name": "Traditional Financial Systems",
+    "e1": "Traditional Financial Systems",
+    "e2": "Traditional Media"
+  },
+  "Traditional Financial Systems|||Traditional Finance": {
+    "is_same": true,
+    "canonical_name": "Traditional Finance",
+    "e1": "Traditional Financial Systems",
+    "e2": "Traditional Finance"
+  },
+  "Digital Assets|||Digital Wellness": {
+    "is_same": false,
+    "canonical_name": "Digital Assets",
+    "e1": "Digital Assets",
+    "e2": "Digital Wellness"
+  },
+  "Digital Assets|||Digital Markets": {
+    "is_same": false,
+    "canonical_name": "Digital Assets",
+    "e1": "Digital Assets",
+    "e2": "Digital Markets"
+  },
+  "Digital Assets|||Digital Optimus": {
+    "is_same": false,
+    "canonical_name": "Digital Assets",
+    "e1": "Digital Assets",
+    "e2": "Digital Optimus"
+  },
+  "Digital Assets|||Digital Savings Accounts": {
+    "is_same": false,
+    "canonical_name": "Digital Assets",
+    "e1": "Digital Assets",
+    "e2": "Digital Savings Accounts"
+  },
+  "Digital Assets|||Digital Closet": {
+    "is_same": false,
+    "canonical_name": "Digital Assets",
+    "e1": "Digital Assets",
+    "e2": "Digital Closet"
+  },
+  "Digital Assets|||Digital Sovereignty": {
+    "is_same": false,
+    "canonical_name": "Digital Assets",
+    "e1": "Digital Assets",
+    "e2": "Digital Sovereignty"
+  },
+  "Digital Assets|||Digitalmint": {
+    "is_same": false,
+    "canonical_name": "Digital Assets",
+    "e1": "Digital Assets",
+    "e2": "Digitalmint"
+  },
+  "Digital Assets|||Digital Predator": {
+    "is_same": false,
+    "canonical_name": "Digital Assets",
+    "e1": "Digital Assets",
+    "e2": "Digital Predator"
+  },
+  "Digital Assets|||Digital Rights Activists": {
+    "is_same": false,
+    "canonical_name": "Digital Assets",
+    "e1": "Digital Assets",
+    "e2": "Digital Rights Activists"
+  },
+  "Digital Assets|||Digitask": {
+    "is_same": false,
+    "canonical_name": "Digital Assets",
+    "e1": "Digital Assets",
+    "e2": "Digitask"
+  },
+  "Digital Assets|||Digital Care Tools": {
+    "is_same": false,
+    "canonical_name": "Digital Assets",
+    "e1": "Digital Assets",
+    "e2": "Digital Care Tools"
+  },
+  "Digital Assets|||Digital Security": {
+    "is_same": false,
+    "canonical_name": "Digital Assets",
+    "e1": "Digital Assets",
+    "e2": "Digital Security"
+  },
+  "Digital Assets|||Digital Infrastructure": {
+    "is_same": false,
+    "canonical_name": "Digital Assets",
+    "e1": "Digital Assets",
+    "e2": "Digital Infrastructure"
+  },
+  "Digital Assets|||Digital Passport For Every Business": {
+    "is_same": false,
+    "canonical_name": "Digital Assets",
+    "e1": "Digital Assets",
+    "e2": "Digital Passport For Every Business"
+  },
+  "Digital Assets|||Digital Aggression": {
+    "is_same": false,
+    "canonical_name": "Digital Assets",
+    "e1": "Digital Assets",
+    "e2": "Digital Aggression"
+  },
+  "Digital Assets|||Digital Asset Authorization Infrastructure": {
+    "is_same": false,
+    "canonical_name": "Digital Assets",
+    "e1": "Digital Assets",
+    "e2": "Digital Asset Authorization Infrastructure"
+  },
+  "Digital Assets|||Digital Twins": {
+    "is_same": false,
+    "canonical_name": "Digital Assets",
+    "e1": "Digital Assets",
+    "e2": "Digital Twins"
+  },
+  "Digital Assets|||Digital Assistant": {
+    "is_same": false,
+    "canonical_name": "Digital Assets",
+    "e1": "Digital Assets",
+    "e2": "Digital Assistant"
+  },
+  "Digital Assets|||Digital Rights": {
+    "is_same": false,
+    "canonical_name": "Digital Assets",
+    "e1": "Digital Assets",
+    "e2": "Digital Rights"
+  },
+  "Digital Assets|||Digital Checklists": {
+    "is_same": false,
+    "canonical_name": "Digital Assets",
+    "e1": "Digital Assets",
+    "e2": "Digital Checklists"
+  },
+  "Digital Assets|||Digit": {
+    "is_same": false,
+    "canonical_name": "Digital Assets",
+    "e1": "Digital Assets",
+    "e2": "Digit"
+  },
+  "Digital Assets|||Digital Certificates": {
+    "is_same": false,
+    "canonical_name": "Digital Assets",
+    "e1": "Digital Assets",
+    "e2": "Digital Certificates"
+  },
+  "Enterprise Use Cases|||Enterprise AI Tools": {
+    "is_same": false,
+    "canonical_name": "Enterprise Use Cases",
+    "e1": "Enterprise Use Cases",
+    "e2": "Enterprise AI Tools"
+  },
+  "Enterprise Use Cases|||Enterprise Software": {
+    "is_same": false,
+    "canonical_name": "Enterprise Use Cases",
+    "e1": "Enterprise Use Cases",
+    "e2": "Enterprise Software"
+  },
+  "Enterprise Use Cases|||Enterprise AI Contracts": {
+    "is_same": false,
+    "canonical_name": "Enterprise Use Cases",
+    "e1": "Enterprise Use Cases",
+    "e2": "Enterprise AI Contracts"
+  },
+  "Enterprise Use Cases|||Enterprise Resource Planning": {
+    "is_same": false,
+    "canonical_name": "Enterprise Use Cases",
+    "e1": "Enterprise Use Cases",
+    "e2": "Enterprise Resource Planning"
+  },
+  "Enterprise Use Cases|||Enterprise Clients": {
+    "is_same": false,
+    "canonical_name": "Enterprise Use Cases",
+    "e1": "Enterprise Use Cases",
+    "e2": "Enterprise Clients"
+  },
+  "Enterprise Use Cases|||Enterprise AI Operating System": {
+    "is_same": false,
+    "canonical_name": "Enterprise Use Cases",
+    "e1": "Enterprise Use Cases",
+    "e2": "Enterprise AI Operating System"
+  },
+  "Enterprise Use Cases|||Enterprise Video Analytics": {
+    "is_same": false,
+    "canonical_name": "Enterprise Use Cases",
+    "e1": "Enterprise Use Cases",
+    "e2": "Enterprise Video Analytics"
+  },
+  "Enterprise Use Cases|||Enterprise Security Offering": {
+    "is_same": false,
+    "canonical_name": "Enterprise Use Cases",
+    "e1": "Enterprise Use Cases",
+    "e2": "Enterprise Security Offering"
+  },
+  "Enterprise Use Cases|||Enterprise": {
+    "is_same": false,
+    "canonical_name": "Enterprise Use Cases",
+    "e1": "Enterprise Use Cases",
+    "e2": "Enterprise"
+  },
+  "Enterprise Use Cases|||Enterprise AI Agents": {
+    "is_same": false,
+    "canonical_name": "Enterprise Use Cases",
+    "e1": "Enterprise Use Cases",
+    "e2": "Enterprise AI Agents"
+  },
+  "Enterprise Use Cases|||Enterprise Customers": {
+    "is_same": false,
+    "canonical_name": "Enterprise Use Cases",
+    "e1": "Enterprise Use Cases",
+    "e2": "Enterprise Customers"
+  },
+  "Enterprise Use Cases|||Enterprise Code Review": {
+    "is_same": false,
+    "canonical_name": "Enterprise Use Cases",
+    "e1": "Enterprise Use Cases",
+    "e2": "Enterprise Code Review"
+  },
+  "Enterprise Use Cases|||Enterprise Appointment Software": {
+    "is_same": false,
+    "canonical_name": "Enterprise Use Cases",
+    "e1": "Enterprise Use Cases",
+    "e2": "Enterprise Appointment Software"
+  },
+  "Enterprise Use Cases|||Enterprise AI Startups": {
+    "is_same": false,
+    "canonical_name": "Enterprise Use Cases",
+    "e1": "Enterprise Use Cases",
+    "e2": "Enterprise AI Startups"
+  },
+  "Enterprise Use Cases|||Enterprise Security Complexity": {
+    "is_same": false,
+    "canonical_name": "Enterprise Use Cases",
+    "e1": "Enterprise Use Cases",
+    "e2": "Enterprise Security Complexity"
+  },
+  "Enterprise Use Cases|||Enterprise AI": {
+    "is_same": false,
+    "canonical_name": "Enterprise Use Cases",
+    "e1": "Enterprise Use Cases",
+    "e2": "Enterprise AI"
+  },
+  "Enterprise Use Cases|||Enterprise Ireland": {
+    "is_same": false,
+    "canonical_name": "Enterprise Use Cases",
+    "e1": "Enterprise Use Cases",
+    "e2": "Enterprise Ireland"
   }
 }
