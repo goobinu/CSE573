@@ -20,7 +20,7 @@ client = OpenAI(
     base_url=VOYAGER_BASE_URL
 )
 
-def resolve_batches(uncertain_pairs):
+def resolve_batches(uncertain_pairs, checkpoint_state, checkpoint_file):
     resolved_decisions = []
     
     # Chunking: 20 per chunk
@@ -67,7 +67,23 @@ Entity Pairs:
             results = payload.get("results", [])
             if isinstance(results, list):
                 for res in results:
-                    resolved_decisions.append(res)
+                    pid = res.get("pair_id")
+                    pair = next((p for p in chunk if p["id"] == pid), None)
+                    if pair:
+                        decision_record = {
+                            "is_same": res.get("is_same", False),
+                            "canonical_name": res.get("canonical_name"),
+                            "e1": pair["e1"],
+                            "e2": pair["e2"]
+                        }
+                        resolved_decisions.append(decision_record)
+                        
+                        pair_key = f"{pair['e1']}|||{pair['e2']}"
+                        checkpoint_state[pair_key] = decision_record
+                
+                with open(checkpoint_file, "w") as f:
+                    json.dump(checkpoint_state, f, indent=2)
+                print(f"💾 Checkpoint saved: {len(checkpoint_state)} total entities resolved.")
             else:
                 print(f"Warning: Unexpected JSON format from LLM for chunk {c_idx+1}.")
                 
@@ -161,30 +177,48 @@ def main():
 
     print(f"Phase 1: Resolved {len(name_mapping)} entities down to {len(canonical_names)} canonical entities locally.")
     
+    # State Initialization & Recovery
+    checkpoint_file = os.path.join(os.path.dirname(OUTPUT_FILE), "entity_resolution_checkpoint.json")
+    checkpoint_state = {}
+    if os.path.exists(checkpoint_file):
+        with open(checkpoint_file, "r") as f:
+            checkpoint_state = json.load(f)
+        print(f"Loaded {len(checkpoint_state)} previously resolved pairs from checkpoint.")
+    
+    # Filter Workload
+    remaining_pairs_raw = []
+    decisions = []
+    
+    for e1, e2 in uncertain_pairs_raw:
+        pair_key = f"{e1}|||{e2}"
+        if pair_key in checkpoint_state:
+            decisions.append(checkpoint_state[pair_key])
+        else:
+            remaining_pairs_raw.append((e1, e2))
+
     uncertain_pairs = []
-    for idx, (e1, e2) in enumerate(uncertain_pairs_raw):
+    for idx, (e1, e2) in enumerate(remaining_pairs_raw):
         uncertain_pairs.append({"id": idx+1, "e1": e1, "e2": e2})
         
-    # Phase 2: Batched LLM LLM Resolution
+    print(f"{len(uncertain_pairs)} pairs remaining to be processed by LLM.")
+
+    # Phase 2: Batched LLM Resolution
     if uncertain_pairs:
-        decisions = resolve_batches(uncertain_pairs)
+        new_decisions = resolve_batches(uncertain_pairs, checkpoint_state, checkpoint_file)
+        decisions.extend(new_decisions)
         
-        # Apply decisions
-        pair_lookup = {p["id"]: p for p in uncertain_pairs}
-        
-        for d in decisions:
-            if d.get("is_same", False):
-                pid = d.get("pair_id")
-                c_name = d.get("canonical_name")
-                if pid in pair_lookup:
-                    e1 = pair_lookup[pid]["e1"]
-                    e2 = pair_lookup[pid]["e2"]
-                    
-                    target_names = {name_mapping.get(e1, e1), name_mapping.get(e2, e2), e1, e2}
-                    
-                    for k, v in list(name_mapping.items()):
-                        if v in target_names:
-                            name_mapping[k] = c_name
+    # Apply decisions
+    for d in decisions:
+        if d.get("is_same", False):
+            e1 = d.get("e1")
+            e2 = d.get("e2")
+            c_name = d.get("canonical_name")
+            
+            target_names = {name_mapping.get(e1, e1), name_mapping.get(e2, e2), e1, e2}
+            
+            for k, v in list(name_mapping.items()):
+                if v in target_names:
+                    name_mapping[k] = c_name
 
     # Phase 3: Final Application to Data
     for doc in data:
@@ -217,6 +251,10 @@ def main():
         json.dump(data, f, indent=2)
 
     print("Normalization complete!")
+
+    if os.path.exists(checkpoint_file):
+        os.remove(checkpoint_file)
+        print("Removed checkpoint file as processing is complete.")
 
 if __name__ == "__main__":
     main()
