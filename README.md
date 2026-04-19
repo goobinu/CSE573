@@ -70,4 +70,4 @@ streamlit run CODE/app.py
 ---
 
 ## Authors
-- Group 11 (CSE 573): Gabriel Habeeb, Jadhav Kunal, Yuvraj Rasal
+- Group 11 (CSE 573): Gabriel Habeeb, Jadhav Kunal, Yuvraj Rasal, Saswata Dutta
