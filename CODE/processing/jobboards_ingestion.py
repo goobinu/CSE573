@@ -11,7 +11,7 @@ from config import CHROMA_DB_PATH
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 # Primary source: produced by CODE/scraping/jobboards/clean_jobs.py
-JOBS_MASTER_PATH = os.path.join(BASE_DIR, "DATA", "raw", "jobboards", "jobs_master.csv")
+JOBS_MASTER_PATH = os.path.join(BASE_DIR, "DATA", "raw", "greenhouse", "jobs_master.csv")
 # Legacy fallback: original trendscout_jobboards pipeline output (includes enriched skills)
 JOBS_ENRICHED_PATH = os.path.join(
     BASE_DIR, "trendscout_jobboards", "data", "processed", "jobs_enriched.csv"

@@ -1,17 +1,17 @@
 """
 Visit each Greenhouse job URL and scrape the full description.
-Reads:   DATA/raw/jobboards/greenhouse_jobs_list.csv
-Outputs: DATA/raw/jobboards/greenhouse_job_details.csv
+Reads:   DATA/raw/greenhouse/greenhouse_jobs_list.csv
+Outputs: DATA/raw/greenhouse/greenhouse_job_details.csv
 """
 from pathlib import Path
 
 import requests
-from bs4 import BeautifulSoup
 import pandas as pd
+from bs4 import BeautifulSoup
 
 # ── Paths ─────────────────────────────────────────────────────────────────────
 PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent.parent  # CSE573/
-RAW_DIR = PROJECT_ROOT / "DATA" / "raw" / "jobboards"
+RAW_DIR = PROJECT_ROOT / "DATA" / "raw" / "greenhouse"
 RAW_DIR.mkdir(parents=True, exist_ok=True)
 
 MAX_JOBS = 50

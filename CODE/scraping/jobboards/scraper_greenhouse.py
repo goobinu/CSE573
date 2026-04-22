@@ -1,7 +1,7 @@
 """
 Scrape job listings from Greenhouse (job-boards.greenhouse.io/xai).
-Outputs: DATA/raw/jobboards/greenhouse_jobs_list.csv
-         DATA/raw/jobboards/greenhouse_page.html
+Outputs: DATA/raw/greenhouse/greenhouse_jobs_list.csv
+         DATA/raw/greenhouse/greenhouse_page.html
 """
 import sys
 from pathlib import Path
@@ -12,7 +12,7 @@ import pandas as pd
 
 # ── Paths ─────────────────────────────────────────────────────────────────────
 PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent.parent  # CSE573/
-RAW_DIR = PROJECT_ROOT / "DATA" / "raw" / "jobboards"
+RAW_DIR = PROJECT_ROOT / "DATA" / "raw" / "greenhouse"
 RAW_DIR.mkdir(parents=True, exist_ok=True)
 
 START_URL = "https://job-boards.greenhouse.io/xai"

@@ -1,8 +1,8 @@
 """
-Merge, normalise, and deduplicate Wellfound + Greenhouse job data.
-Reads:   DATA/raw/jobboards/jobs_list.csv  (Wellfound)  — or greenhouse fallback
-         DATA/raw/jobboards/job_details.csv              — or greenhouse fallback
-Outputs: DATA/raw/jobboards/jobs_master.csv
+Normalise and deduplicate Greenhouse job data.
+Reads:   DATA/raw/greenhouse/greenhouse_jobs_list.csv
+         DATA/raw/greenhouse/greenhouse_job_details.csv
+Outputs: DATA/raw/greenhouse/jobs_master.csv
 """
 import re
 from pathlib import Path
@@ -12,11 +12,11 @@ import pandas as pd
 
 # ── Paths ─────────────────────────────────────────────────────────────────────
 PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent.parent  # CSE573/
-RAW_DIR = PROJECT_ROOT / "DATA" / "raw" / "jobboards"
+RAW_DIR = PROJECT_ROOT / "DATA" / "raw" / "greenhouse"
 RAW_DIR.mkdir(parents=True, exist_ok=True)
 
-JOBS_FILE = RAW_DIR / "jobs_list.csv"
-DETAILS_FILE = RAW_DIR / "job_details.csv"
+JOBS_FILE = RAW_DIR / "greenhouse_jobs_list.csv"
+DETAILS_FILE = RAW_DIR / "greenhouse_job_details.csv"
 FALLBACK_JOBS_FILE = RAW_DIR / "greenhouse_jobs_list.csv"
 FALLBACK_DETAILS_FILE = RAW_DIR / "greenhouse_job_details.csv"
 
