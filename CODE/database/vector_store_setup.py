@@ -2,7 +2,7 @@ import pandas as pd
 import chromadb
 import hashlib
 import os
-from config import MASTER_DATASET_PATH, CHROMA_DB_PATH, REDDIT_CLEANED_CSV_PATH, TECHCRUNCH_CLEANED_CSV_PATH, STARTUPS_GALLERY_CLEANED_CSV_PATH
+from config import MASTER_DATASET_PATH, CHROMA_DB_PATH, REDDIT_CLEANED_CSV_PATH, TECHCRUNCH_CLEANED_CSV_PATH, STARTUPS_GALLERY_CLEANED_CSV_PATH, YCOMBINATOR_CLEANED_CSV_PATH
 def generate_id(url, index):
     if url:
         return hashlib.md5(str(url).encode('utf-8')).hexdigest() + f"_{index}"
@@ -19,6 +19,8 @@ def main():
         dfs.append(pd.read_csv(TECHCRUNCH_CLEANED_CSV_PATH))
     if os.path.exists(STARTUPS_GALLERY_CLEANED_CSV_PATH):
         dfs.append(pd.read_csv(STARTUPS_GALLERY_CLEANED_CSV_PATH))
+    if os.path.exists(YCOMBINATOR_CLEANED_CSV_PATH):
+        dfs.append(pd.read_csv(YCOMBINATOR_CLEANED_CSV_PATH))
         
     if not dfs:
         print("No datasets found.")

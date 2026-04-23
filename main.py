@@ -17,6 +17,7 @@ PIPELINE_MAP = {
         "CODE/processing/reddit_ingestion.py",
         "CODE/processing/techcrunch_ingestion.py",
         "CODE/processing/startups_gallery_ingestion.py",
+        "CODE/processing/ycombinator_ingestion.py",
         "CODE/processing/extraction.py",
         "CODE/processing/entity_resolution.py"
     ],

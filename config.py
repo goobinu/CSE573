@@ -11,7 +11,7 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR_RAW = os.path.join(BASE_DIR, "DATA", "raw")
 DATA_DIR_PROCESSED = os.path.join(BASE_DIR, "DATA", "processed")
 
-EXPECTED_SOURCES = ["LinkedIn", "Reddit", "TechCrunch", "Startups Gallery"]
+EXPECTED_SOURCES = ["LinkedIn", "Reddit", "TechCrunch", "Startups Gallery", "Y Combinator"]
 RESULTS_CSV_PATH = os.path.join(DATA_DIR_RAW, "linkedin", "results.csv")
 CURATED_CATEGORIES_PATH = os.path.join(DATA_DIR_RAW, "linkedin", "curatedcategories.csv")
 SUBPAGE_RESULTS_DIR = os.path.join(DATA_DIR_RAW, "linkedin", "subpage_results")
@@ -20,6 +20,7 @@ MASTER_DATASET_PATH = os.path.join(DATA_DIR_RAW, "master_dataset_cleaned.csv")
 REDDIT_CLEANED_CSV_PATH = os.path.join(DATA_DIR_PROCESSED, "reddit_cleaned_for_extraction.csv")
 TECHCRUNCH_CLEANED_CSV_PATH = os.path.join(DATA_DIR_PROCESSED, "techcrunch_cleaned_for_extraction.csv")
 STARTUPS_GALLERY_CLEANED_CSV_PATH = os.path.join(DATA_DIR_PROCESSED, "startups_gallery_cleaned_for_extraction.csv")
+YCOMBINATOR_CLEANED_CSV_PATH = os.path.join(DATA_DIR_PROCESSED, "ycombinator_cleaned_for_extraction.csv")
 EXTRACTED_KNOWLEDGE_PATH = os.path.join(DATA_DIR_PROCESSED, "extracted_knowledge.json")
 FINAL_KG_PATH = os.path.join(DATA_DIR_PROCESSED, "final_knowledge_graph.json")
 CHROMA_DB_PATH = os.path.join(DATA_DIR_PROCESSED, "chroma_db")
