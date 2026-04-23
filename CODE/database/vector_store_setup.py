@@ -2,7 +2,7 @@ import pandas as pd
 import chromadb
 import hashlib
 import os
-from config import MASTER_DATASET_PATH, CHROMA_DB_PATH, REDDIT_CLEANED_CSV_PATH, TECHCRUNCH_CLEANED_CSV_PATH, STARTUPS_GALLERY_CLEANED_CSV_PATH, JOBBOARDS_CLEANED_CSV_PATH
+from config import MASTER_DATASET_PATH, CHROMA_DB_PATH, REDDIT_CLEANED_CSV_PATH, TECHCRUNCH_CLEANED_CSV_PATH, STARTUPS_GALLERY_CLEANED_CSV_PATH, JOBBOARDS_CLEANED_CSV_PATH, YCOMBINATOR_CLEANED_CSV_PATH
 from CODE.utilities.checkpoint_manager import CheckpointManager
 
 def generate_id(url, index):
@@ -29,6 +29,8 @@ def main():
         dfs.append(pd.read_csv(STARTUPS_GALLERY_CLEANED_CSV_PATH))
     if os.path.exists(JOBBOARDS_CLEANED_CSV_PATH):
         dfs.append(pd.read_csv(JOBBOARDS_CLEANED_CSV_PATH))
+    if os.path.exists(YCOMBINATOR_CLEANED_CSV_PATH):
+        dfs.append(pd.read_csv(YCOMBINATOR_CLEANED_CSV_PATH))
         
     if not dfs:
         print("No datasets found.")

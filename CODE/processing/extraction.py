@@ -10,7 +10,7 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import JsonOutputParser
 from json_repair import loads
 
-from config import MASTER_DATASET_PATH, EXTRACTED_KNOWLEDGE_PATH, REDDIT_CLEANED_CSV_PATH, TECHCRUNCH_CLEANED_CSV_PATH, STARTUPS_GALLERY_CLEANED_CSV_PATH, JOBBOARDS_CLEANED_CSV_PATH
+from config import MASTER_DATASET_PATH, EXTRACTED_KNOWLEDGE_PATH, REDDIT_CLEANED_CSV_PATH, TECHCRUNCH_CLEANED_CSV_PATH, STARTUPS_GALLERY_CLEANED_CSV_PATH, JOBBOARDS_CLEANED_CSV_PATH, YCOMBINATOR_CLEANED_CSV_PATH
 from utilities.llm_client import get_llm
 
 # How often to save to disk? (e.g., save every 5 posts)
@@ -143,11 +143,15 @@ def extract_knowledge():
         dfs.append(pd.read_csv(STARTUPS_GALLERY_CLEANED_CSV_PATH))
     else:
         print(f"⚠️ Warning: {STARTUPS_GALLERY_CLEANED_CSV_PATH} not found.")
-
     if os.path.exists(JOBBOARDS_CLEANED_CSV_PATH):
-        dfs.append(pd.read_csv(JOBBOARDS_CLEANED_CSV_PATH))      
+        dfs.append(pd.read_csv(JOBBOARDS_CLEANED_CSV_PATH))     
     else:
-        print(f"⚠️ Warning: {JOBBOARDS_CLEANED_CSV_PATH} not found.")   
+        print(f"⚠️ Warning: {JOBBOARDS_CLEANED_CSV_PATH} not found.")
+        
+    if os.path.exists(YCOMBINATOR_CLEANED_CSV_PATH):
+        dfs.append(pd.read_csv(YCOMBINATOR_CLEANED_CSV_PATH))
+    else:
+        print(f"⚠️ Warning: {YCOMBINATOR_CLEANED_CSV_PATH} not found.")
         
     if not dfs:
         print("❌ Error: No data files found for extraction.")
