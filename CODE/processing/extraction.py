@@ -8,7 +8,7 @@ from tqdm import tqdm
 
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import JsonOutputParser
-from json_repair import repair_json
+from json_repair import loads
 
 from config import MASTER_DATASET_PATH, EXTRACTED_KNOWLEDGE_PATH, REDDIT_CLEANED_CSV_PATH, TECHCRUNCH_CLEANED_CSV_PATH, STARTUPS_GALLERY_CLEANED_CSV_PATH, JOBBOARDS_CLEANED_CSV_PATH
 from utilities.llm_client import get_llm
@@ -94,7 +94,7 @@ def process_row(row, index, chain):
     for attempt in range(retries):
         try:
             raw_response = chain.invoke({"text": row['clean_content']})
-            extraction = repair_json(raw_response.content, return_dict=True)
+            extraction = loads(raw_response.content)
             break
         except Exception as e:
             err_str = str(e).lower()
@@ -156,7 +156,12 @@ def extract_knowledge():
     df = pd.concat(dfs, ignore_index=True)
     print(f"Total posts to process from all sources: {len(df)}")
  
-    # --- RESUME LOGIC ---
+    # --- RESUME LOGIC WITH CHECKPOINT MANAGER ---
+    from utilities.checkpoint_manager import CheckpointManager
+    # Note: Since we have multiple source files, we'll hash the master dataset as a proxy 
+    # or we can hash the combined dataframe length. For simplicity, we track 'extraction_progress'.
+    checkpoint_mgr = CheckpointManager("extraction_progress", MASTER_DATASET_PATH)
+    
     existing_results = load_existing_results()
     
     # Task 1 & 2: Scrub out any incomplete ghost entries created by early termination/Ctrl+C
@@ -228,6 +233,7 @@ def extract_knowledge():
                             tqdm.write(f"💾 Checkpointing... Saved {len(results)} total posts to disk.")
                             with open(OUTPUT_FILE, 'w') as f:
                                 json.dump(results, f, indent=2)
+                            checkpoint_mgr.save_checkpoint(len(results))
             except Exception as e:
                 tqdm.write(f"⚠️ Unexpected error processing post {index}: {e}")
 
@@ -236,6 +242,7 @@ def extract_knowledge():
     if processed_in_this_run > 0 and processed_in_this_run % SAVE_BATCH_SIZE != 0:
         with open(OUTPUT_FILE, 'w') as f:
             json.dump(results, f, indent=2)
+        checkpoint_mgr.save_checkpoint(len(results))
     
     print(f"\n✅ Success! Semantic Extraction fully saved to: {OUTPUT_FILE}")
 

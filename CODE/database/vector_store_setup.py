@@ -32,7 +32,7 @@ def main():
     print("Initializing ChromaDB...")
     # Init ChromaDB
     chroma_client = chromadb.PersistentClient(path=CHROMA_DB_PATH)
-    collection = chroma_client.get_or_create_collection(name="linkedin_posts")
+    collection = chroma_client.get_or_create_collection(name="market_intelligence")
     
     docs = []
     metadatas = []
@@ -69,6 +69,12 @@ def main():
             meta['funding_amount_pretty'] = str(row['funding_amount_pretty'])
         if 'funding_stage' in row and row['funding_stage'] != '':
             meta['funding_stage'] = str(row['funding_stage'])
+            
+        # Job-specific fields loop
+        job_fields = ['job_title', 'location', 'role_category', 'company', 'employment_type', 'salary_normalized', 'salary_min', 'salary_max', 'salary_currency']
+        for field in job_fields:
+            if field in row and pd.notna(row[field]) and str(row[field]).strip() != '':
+                meta[field] = str(row[field])
             
         metadatas.append(meta)
         

@@ -18,7 +18,7 @@ from openai import OpenAI
 def run_ragas(output_dir):
     # Load ChromaDB for context retrieval
     chroma_client = chromadb.PersistentClient(path=CHROMA_DB_PATH)
-    collection = chroma_client.get_collection(name="linkedin_posts")
+    collection = chroma_client.get_collection(name="market_intelligence")
     
     # Simple ASU Voyager raw client for Answer Generation (Mimicking app.py)
     raw_api_client = OpenAI(

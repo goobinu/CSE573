@@ -24,7 +24,7 @@ client = OpenAI(
 def get_chroma_collection():
     try:
         chroma_client = chromadb.PersistentClient(path=CHROMA_DB_PATH)
-        return chroma_client.get_collection(name="linkedin_posts")
+        return chroma_client.get_collection(name="market_intelligence")
     except Exception as e:
         st.error(f"Failed to connect to ChromaDB: {e}")
         return None

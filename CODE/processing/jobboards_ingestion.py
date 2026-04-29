@@ -79,6 +79,11 @@ def main():
             "location": str(row.get("location", "")),
             "role_category": str(row.get("role_category", "")),
             "company": str(row.get("company", "")),
+            "employment_type": str(row.get("employment_type", "")),
+            "salary_normalized": str(row.get("salary_normalized", "")),
+            "salary_min": str(row.get("salary_min", "")),
+            "salary_max": str(row.get("salary_max", "")),
+            "salary_currency": str(row.get("salary_currency", "")),
         }
         rows.append(shared_row)
 
@@ -97,7 +102,7 @@ def main():
         import chromadb
         print(f"[JobBoards Ingestion] Connecting to ChromaDB at {CHROMA_DB_PATH} ...")
         chroma_client = chromadb.PersistentClient(path=CHROMA_DB_PATH)
-        collection = chroma_client.get_or_create_collection(name="linkedin_posts")
+        collection = chroma_client.get_or_create_collection(name="market_intelligence")
 
         docs, metadatas, ids = [], [], []
 
@@ -117,6 +122,11 @@ def main():
                 "location":      str(row.get("location", "")),
                 "role_category": str(row.get("role_category", "")),
                 "company":       str(row.get("company", "")),
+                "employment_type": str(row.get("employment_type", "")),
+                "salary_normalized": str(row.get("salary_normalized", "")),
+                "salary_min": str(row.get("salary_min", "")),
+                "salary_max": str(row.get("salary_max", "")),
+                "salary_currency": str(row.get("salary_currency", "")),
             }
             metadatas.append(meta)
             ids.append(generate_id(row.get("Link to post", ""), idx))
@@ -133,7 +143,7 @@ def main():
 
         print(
             f"[JobBoards Ingestion] Done. {len(docs)} job postings ingested "
-            f"into ChromaDB collection 'linkedin_posts' with source='JobBoards'."
+            f"into ChromaDB collection 'market_intelligence' with source='JobBoards'."
         )
 
         # ── Quick smoke-test ──────────────────────────────────────────────────

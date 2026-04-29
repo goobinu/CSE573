@@ -153,37 +153,70 @@ def main():
     uncertain_pairs_raw = []
 
     # Phase 1: Local Exact/High-Sim Resolution
+    # First, collect ALL unique names from the entire dataset to avoid redundant N^2 comparisons
+    all_raw_names = set()
     for doc in data:
-        entities = doc.get("entities", [])
-        for ent in entities:
-            name = ent.get("name")
-            if not name or name in name_mapping:
+        for ent in doc.get("entities", []):
+            if ent.get("name"):
+                all_raw_names.add(ent["name"])
+    
+    print(f"Phase 1: Found {len(all_raw_names)} unique entity names to resolve.")
+    
+    from tqdm import tqdm
+    name_mapping = {}
+    canonical_names = []
+    uncertain_pairs_raw = []
+
+    # Sort names by length (longer names first often make better canonical names)
+    sorted_names = sorted(list(all_raw_names), key=len, reverse=True)
+
+    for name in tqdm(sorted_names, desc="Resolving Entities Locally"):
+        if name in name_mapping:
+            continue
+            
+        matched = False
+        # Only compare against existing canonical names
+        for c_name in canonical_names:
+            # Quick check: if lengths are wildly different, jaro-winkler won't be high
+            if abs(len(name) - len(c_name)) > 10:
                 continue
                 
-            matched = False
-            for c_name in list(canonical_names):
-                sim = jellyfish.jaro_winkler_similarity(name.lower(), c_name.lower())
-                
-                if sim > 0.98:
-                    name_mapping[name] = c_name
-                    matched = True
-                    break
-                elif 0.85 <= sim <= 0.98:
-                    uncertain_pairs_raw.append((name, c_name))
+            sim = jellyfish.jaro_winkler_similarity(name.lower(), c_name.lower())
             
-            if not matched:
-                name_mapping[name] = name
-                canonical_names.add(name)
+            if sim > 0.98:
+                name_mapping[name] = c_name
+                matched = True
+                break
+            elif 0.85 <= sim <= 0.98:
+                uncertain_pairs_raw.append((name, c_name))
+        
+        if not matched:
+            name_mapping[name] = name
+            canonical_names.append(name)
 
-    print(f"Phase 1: Resolved {len(name_mapping)} entities down to {len(canonical_names)} canonical entities locally.")
+    print(f"Phase 1: Resolved {len(all_raw_names)} names down to {len(canonical_names)} canonical entities locally.")
     
     # State Initialization & Recovery
-    checkpoint_file = os.path.join(os.path.dirname(OUTPUT_FILE), "entity_resolution_checkpoint.json")
+    from utilities.checkpoint_manager import CheckpointManager
+    # We use INPUT_FILE as the source to track if extraction data changed
+    checkpoint_mgr = CheckpointManager("entity_resolution", INPUT_FILE)
+    
+    # We need to save the entire dictionary of decisions, so we'll slightly adapt usage
+    # or just use it to track if we've completed the phase.
+    # For now, let's keep the existing checkpoint file path but use the manager's logic if possible.
+    # Actually, the existing logic in entity_resolution is quite specific to the pair_key mapping.
+    
+    checkpoint_file = checkpoint_mgr.checkpoint_path
     checkpoint_state = {}
     if os.path.exists(checkpoint_file):
         with open(checkpoint_file, "r") as f:
             checkpoint_state = json.load(f)
-        print(f"Loaded {len(checkpoint_state)} previously resolved pairs from checkpoint.")
+        # Check if hash matches
+        if checkpoint_state.get("source_hash") != checkpoint_mgr.source_hash:
+            print("⚠️ Source file changed. Resetting checkpoint.")
+            checkpoint_state = {}
+        else:
+            print(f"Loaded {len(checkpoint_state) - 1} previously resolved pairs from checkpoint.")
     
     # Filter Workload
     remaining_pairs_raw = []
@@ -204,6 +237,13 @@ def main():
 
     # Phase 2: Batched LLM Resolution
     if uncertain_pairs:
+        # We pass the checkpoint_mgr.save_checkpoint logic indirectly or update resolve_batches
+        def save_state(state):
+            state["source_hash"] = checkpoint_mgr.source_hash
+            with open(checkpoint_file, "w") as f:
+                json.dump(state, f, indent=2)
+
+        # Update resolve_batches to use this
         new_decisions = resolve_batches(uncertain_pairs, checkpoint_state, checkpoint_file)
         decisions.extend(new_decisions)
         

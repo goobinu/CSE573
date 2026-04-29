@@ -11,7 +11,7 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR_RAW = os.path.join(BASE_DIR, "DATA", "raw")
 DATA_DIR_PROCESSED = os.path.join(BASE_DIR, "DATA", "processed")
 
-EXPECTED_SOURCES = ["LinkedIn", "Reddit", "TechCrunch", "Startups Gallery"]
+EXPECTED_SOURCES = ["LinkedIn", "Reddit", "TechCrunch", "Startups Gallery", "JobBoards"]
 RESULTS_CSV_PATH = os.path.join(DATA_DIR_RAW, "linkedin", "results.csv")
 CURATED_CATEGORIES_PATH = os.path.join(DATA_DIR_RAW, "linkedin", "curatedcategories.csv")
 SUBPAGE_RESULTS_DIR = os.path.join(DATA_DIR_RAW, "linkedin", "subpage_results")
