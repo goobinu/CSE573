@@ -3,12 +3,20 @@ import chromadb
 import hashlib
 import os
 from config import MASTER_DATASET_PATH, CHROMA_DB_PATH, REDDIT_CLEANED_CSV_PATH, TECHCRUNCH_CLEANED_CSV_PATH, STARTUPS_GALLERY_CLEANED_CSV_PATH, JOBBOARDS_CLEANED_CSV_PATH
+from CODE.utilities.checkpoint_manager import CheckpointManager
+
 def generate_id(url, index):
     if url:
         return hashlib.md5(str(url).encode('utf-8')).hexdigest() + f"_{index}"
     return f"post_{index}"
 
 def main():
+    # Checkpoint logic
+    checkpoint_mgr = CheckpointManager("vector_upload", MASTER_DATASET_PATH)
+    if checkpoint_mgr.load_checkpoint() >= 100:
+        print("✅ Vector store ingestion already marked as complete. Skipping.")
+        return
+
     print("Loading data...")
     dfs = []
     if os.path.exists(MASTER_DATASET_PATH):
@@ -95,6 +103,7 @@ def main():
         print(f"Upserted items {i} to {end_idx - 1}")
     
     print("Ingestion complete!")
+    checkpoint_mgr.save_checkpoint(100)
     
     # Test Query
     print("\n--- Test Query: 'AI Startups' ---")

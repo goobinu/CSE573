@@ -148,12 +148,8 @@ def main():
                 if "target" in rel:
                     rel["target"] = clean_name(rel["target"])
 
-    name_mapping = {}
-    canonical_names = set()
-    uncertain_pairs_raw = []
-
     # Phase 1: Local Exact/High-Sim Resolution
-    # First, collect ALL unique names from the entire dataset to avoid redundant N^2 comparisons
+    # First, collect ALL unique names from the entire dataset (entities + relationships)
     all_raw_names = set()
     for doc in data:
         for ent in doc.get("entities", []):
@@ -177,8 +173,8 @@ def main():
         matched = False
         # Only compare against existing canonical names
         for c_name in canonical_names:
-            # Quick check: if lengths are wildly different, jaro-winkler won't be high
-            if abs(len(name) - len(c_name)) > 10:
+            # Length difference optimization
+            if abs(len(name) - len(c_name)) > 12:
                 continue
                 
             sim = jellyfish.jaro_winkler_similarity(name.lower(), c_name.lower())
@@ -198,34 +194,48 @@ def main():
     
     # State Initialization & Recovery
     from utilities.checkpoint_manager import CheckpointManager
-    # We use INPUT_FILE as the source to track if extraction data changed
     checkpoint_mgr = CheckpointManager("entity_resolution", INPUT_FILE)
-    
-    # We need to save the entire dictionary of decisions, so we'll slightly adapt usage
-    # or just use it to track if we've completed the phase.
-    # For now, let's keep the existing checkpoint file path but use the manager's logic if possible.
-    # Actually, the existing logic in entity_resolution is quite specific to the pair_key mapping.
     
     checkpoint_file = checkpoint_mgr.checkpoint_path
     checkpoint_state = {}
+
+    # --- Load legacy checkpoint (old format) and merge it in first ---
+    LEGACY_CHECKPOINT = os.path.join(os.path.dirname(INPUT_FILE), "entity_resolution_checkpoint.json")
+    if os.path.exists(LEGACY_CHECKPOINT):
+        try:
+            with open(LEGACY_CHECKPOINT, "r") as f:
+                legacy = json.load(f)
+            checkpoint_state.update({k: v for k, v in legacy.items() if k != "source_hash"})
+            print(f"ℹ️ Merged {len(checkpoint_state):,} pairs from legacy checkpoint.")
+        except Exception as e:
+            print(f"⚠️ Could not load legacy checkpoint: {e}")
+
+    # --- Load current checkpoint and merge (current session takes priority) ---
     if os.path.exists(checkpoint_file):
-        with open(checkpoint_file, "r") as f:
-            checkpoint_state = json.load(f)
-        # Check if hash matches
-        if checkpoint_state.get("source_hash") != checkpoint_mgr.source_hash:
-            print("⚠️ Source file changed. Resetting checkpoint.")
-            checkpoint_state = {}
-        else:
-            print(f"Loaded {len(checkpoint_state) - 1} previously resolved pairs from checkpoint.")
+        try:
+            with open(checkpoint_file, "r") as f:
+                current = json.load(f)
+            current_pairs = {k: v for k, v in current.items() if k != "source_hash"}
+            checkpoint_state.update(current_pairs)  # current session wins on overlap
+            if current.get("source_hash") != checkpoint_mgr.source_hash:
+                print("ℹ️ Note: Source file changed, existing resolutions are still reused.")
+        except Exception as e:
+            print(f"⚠️ Failed to load current checkpoint: {e}.")
+
+    resolved_count = len(checkpoint_state)
+    print(f"Loaded {resolved_count:,} previously resolved pairs total.")
     
-    # Filter Workload
+    # Filter Workload — check both key orderings since historical checkpoints may differ
     remaining_pairs_raw = []
     decisions = []
     
     for e1, e2 in uncertain_pairs_raw:
         pair_key = f"{e1}|||{e2}"
+        rev_key  = f"{e2}|||{e1}"
         if pair_key in checkpoint_state:
             decisions.append(checkpoint_state[pair_key])
+        elif rev_key in checkpoint_state:
+            decisions.append(checkpoint_state[rev_key])
         else:
             remaining_pairs_raw.append((e1, e2))
 
@@ -292,9 +302,6 @@ def main():
 
     print("Normalization complete!")
 
-    if os.path.exists(checkpoint_file):
-        os.remove(checkpoint_file)
-        print("Removed checkpoint file as processing is complete.")
 
 if __name__ == "__main__":
     main()
