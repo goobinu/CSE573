@@ -10,13 +10,17 @@ PIPELINE_MAP = {
     "scrape": [
         "CODE/scraping/linkedin/topcategoriesscraper.py",
         "CODE/scraping/linkedin/resultscurator.py",
-        "CODE/scraping/linkedin/subpagescraping.py"
+        "CODE/scraping/linkedin/subpagescraping.py",
+        "CODE/scraping/jobboards/scraper_greenhouse.py",
+        "CODE/scraping/jobboards/parser_greenhouse.py",
+        "CODE/scraping/jobboards/clean_jobs.py"
     ],
     "process": [
         "CODE/processing/ingestion.py",
         "CODE/processing/reddit_ingestion.py",
         "CODE/processing/techcrunch_ingestion.py",
         "CODE/processing/startups_gallery_ingestion.py",
+        "CODE/processing/jobboards_ingestion.py",
         "CODE/processing/extraction.py",
         "CODE/processing/entity_resolution.py"
     ],

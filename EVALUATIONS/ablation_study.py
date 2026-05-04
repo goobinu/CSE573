@@ -13,7 +13,7 @@ from config import NEO4J_URI, NEO4J_USERNAME, NEO4J_PASSWORD
 def run_ablation(output_dir):
     # Setup Clients
     chroma_client = chromadb.PersistentClient(path=CHROMA_DB_PATH)
-    collection = chroma_client.get_collection(name="linkedin_posts")
+    collection = chroma_client.get_collection(name="market_intelligence")
     neo4j_driver = GraphDatabase.driver(NEO4J_URI, auth=(NEO4J_USERNAME, NEO4J_PASSWORD))
     llm_client = OpenAI(api_key=VOYAGER_API_KEY, base_url=VOYAGER_BASE_URL)
 

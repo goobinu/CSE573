@@ -12,7 +12,7 @@ def process_startups_gallery_data():
         
     all_data = []
     
-    with open(file_path, 'r') as f:
+    with open(file_path, 'r', encoding='utf-8') as f:
         try:
             data_list = json.load(f)
             

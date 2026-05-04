@@ -9,7 +9,7 @@ def save_to_csv(file_path, headers, data):
         headers (list): A list of strings representing the column headers.
         data (list): A list of lists or tuples containing the data to save.
     """
-    with open(file_path, "w", newline="") as f:
+    with open(file_path, "w", newline="", encoding="utf-8") as f:
         writer = csv.writer(f)
         if headers:
             writer.writerow(headers)
@@ -25,7 +25,7 @@ def read_from_csv(file_path):
     Returns:
         list: A list of lists representing the rows in the CSV file.
     """
-    with open(file_path, mode='r') as f:
+    with open(file_path, mode='r', encoding="utf-8") as f:
         reader = csv.reader(f)
         return list(reader)
 

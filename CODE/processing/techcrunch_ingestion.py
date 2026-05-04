@@ -16,7 +16,7 @@ def process_techcrunch_data():
             print(f"⚠️ Warning: {filepath} not found.")
             continue
             
-        with open(filepath, 'r') as f:
+        with open(filepath, 'r', encoding='utf-8') as f:
             try:
                 data_list = json.load(f)
                 if not isinstance(data_list, list):

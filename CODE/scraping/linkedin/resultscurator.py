@@ -9,7 +9,7 @@ curated_categories_csvpath = CURATED_CATEGORIES_PATH
 
 # results.csv is expected to be present from topcategoriesscraper run
 # It has headers "Category", "Link"
-with open(RESULTS_CSV_PATH, newline='') as f:
+with open(RESULTS_CSV_PATH, newline='', encoding='utf-8') as f:
     reader = csv.reader(f)
     print("\nPRINTING CSV ROW BY ROW ...\n")
     # Skip header

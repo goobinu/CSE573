@@ -2,13 +2,21 @@ import pandas as pd
 import chromadb
 import hashlib
 import os
-from config import MASTER_DATASET_PATH, CHROMA_DB_PATH, REDDIT_CLEANED_CSV_PATH, TECHCRUNCH_CLEANED_CSV_PATH, STARTUPS_GALLERY_CLEANED_CSV_PATH
+from config import MASTER_DATASET_PATH, CHROMA_DB_PATH, REDDIT_CLEANED_CSV_PATH, TECHCRUNCH_CLEANED_CSV_PATH, STARTUPS_GALLERY_CLEANED_CSV_PATH, JOBBOARDS_CLEANED_CSV_PATH
+from CODE.utilities.checkpoint_manager import CheckpointManager
+
 def generate_id(url, index):
     if url:
         return hashlib.md5(str(url).encode('utf-8')).hexdigest() + f"_{index}"
     return f"post_{index}"
 
 def main():
+    # Checkpoint logic
+    checkpoint_mgr = CheckpointManager("vector_upload", MASTER_DATASET_PATH)
+    if checkpoint_mgr.load_checkpoint() >= 100:
+        print("✅ Vector store ingestion already marked as complete. Skipping.")
+        return
+
     print("Loading data...")
     dfs = []
     if os.path.exists(MASTER_DATASET_PATH):
@@ -19,6 +27,8 @@ def main():
         dfs.append(pd.read_csv(TECHCRUNCH_CLEANED_CSV_PATH))
     if os.path.exists(STARTUPS_GALLERY_CLEANED_CSV_PATH):
         dfs.append(pd.read_csv(STARTUPS_GALLERY_CLEANED_CSV_PATH))
+    if os.path.exists(JOBBOARDS_CLEANED_CSV_PATH):
+        dfs.append(pd.read_csv(JOBBOARDS_CLEANED_CSV_PATH))
         
     if not dfs:
         print("No datasets found.")
@@ -30,7 +40,7 @@ def main():
     print("Initializing ChromaDB...")
     # Init ChromaDB
     chroma_client = chromadb.PersistentClient(path=CHROMA_DB_PATH)
-    collection = chroma_client.get_or_create_collection(name="linkedin_posts")
+    collection = chroma_client.get_or_create_collection(name="market_intelligence")
     
     docs = []
     metadatas = []
@@ -68,6 +78,12 @@ def main():
         if 'funding_stage' in row and row['funding_stage'] != '':
             meta['funding_stage'] = str(row['funding_stage'])
             
+        # Job-specific fields loop
+        job_fields = ['job_title', 'location', 'role_category', 'company', 'employment_type', 'salary_normalized', 'salary_min', 'salary_max', 'salary_currency']
+        for field in job_fields:
+            if field in row and pd.notna(row[field]) and str(row[field]).strip() != '':
+                meta[field] = str(row[field])
+            
         metadatas.append(meta)
         
         post_id = generate_id(row.get('Link to post', ''), idx)
@@ -87,6 +103,7 @@ def main():
         print(f"Upserted items {i} to {end_idx - 1}")
     
     print("Ingestion complete!")
+    checkpoint_mgr.save_checkpoint(100)
     
     # Test Query
     print("\n--- Test Query: 'AI Startups' ---")

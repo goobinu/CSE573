@@ -1,12 +1,18 @@
 import os
 import json
 from neo4j import GraphDatabase
-
 from config import NEO4J_URI, NEO4J_USERNAME, NEO4J_PASSWORD, FINAL_KG_PATH, SCHEMA_CONFIG
+from CODE.utilities.checkpoint_manager import CheckpointManager
 
 def ingest_data():
     if not all([NEO4J_URI, NEO4J_USERNAME, NEO4J_PASSWORD]):
         print("Missing Neo4j credentials in config/environment variables.")
+        return
+
+    # Checkpoint logic
+    checkpoint_mgr = CheckpointManager("neo4j_upload", FINAL_KG_PATH)
+    if checkpoint_mgr.load_checkpoint() >= 100:  # Use 100 as 'completed' flag or total count
+        print("✅ Neo4j upload already marked as complete for this source file. Skipping.")
         return
 
     # Initialize Neo4j driver connection
@@ -79,6 +85,7 @@ def ingest_data():
         print(f"Successfully processed {len(data)} items.")
         print(f"Total node MERGE queries executed: {total_nodes}")
         print(f"Total relationship MERGE queries executed: {total_relationships}")
+        checkpoint_mgr.save_checkpoint(100) # Mark as complete
         
     except Exception as e:
         print(f"An error occurred during ingestion: {e}")
