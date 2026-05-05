@@ -138,15 +138,26 @@ def main():
 
     for doc in data:
         if "entities" in doc:
+            normalized_entities = []
             for ent in doc["entities"]:
-                if "name" in ent:
+                if isinstance(ent, str):
+                    ent = {"name": ent, "type": "Unknown"}
+                
+                if isinstance(ent, dict) and "name" in ent:
                     ent["name"] = clean_name(ent["name"])
+                    normalized_entities.append(ent)
+            doc["entities"] = normalized_entities
+
         if "relationships" in doc:
+            normalized_rels = []
             for rel in doc["relationships"]:
-                if "source" in rel:
-                    rel["source"] = clean_name(rel["source"])
-                if "target" in rel:
-                    rel["target"] = clean_name(rel["target"])
+                if isinstance(rel, dict):
+                    if "source" in rel:
+                        rel["source"] = clean_name(rel["source"])
+                    if "target" in rel:
+                        rel["target"] = clean_name(rel["target"])
+                    normalized_rels.append(rel)
+            doc["relationships"] = normalized_rels
 
     # Phase 1: Local Exact/High-Sim Resolution
     # First, collect ALL unique names from the entire dataset (entities + relationships)
