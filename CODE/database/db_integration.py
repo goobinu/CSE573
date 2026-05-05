@@ -1,5 +1,6 @@
 import os
 import json
+from tqdm import tqdm
 from neo4j import GraphDatabase
 from config import NEO4J_URI, NEO4J_USERNAME, NEO4J_PASSWORD, FINAL_KG_PATH, SCHEMA_CONFIG
 from CODE.utilities.checkpoint_manager import CheckpointManager
@@ -31,7 +32,7 @@ def ingest_data():
 
     try:
         with driver.session() as session:
-            for item in data:
+            for item in tqdm(data, desc="Uploading to Neo4j", unit="item"):
                 entities = item.get("entities", [])
                 relationships = item.get("relationships", [])
                 
