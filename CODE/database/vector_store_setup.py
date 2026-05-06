@@ -2,7 +2,7 @@ import pandas as pd
 import chromadb
 import hashlib
 import os
-from config import MASTER_DATASET_PATH, CHROMA_DB_PATH, REDDIT_CLEANED_CSV_PATH, TECHCRUNCH_CLEANED_CSV_PATH, STARTUPS_GALLERY_CLEANED_CSV_PATH, JOBBOARDS_CLEANED_CSV_PATH
+from config import MASTER_DATASET_PATH, CHROMA_DB_PATH, REDDIT_CLEANED_CSV_PATH, TECHCRUNCH_CLEANED_CSV_PATH, STARTUPS_GALLERY_CLEANED_CSV_PATH, JOBBOARDS_CLEANED_CSV_PATH, YCOMBINATOR_CLEANED_CSV_PATH
 from CODE.utilities.checkpoint_manager import CheckpointManager
 
 def generate_id(url, index):
@@ -13,9 +13,6 @@ def generate_id(url, index):
 def main():
     # Checkpoint logic
     checkpoint_mgr = CheckpointManager("vector_upload", MASTER_DATASET_PATH)
-    if checkpoint_mgr.load_checkpoint() >= 100:
-        print("✅ Vector store ingestion already marked as complete. Skipping.")
-        return
 
     print("Loading data...")
     dfs = []
@@ -29,6 +26,8 @@ def main():
         dfs.append(pd.read_csv(STARTUPS_GALLERY_CLEANED_CSV_PATH))
     if os.path.exists(JOBBOARDS_CLEANED_CSV_PATH):
         dfs.append(pd.read_csv(JOBBOARDS_CLEANED_CSV_PATH))
+    if os.path.exists(YCOMBINATOR_CLEANED_CSV_PATH):
+        dfs.append(pd.read_csv(YCOMBINATOR_CLEANED_CSV_PATH))
         
     if not dfs:
         print("No datasets found.")
@@ -91,6 +90,12 @@ def main():
         
     print(f"Total documents to ingest: {len(docs)}")
     
+    # Safe Checkpoint validation
+    last_count = checkpoint_mgr.load_checkpoint()
+    if last_count == len(docs):
+        print(f"✅ Vector store already has all {len(docs)} documents. Skipping.")
+        return
+    
     # Batch Upsert. ChromaDB handles small to medium datasets fine, but we chunk to 5461 which is a safe limit.
     batch_size = 1000
     for i in range(0, len(docs), batch_size):
@@ -103,7 +108,7 @@ def main():
         print(f"Upserted items {i} to {end_idx - 1}")
     
     print("Ingestion complete!")
-    checkpoint_mgr.save_checkpoint(100)
+    checkpoint_mgr.save_checkpoint(len(docs))
     
     # Test Query
     print("\n--- Test Query: 'AI Startups' ---")
