@@ -39,7 +39,7 @@ def run_ablation(output_dir):
     with neo4j_driver.session() as session:
         # Find investors -> organizations -> discussing agentic ai related trends
         g_cypher = """
-        MATCH (i:Investor)-[:INVESTED_IN]->(o:Organization)-[:DISCUSSES]->(t:Trend)
+        MATCH (i:Organization)-[:INVESTED_IN]->(o:Organization)-[:DISCUSSES]->(t:Trend)
         WHERE toLower(t.id) CONTAINS "agent" OR toLower(t.id) CONTAINS "ai"
         RETURN i.id AS Investor, o.id AS Startup, t.id AS Trend
         LIMIT 10

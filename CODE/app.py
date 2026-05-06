@@ -7,7 +7,7 @@ import streamlit as st
 from dotenv import load_dotenv
 from openai import OpenAI
 import chromadb
-from config import CHROMA_DB_PATH, VOYAGER_API_KEY
+from config import CHROMA_DB_PATH, VOYAGER_API_KEY, EXPECTED_SOURCES
 
 # Load environment variables
 load_dotenv()
@@ -22,6 +22,7 @@ client = OpenAI(
 # Initialize ChromaDB
 @st.cache_resource
 def get_chroma_collection():
+    # Force cache invalidation after DB reset
     try:
         chroma_client = chromadb.PersistentClient(path=CHROMA_DB_PATH)
         return chroma_client.get_collection(name="market_intelligence")
@@ -36,7 +37,7 @@ def get_rag_response(user_query):
         return "ChromaDB connection is not available."
     
     try:
-        sources = ["LinkedIn", "TechCrunch", "JobBoards", "StartupGallery", "Reddit"]
+        sources = EXPECTED_SOURCES
         all_documents = []
         all_metadatas = []
         
@@ -51,7 +52,10 @@ def get_rag_response(user_query):
                     all_documents.extend(results['documents'][0])
                     all_metadatas.extend(results['metadatas'][0] if 'metadatas' in results and results['metadatas'] else [{}] * len(results['documents'][0]))
             except Exception as e:
-                print(f"Warning: Failed to retrieve from source {source}: {e}")
+                error_msg = f"Warning: Failed to retrieve from source {source}: {e}"
+                print(error_msg)
+                all_documents.append(error_msg)
+                all_metadatas.append({"source": source, "author_name": "System", "post_url": "N/A"})
                 continue
         
         if not all_documents:

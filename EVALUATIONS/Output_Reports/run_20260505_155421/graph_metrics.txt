@@ -1,0 +1,9 @@
+=== NEO4J GRAPH HEALTH METRICS ===
+Total Nodes (V): 18690
+Total Relationships (E): 119678
+Graph Density: 0.000685
+Isolated Nodes: 481
+Connectivity Ratio: 0.9743
+Triplets: 56726680
+Triangles: 1612614
+Global Clustering Coefficient (Approximate): 0.085283

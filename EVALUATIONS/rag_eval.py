@@ -10,6 +10,7 @@ from config import VOYAGER_API_KEY, VOYAGER_BASE_URL, VOYAGER_MODEL_NAME, CHROMA
 from datasets import Dataset
 from ragas import evaluate
 from ragas.metrics import faithfulness, answer_relevancy
+from ragas.run_config import RunConfig
 from langchain_openai import ChatOpenAI
 from langchain_community.embeddings import HuggingFaceEmbeddings
 import chromadb
@@ -30,7 +31,9 @@ def run_ragas(output_dir):
     voyager_llm = ChatOpenAI(
         api_key=VOYAGER_API_KEY,
         base_url=VOYAGER_BASE_URL,
-        model=VOYAGER_MODEL_NAME
+        model=VOYAGER_MODEL_NAME,
+        request_timeout=300,
+        max_retries=10
     )
     # Using local embeddings as ASU Voyager does not strictly provide an embedding endpoint in this setup
     hf_embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
@@ -54,14 +57,14 @@ def run_ragas(output_dir):
         # Retrieve context from Chroma
         results = collection.query(
             query_texts=[q],
-            n_results=3
+            n_results=1
         )
         context_docs = results['documents'][0] if results['documents'] else ["No context found."]
         contexts_lists.append(context_docs)
         
         context_string = "\n".join(context_docs)
         system_prompt = (
-            "You are TrendScout AI, an elite market intelligence analyst. Provide insights strictly based on Context."
+            "You are TrendScout AI, an elite market intelligence analyst. Provide insights strictly based on Context. Keep your answers extremely concise (under 3 sentences)."
         )
         messages = [
             {"role": "system", "content": system_prompt},
@@ -84,11 +87,13 @@ def run_ragas(output_dir):
     dataset = Dataset.from_dict(data)
 
     # Execute Evaluation
+    run_config = RunConfig(timeout=180, max_retries=10, max_workers=1)
     result = evaluate(
         dataset=dataset,
         metrics=[faithfulness, answer_relevancy],
         llm=voyager_llm,
-        embeddings=hf_embeddings
+        embeddings=hf_embeddings,
+        run_config=run_config
     )
     
     # Output Results

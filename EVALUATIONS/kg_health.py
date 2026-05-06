@@ -39,7 +39,7 @@ def run_metrics(output_dir):
         # Triangles: A-B, B-C, C-A 
         cypher_triangles = """
         MATCH (a)-[]-(b)-[]-(c)-[]-(a)
-        WHERE id(a) < id(b) AND id(b) < id(c)
+        WHERE elementId(a) < elementId(b) AND elementId(b) < elementId(c)
         RETURN count(*) AS triangles
         """
         result = session.run(cypher_triangles)
@@ -48,7 +48,7 @@ def run_metrics(output_dir):
         # Triplets: A-B, B-C (Connected nodes of length 2)
         cypher_triplets = """
         MATCH (a)-[]-(b)-[]-(c)
-        WHERE id(a) < id(c)
+        WHERE elementId(a) < elementId(c)
         RETURN count(*) AS triplets
         """
         result = session.run(cypher_triplets)

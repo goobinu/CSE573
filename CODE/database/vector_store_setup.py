@@ -13,9 +13,6 @@ def generate_id(url, index):
 def main():
     # Checkpoint logic
     checkpoint_mgr = CheckpointManager("vector_upload", MASTER_DATASET_PATH)
-    if checkpoint_mgr.load_checkpoint() >= 100:
-        print("✅ Vector store ingestion already marked as complete. Skipping.")
-        return
 
     print("Loading data...")
     dfs = []
@@ -93,6 +90,12 @@ def main():
         
     print(f"Total documents to ingest: {len(docs)}")
     
+    # Safe Checkpoint validation
+    last_count = checkpoint_mgr.load_checkpoint()
+    if last_count == len(docs):
+        print(f"✅ Vector store already has all {len(docs)} documents. Skipping.")
+        return
+    
     # Batch Upsert. ChromaDB handles small to medium datasets fine, but we chunk to 5461 which is a safe limit.
     batch_size = 1000
     for i in range(0, len(docs), batch_size):
@@ -105,7 +108,7 @@ def main():
         print(f"Upserted items {i} to {end_idx - 1}")
     
     print("Ingestion complete!")
-    checkpoint_mgr.save_checkpoint(100)
+    checkpoint_mgr.save_checkpoint(len(docs))
     
     # Test Query
     print("\n--- Test Query: 'AI Startups' ---")
